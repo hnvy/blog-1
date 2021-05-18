@@ -13,6 +13,26 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
+# E#2 (20/04/2021) - vimtutor.
+* `GTs`:
+    * I found the `vimtutor` file! It took about a minute or two to achieve this.
+    * The interface is minimalistic and is not crowded with buttons. I like this quite a lot.
+* Time spent: 30
+* `LPs`:
+    * I found out how to modify the font-size! So, basically I had to write the following `:set: guifont=*`, and this brought up the standard font window that you see in pretty much every text editor. Neat!
+    * I learned to make the font persistent (see the [comment](https://vi.stackexchange.com/questions/3093/how-can-i-change-the-font-size-in-gvim) by the user "pkout"). I had to use Notepad++ to achieve this because: one, I did not know how to copy/paste text in Vim, and two, I don't know how to open text files via Vim.
+    * Using `vimtutor`, I learned that the letter `j` moves the text cursor downwards (because it looks like a down arrow!), and the letter `k` moves it up. The letter `l` moves the cursor to the right, and finally, the letter `h` moves the cursor to the left! It was a little strange to use at the start, but I slowly started to love it.
+* `LNs`:
+    * I need to learn how to open a text file in Vim (from within the editor).
+    * I need to learn how to copy/paste text in Vim.
+* `AP` {x 21/04/2021}: I need learn how to copy/paste text in Vim. This should be easy to achieve with a quick Google search.
+* `Review`:
+    * I reviewed APE#1
+    * `New LPs`:
+        * I found the location of `vimtutor` in `\Vim\vim82\tutor`. It was simply called `tutor`. To find it, I used the following search string in Windows Explorer `~=tut`.
+    * `Sources`:
+        * Self-discovery.
+
 # E#1 (19/04/2021) - day 0.
 * `GTs`:
     * Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.
