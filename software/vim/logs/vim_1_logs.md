@@ -43,7 +43,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
 * `Review`:
     * I reviewed APE#2
     * `New LPs`:
-        * I learned how to copy and paste in Vim, it is quite quick and convenient too. All I had to do is press the letter `p` for paste, and the letter `y` for yank (which means "copy" in the Vim lingo).
+        * I learned how to copy and paste in Vim, it is quite quick and convenient too. All I had to do is press the letter `y` for "yank" (which means "copy" in the Vim lingo), and the letter `p` for "paste".
     * `Sources`:
         * Here is the [website](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/) which was used.
 
