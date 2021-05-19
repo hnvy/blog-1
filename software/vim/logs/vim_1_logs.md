@@ -13,6 +13,22 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
+# E#3 (21/04/2021) - Notepad++ > Vim?!
+* `GTs`:
+    * Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
+* Time spent: 15
+* `LPs`:
+    * I learned how to delete the character that is directly under the cursor by pressing the letter `x`. I think this is a better alternative to pressing `del` (which is at the top-right corner of my keyboard). Much more comfortable!
+* `LNs`:
+    * I need to find out how to duplicate the current line in Vim.
+* `AP` {x 10/05/2021}: I need to find out how to duplicate the current line in Vim, which is easy to achieve thanks to the internet!
+* `Review`:
+    * I reviewed APE#2
+    * `New LPs`:
+        * I learned how to copy and paste in Vim, it is quite quick and convenient too. All I had to do is press the letter `p` for paste, and the letter `y` for yank (which means "copy" in the Vim lingo).
+    * `Sources`:
+        * Here is the [website](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/) which was used.
+
 # E#2 (20/04/2021) - vimtutor.
 * `GTs`:
     * I found the `vimtutor` file! It took about a minute or two to achieve this.
