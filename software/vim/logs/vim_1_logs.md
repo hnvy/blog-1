@@ -13,6 +13,24 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
+# E#4 (10/05/2021) - a clipboard dilemma.
+* `GTs`:
+    * I noticed that pressing `p` whilst in Visual mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
+    * I have finished going through `vimtutor` twice now. The first time was on 23/04/2021 and the second time was on 25/04/2021. The problem is that I keep forgetting some of the commands due to the lack of use.
+    * Fun fact: this entry was written using Vim.
+* Time spent: 30
+* `LPs`:
+    * I learned that the Vim register is separate from the Windows clipboard.
+* `LNs`:
+    * I need to find out how to access the Windows clipboard rather than the Vim register. 
+* `AP` {}: I need to find out how to access the system clipboard rather than the Vim register, which is (as usual) relatively easy to achieve thanks to this thing that is called "the internet".
+* `Review`:
+    * I reviewed APE#3.
+    * `New LPs`:
+        * To duplicate a line in Vim, you need to first be in Visual mode (done by pressing Escape on your keyboard). Then, type `yy` on the line which you want to duplicate. This will yank (copy) it. Now, press `P` to paste the line above the current line, or press `p` to paste it below the current line.
+    * `Sources`:
+        * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
+
 # E#3 (21/04/2021) - Notepad++ > Vim?!
 * `GTs`:
     * Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
