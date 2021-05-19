@@ -1,3 +1,15 @@
+# E#4 (10/05/2021) - a clipboard dilemma.
+[Link to the relevent log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e4-10052021---a-clipboard-dilemma)
+* `yy` to yank (copy) the line into the Vim register.
+* `yw` to yank (copy) the word under the cursor into the Vim register.
+* `p` to paste the content stored in the Vim register AFTER the cursor.
+* `P` to paste the content stored in the Vim register BEFORE the cursor.
+* `u` to undo a change.
+* `U` to undo all changes on the CURRENT line.
+* `:` and then any number of your choice. This will take you to that particular line in your current file. So, `:33` will take me to line 33. Alternatively, you can type a number, followed by `G` (e.g., the example above would be `33G`).
+* `/` followed by any word of your choice to search FORWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
+* `?` followed by any word of your choice to search BACKWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
+
 # E#3 (21/04/2021) - Notepad++ > Vim?!
 [Link to the relevent log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e3-21042021---notepad--vim)
 * `x` to delete the character AFTER the cursor.
