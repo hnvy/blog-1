@@ -6,6 +6,7 @@
 * `P` to paste the content stored in the Vim register BEFORE the cursor.
 * `u` to undo a change.
 * `U` to undo all changes on the CURRENT line.
+* `Ctrl+r` to redo.
 * `:` and then any number of your choice. This will take you to that particular line in your current file. So, `:33` will take me to line 33. Alternatively, you can type a number, followed by `G` (e.g., the example above would be `33G`). Another way is by typing a number followed by `gg` (e.g., the example above would be `33gg`).
 * `/` followed by any word of your choice to search FORWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
 * `?` followed by any word of your choice to search BACKWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
