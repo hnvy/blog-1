@@ -15,7 +15,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
 
 # E#4 (10/05/2021) - a clipboard dilemma.
 * `GTs`:
-    * I noticed that pressing `p` whilst in Visual mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
+    * I noticed that pressing `p` whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
     * I have finished going through `vimtutor` twice now. The first time was on 23/04/2021 and the second time was on 25/04/2021. The problem is that I keep forgetting some of the commands due to the lack of use.
     * Fun fact: this entry was written using Vim.
 * Time spent: 30
@@ -27,7 +27,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
 * `Review`:
     * I reviewed APE#3.
     * `New LPs`:
-        * To duplicate a line in Vim, you need to first be in Visual mode (done by pressing Escape on your keyboard). Then, type `yy` on the line which you want to duplicate. This will yank (copy) it. Now, press `P` to paste the line above the current line, or press `p` to paste it below the current line.
+        * To duplicate a line in Vim, you need to first be in Normal mode (done by pressing Escape on your keyboard). Then, type `yy` on the line which you want to duplicate. This will yank (copy) it. Now, press `P` to paste the line above the current line, or press `p` to paste it below the current line. So, in short, just type `yyp`!
     * `Sources`:
         * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
 
