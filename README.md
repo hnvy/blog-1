@@ -24,7 +24,7 @@ So, every time I want to learn about something new, I will create a folder with 
 * The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
 
 # Structure
-New entries will appear at the top of the file. I will use the following description template to make it easier for you to navigate the commit history:
+New entries will appear at the top of the file. I will use the following description template to make it easier for you to navigate the [commit history](https://github.com/hnvy/blog-1/commits):
 
 * `Add E#XY to PROJECT_#_logs.md` (or `Add E#XY to PROJECT_#_pearls.md`): This means that a new session entry has been added (XY = session number) to `PROJECT_#_logs.md`/`PROJECT_#_pearls.md`. In a `pearls` file, this means that the pearls for the corresponding entry have been added.
 * `Update FILENAME.md`: This means that I have corrected typos, added some minor details and so on.
