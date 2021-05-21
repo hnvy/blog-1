@@ -25,8 +25,6 @@
 * `dd` to delete the whole line.
 * `d$` or `D` to delete from the current position to the end of the line.
 * `:wq` to write (hence the `w`) the changes, and then quit Vim (hence the `q`). This will save your buffer whether or not you made a change.
-    * `:x` will do the same thing except that it will not save the file if you have not made a change.
-    * `ZZ` will do the same thing as `:x` (and hence `:wq`).
 
 # E#2 (20/04/2021) - vimtutor.
 [Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e2-20042021---vimtutor)
