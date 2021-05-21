@@ -1,6 +1,7 @@
 # E#4 (10/05/2021) - a clipboard dilemma.
 [Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e4-10052021---a-clipboard-dilemma)
 * `yy` to yank (copy) the line into the Vim register.
+    * Combine this with `p` to get `yyp` and hence duplicate the current line.
 * `yw` to yank (copy) the word under the cursor into the Vim register.
 * `p` to paste the content stored in the Vim register AFTER the cursor.
 * `P` to paste the content stored in the Vim register BEFORE the cursor.
