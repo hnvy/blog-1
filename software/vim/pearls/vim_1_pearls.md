@@ -1,5 +1,5 @@
 # E#4 (10/05/2021) - a clipboard dilemma.
-[Link to the relevant log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e4-10052021---a-clipboard-dilemma)
+[Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e4-10052021---a-clipboard-dilemma)
 * `yy` to yank (copy) the line into the Vim register.
 * `yw` to yank (copy) the word under the cursor into the Vim register.
 * `p` to paste the content stored in the Vim register AFTER the cursor.
@@ -14,7 +14,7 @@
 * `?` followed by any word of your choice to search BACKWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
 
 # E#3 (21/04/2021) - Notepad++ > Vim?!
-[Link to the relevant log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e3-21042021---notepad--vim)
+[Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e3-21042021---notepad--vim)
 * `x` to delete the character AFTER the cursor.
 * `X` to delete the character BEFORE the cursor.
 * `A` to insert text at the end of the line.
@@ -28,7 +28,7 @@
     * `ZZ` will do the same thing as `:x` (and hence `:wq`).
 
 # E#2 (20/04/2021) - vimtutor.
-[Link to the relevant log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e2-20042021---vimtutor)
+[Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e2-20042021---vimtutor)
 * The `vimtutor` file is located in `\Vim\vim82\tutor`.
 * `:set: guifont=*` to change the font of the interface.
 * `i` to enter Insert mode.
@@ -36,6 +36,6 @@
 * Whilst in Normal mode, you can move up, down, right, and left by using the following keys: `k`, `j`, `l`, and `h`, respectively (remember, `j` looks like a down arrow!).
 
 # E#1 (19/04/2021) - day 0.
-[Link to the relevant log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e1-19042021---day-0)
+[Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e1-19042021---day-0)
 * To enter commands into Vim, you should write `:`. After doing so, you will notice that your cursor has moved to the bottom of the screen.
 * `:q!` to quit Vim without saving the changes.
