@@ -14,6 +14,7 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
 # E#4 (10/05/2021) - a clipboard dilemma.
+[Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
 * `GTs`:
     * I noticed that pressing `p` whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
     * I have finished going through `vimtutor` twice now. The first time was on 23/04/2021 and the second time was on 25/04/2021. The problem is that I keep forgetting some of the commands due to the lack of use.
@@ -32,6 +33,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
         * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
 
 # E#3 (21/04/2021) - Notepad++ > Vim?!
+[Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e3-21042021---notepad--vim)
 * `GTs`:
     * Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
 * Time spent: 15
@@ -48,6 +50,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
         * Here is the [website](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/) which was used.
 
 # E#2 (20/04/2021) - vimtutor.
+[Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e2-20042021---vimtutor)
 * `GTs`:
     * I found the `vimtutor` file! It took about a minute or two to achieve this.
     * The interface is minimalistic and is not crowded with buttons. I like this quite a lot.
@@ -68,6 +71,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
         * Self-discovery.
 
 # E#1 (19/04/2021) - day 0.
+[Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e1-19042021---day-0)
 * `GTs`:
     * Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.
     * There was a README file which didn't have much in it. It was some sort of "here is a list of good links to use when you need help". But it did talk about this `vimtutor`. I need to look into it soon.
