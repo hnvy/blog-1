@@ -7,7 +7,9 @@
 * `u` to undo a change.
 * `U` to undo all changes on the CURRENT line.
 * `Ctrl+r` to redo.
-* `:` and then any number of your choice. This will take you to that particular line in your current file. So, `:33` will take me to line 33. Alternatively, you can type a number, followed by `G` (e.g., the example above would be `33G`). Another way is by typing a number followed by `gg` (e.g., the example above would be `33gg`).
+* `:` and then any number of your choice. This will take you to that particular line in your current file. So, `:33` will take me to line 33.
+    * Type a number followed by `G` (e.g., the example above would be `33G`) to get the same result.
+    * Type a number followed by `gg` (e.g., the example above would be `33gg`) to get the same result.
 * `/` followed by any word of your choice to search FORWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
 * `?` followed by any word of your choice to search BACKWARD. After that, you can press `n` to cycle through the matches (use `N` to search in the opposite direction).
 
@@ -21,7 +23,9 @@
 * `i` to insert text BEFORE the cursor.
 * `dd` to delete the whole line.
 * `d$` or `D` to delete from the current position to the end of the line.
-* `:wq` to write (hence the `w`) the changes, and then quit Vim (hence the `q`).
+* `:wq` to write (hence the `w`) the changes, and then quit Vim (hence the `q`). This will save your buffer whether or not you made a change.
+    * `:x` will do the same thing except that it will not save the file if you have not made a change.
+    * `ZZ` will do the same thing as `:x` (and hence `:wq`).
 
 # E#2 (20/04/2021) - vimtutor.
 [Link to the relevent log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e2-20042021---vimtutor)
