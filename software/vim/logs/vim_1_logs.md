@@ -13,6 +13,24 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
+# E#5 (21/05/2021) - Jump like a rabbit!
+* `GTs`:
+    * I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.
+    * Vim keeps breaking long lines to smaller ones (not just visually wrapping, but actually changing the text). Not sure whether or not this is useful just yet.
+* Time spent: 45
+* `LPs`:
+    * I learned about 2 more different ways which you can save and exit the file in Vim.
+	 * In Vim, we have two types of 'words'. For example, Vim can read the following statement as an 11-word sentence or a one-word sentence: "Vim-is-a-modal-text-editor". You can find out more about this by going over to the pearl entry!
+* `LNs`:
+    * I need to find out how to stop Vim from automatically inserting line breaks.
+* `AP` {}: I need to find out how to stop Vim from automatically inserting line breaks when the line is too long. This is quite urgent because, at the moment, I'm not a big fan of this feature (in terms of writing these entries). However, I am sure that it will be useful when writing a piece of code.
+* `Review`:
+    * I reviewed APE#4
+    * `New LPs`:
+        * You can paste from the system clipboard (rather than from the Vim register) by typing `"+p` or `"+P` (depending on where you prefer to paste the line. You can refer to this [pearl](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma) to learn more about the types of pasting in Vim).
+    * `Sources`:
+        * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
+
 # E#4 (10/05/2021) - a clipboard dilemma.
 [Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
 * `GTs`:
