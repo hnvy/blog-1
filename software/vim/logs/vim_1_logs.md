@@ -1,5 +1,5 @@
 # Current experience
-As I have stated [previously](https://github.com/hnvy/blog-1#about-me), I am not an experienced programmer (though I hope to be one someday. Just think of all of the unlimited doors which you could open!). I used Notepad++ as my primary text editor while writing programs. I still use it (almost every day), but not for programming.
+As I have previously [stated](https://github.com/hnvy/blog-1#about-me), I am not an experienced programmer (though I hope to be one someday. Just think of all of the unlimited doors which you could open!). I used Notepad++ as my primary text editor while writing programs. I still use it (almost every day), but not for programming.
 
 # Why am I (re-)learning Vim now?
 Well, when I used Linux, there were a couple of text editors that came pre-installed, and Vim was one of them. So, I launched it, and I couldn't exit the editor. Therefore, I decided to never touch it again, and hence I've forgotten about it.
