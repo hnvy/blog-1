@@ -28,7 +28,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
 * `Review`:
     * I reviewed APE#4
     * `New LPs`:
-        * You can paste from the system clipboard (rather than from the Vim register) by typing `"+p` or `"+P` (depending on where you prefer to paste the line. You can refer to this [pearl](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma) to learn more about the types of pasting in Vim).
+        * You can paste from the system clipboard (rather than from the Vim register) by typing `"+p` or `"+P` (depending on where you prefer to paste the line. You can refer to this [pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma) to learn more about the types of pasting in Vim).
     * `Sources`:
         * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
 
