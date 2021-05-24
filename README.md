@@ -1,7 +1,8 @@
 # blog-1
 A repository that is dedicated to my learning experiences and adventures.
 
-See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. 
+See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates.
+
 # About me
 I began falling in love with computer science since I was 11. When I was 15, I made the decision to use Linux. However, the current nature of my work requires Windows (work files, software which cannot run on any operating system (OS) other than Windows, etc.), therefore, I had to stop using Linux. I considered dual-booting, but it would be too complex and extra friction will be added if I wanted to use a Windows virtual machine on Linux.
 
@@ -31,7 +32,7 @@ New entries will appear at the top of the file. I will use the following descrip
 * `Update FILENAME.md`: This means that I have corrected typos, added some minor details and so on.
 
 # Template
-This is the template which I will be using throughout the journey!
+This is the template which I will be using throughout the journey, however I may not use it for everything because it may not be practical!
 
 Each entry (or day) will consist of:
 * E#XY (XY = session number) and date (DD/MM/YYYY) plus a title.
