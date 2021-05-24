@@ -13,7 +13,7 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
-# E#5 (21/05/2021) - Jump like a rabbit!
+# E#5 (21/05/2021) - jump like a rabbit!
 [Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e5-21052021---jump-like-a-rabbit)
 * `GTs`:
     * I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.
