@@ -1,5 +1,5 @@
 # blog-1
-A repository that is dedicated to my learning experiences and adventures.
+A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
 
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates.
 
