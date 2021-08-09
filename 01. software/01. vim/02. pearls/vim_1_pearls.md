@@ -1,4 +1,4 @@
-# E#5 (21/05/2021) - Jump like a rabbit!
+# E#5 (21/05/2021) - jump like a rabbit!
 [Link to log entry](https://github.com/hnvy/blog-1/blob/main/software/vim/logs/vim_1_logs.md#e5-21052021---jump-like-a-rabbit)
 * Vim has several different modes. You use Normal mode to navigate through your text. Whereas you use Insert mode to insert text (obviously). Typing `:` will activate Command mode.
 * `w` to jump FORWARD to the start of the next word in a sentence (thinks that hyphens, dots, commas, etc. are actually spaces, and will hence treat them as such). For example, "Vim-is-a-modal-text-editor" will be treated as having 11 words.
