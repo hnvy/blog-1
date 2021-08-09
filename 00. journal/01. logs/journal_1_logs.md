@@ -1,6 +1,8 @@
 # Introduction
 This is where I'll put my ideas or thoughts. I've adapted some of them from other sources (all of which will be credited and referenced). Others, as far as I'm aware, are unique. If I later discover that a concept has already been proposed elsewhere, I shall reference it.
 
+Please keep in mind that these ideas and thoughts are based on my personal experiences. Don't expect something I've written to suit you if you decide to implement it into your personal life.
+
 # E#1 (08/08/2021) - daily proportion (idea)
 Have you ever had the problem of not being able to see which tasks take up most of your time? Here's a suggestion based on the Pomodoro approach that I picked up and developed.
 
