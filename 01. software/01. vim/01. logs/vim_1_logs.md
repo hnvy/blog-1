@@ -32,7 +32,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
     * `Sources`:
         * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
 
-# E#4 (10/05/2021) | (20/05/2021) - a clipboard dilemma.
+# E#4 (10/05/2021) - (20/05/2021) - a clipboard dilemma.
 [Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
 * `GTs`:
     * I noticed that pressing `p` whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
@@ -51,7 +51,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
     * `Sources`:
         * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
 
-# E#3 (21/04/2021) | (19/05/2021) - Notepad++ > Vim?!
+# E#3 (21/04/2021) - (19/05/2021) - Notepad++ > Vim?!
 [Link to pearl entry](https://github.com/hnvy/blog-1/blob/main/software/vim/pearls/vim_1_pearls.md#e3-21042021---notepad--vim)
 * `GTs`:
     * Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
