@@ -35,7 +35,7 @@ New entries will appear at the top of the file. I will use the following descrip
 This is the template which I will be using throughout the journey, however I may not use it for everything because it may not be practical!
 
 Each entry (or day) will consist of:
-* E#XY (XY = session number), date of entry (DD/MM/YYYY), date of last update (DD/MM/YYYY), title.
+* E#XY (XY = session number), date of entry (DD/MM/YYYY), and a title.
 * General Thoughts (`GTs`).
 * Time spent: # (where # is the number of minutes that passed since I started that particular session).
 * Learning Points (`LPs`): things which I learned during that particular session.
@@ -47,7 +47,7 @@ Each entry (or day) will consist of:
   * If I did not manage to complete my AP due to whatever reason, I will either break it down into smaller APs or postpone it for later. Fear not, every AP will be reviewed.
 
 ```
-# E# (date of entry) - (date of last update) - TITLE
+# E# (date of entry) - TITLE
 * `GTs`:
     * TEXT
 * Time spent: 
