@@ -3,7 +3,36 @@ This is where I'll put my ideas or thoughts. I've adapted some of them from othe
 
 Please keep in mind that these ideas and thoughts are based on my personal experiences. Don't expect something I've written to suit you if you decide to implement it into your personal life.
 
-# E#2 (09/08/2021) - graphical view of your day (idea)
+```
+Key:
+- T = thought
+- I = idea
+- T-I = thought/idea
+```
+
+# E#3 (10/09/2021) - a free mind is a creative mind (T)
+I was asked the other day about what sort of activities do I do when I listen to a podcast. Here was my response:
+> I wander around the room while listening to the podcast. It's not the same as going for a walk outside. I tend to recall more information that way, which may sound strange. Not only that, but I like to use walking and cleaning as a way to disconnect from technology. While cleaning, I've solved innumerable dilemmas and come up with countless ideas. I don't want to miss out on this opportunity. If I listen to a podcast during cleaning, I fail to achieve the same effect.
+
+More often than I initially thought, I will come up with ideas when I am away from the task. It is as if my brain is doing some thinking in the background without me realising, linking previous and current knowledge together to formulate new knowledge. Which, I personally think, is fascinating.
+
+Here is my current process:
+- Work on a task until I am unable to solve the issue/bored.
+- Clean my room/dishes/feed the dog/play with the cat/tidy the yard and so on.
+- New idea pops into my head.
+- I continue working on the current task (e.g., cleaning) until done.
+
+The most important thing I realised was that I needed to do these activities not with the goal of addressing the problem, but rather to complete them. If I'm stuck on problem X, for example, I should clean my room with the purpose of truly cleaning it (and not solving the problem). Also, I must not force myself to come up with ideas. It should happen naturally and with ease.
+
+I have really underappreciated the importance of a break. From now on, I will try to make this a habit.
+
+In psychology, this is called an "*incubation period*."
+
+Why am I not interested in listening to a podcast during this time off? Listening to some of my podcasts needs intentional mental effort (they are dense in information). I must evaluate and comprehend what the host is saying. While some people may find this to be a useful distraction, I find it to be unappealing (i.e., I haven't been able to generate any ideas using this method). I'd need to experience a moment of tranquility for the ideas to start coming through. I like to get up and move around; let my mind wander. It is, however, on my to-do list. I plan to find some light and entertaining podcasts that are not cognitively demanding. Who knows, maybe I will benefit from this experience.
+
+I plan to write more about this subject in the future, but for now, I'll sign off.
+
+# E#2 (09/08/2021) - graphical view of your day (I)
 I'll be honest with you: I'm not a big fan of traditional daily TODO lists. They can be rather intimidating at times, especially if I let them build up over time. I've tried a lot of TODO list applications, but none of them alleviated this feeling.
 
 I recently realised that if I could 'gamify' (or visually express) my daily TODO list so that it no longer feels overwhelming, I would finally be able to complete tasks.
@@ -16,7 +45,7 @@ I know that there are apps out there which utilise pie/donut charts, but I perso
 
 Why? Well, to begin with, it is easier for me to read than a round donut chart. Secondly, it provides a more straightforward comparison of relative time spent on each task. I can easily see that the dark blue task takes more time than the amber one.
 
-# E#1 (08/08/2021) - daily proportion (idea)
+# E#1 (08/08/2021) - daily proportion (I)
 Have you ever had the problem of not being able to see which tasks take up most of your time? Here's a suggestion based on the Pomodoro approach that I picked up and developed.
 
 1. Create a table with two columns: `Task category` and `Time spent`.
