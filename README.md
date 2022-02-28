@@ -19,6 +19,8 @@ Please keep in mind that these pearls are meant to serve as a beginner-to-advanc
 
 Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them. 
 
+# Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
+
 # How will this work?
 So, every time I want to learn about something new, I will create a folder with the name of the project. This folder will contain two more folders:
 
