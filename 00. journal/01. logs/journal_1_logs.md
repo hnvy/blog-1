@@ -10,6 +10,15 @@ Key:
 - T-I = thought/idea
 ```
 
+# E#4 (28/02/2022) - no template, no problem (T)
+I've had to rethink how I operate things as a result of the neglect of this so-called blog. It all began in a rather regular and upbeat manner. But, over time, I began to disregard it. Why? Well, after a few moments of contemplation, I've come up with the answer: I've created too many limiting self-imposed templates and pieces of guidance (which, don't get me wrong, may come in handy at some point in the future. Just not now, especially not when this whole thing is nothing but a baby project) that I've held myself accountable to before even gaining a sense of what this venture is all about, which is unrestrained learning. I was learning someplace I didn't have to think too hard or be worried of being judged for the messiness of it all by someone (i.e., my overthinking and overcomplicating self).
+
+I went through this unnecessary tension before every commitment. The anxiety and concern that I had made a mistake, whether it was an intellectual or a spelling/grammar one. All of this occurred without my realising that mistakes are perfectly acceptable. I think that mistakes, not perfectionism, is a better way for us to learn.
+
+Anyway, let this serve as a reminder to myself. There will be no more overcomplicating things. This is supposed to be a place where I can share what I've learned and experienced, not a place where I can appease my critical self.
+
+There will be no more onerous templates to follow from now on. It's just me passing along pearls of information.
+
 # E#3 (10/09/2021) - a free mind is a creative mind (T)
 I was asked the other day about what sort of activities do I do when I listen to a podcast. Here was my response:
 > I wander around the room while listening to the podcast. It's not the same as going for a walk outside. I tend to recall more information that way, which may sound strange. Not only that, but I like to use walking and cleaning as a way to disconnect from technology. While cleaning, I've solved innumerable dilemmas and come up with countless ideas. I don't want to miss out on this opportunity. If I listen to a podcast during cleaning, I fail to achieve the same effect.
