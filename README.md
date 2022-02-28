@@ -1,5 +1,3 @@
-# Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
-
 # blog-1
 A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
 
@@ -19,21 +17,24 @@ Pearls are top-notch pieces of information which I found to be useful. You'll ho
 
 Please keep in mind that these pearls are meant to serve as a beginner-to-advanced cheat sheet rather than an all-in-one guide. My skills will develop over time, and the content covered will progress from basic to intermediate, and eventually (hopefully) advanced. So, keep an eye out!
 
-Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them. 
+Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them.
 
-# How will this work?
+# Note
+Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
+
+## How will this work?
 So, every time I want to learn about something new, I will create a folder with the name of the project. This folder will contain two more folders:
 
 * The `logs` folder contains markdown files that will be updated with my new learning points, learning needs, and action plans (see [Template](#template)). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. The first file of every `logs` folder (i.e., `PROJECT_1_logs.md`) contains an introduction and some background.
 * The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
 
-# Structure
+## Structure
 New entries will appear at the top of the file. I will use the following description template to make it easier for you to navigate the [commit history](https://github.com/hnvy/blog-1/commits):
 
 * `Add E#XY to PROJECT_#_logs.md` (or `Add E#XY to PROJECT_#_pearls.md`): This means that a new session entry has been added (XY = session number) to `PROJECT_#_logs.md`/`PROJECT_#_pearls.md`. In a `pearls` file, this means that the pearls for the corresponding entry have been added.
 * `Update FILENAME.md`: This means that I have corrected typos, added some minor details and so on.
 
-# Template
+## Template
 This is the template which I will be using throughout the journey, however I may not use it for everything because it may not be practical!
 
 Each entry (or day) will consist of:
