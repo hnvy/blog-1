@@ -13,6 +13,25 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
+# E#6 (05/03/2022) - Vim, what does X mean?
+I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
+1. Copy the thing which you want to search up on the internet
+2. Open the browser
+3. Paste it in the search bar of your browser
+4. Press `Enter`
+
+And, to my surprise, there was! Here is what you need to add to your `vimrc`:
+
+`vmap <C-3> "zy:let @z = substitute(@z,' ','+','g')<CR>:exec ":silent ! start https://www.google.com/search?q=". @z. ""<CR><CR>`
+
+So, this is how it works:
+1. Go into Visual mode by pressing `v`, and highlight the words of interest
+2. Press `Ctrl+3` (by modifying the `<C-3>` in the line of code above, you can make this keyboard shortcut to whatever you want)
+3. That's it! Isn't that so convenient?!
+
+This was originally something I found online, but for some reason the web answer did not work. So I tweaked the code a bit and it worked. In any case, here's the link: https://vim.fandom.com/wiki/Search_the_web_for_text_selected_in_Vim.
+
+
 # E#5 (21/05/2021) - jump like a rabbit!
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e5-21052021---jump-like-a-rabbit)
 * `GTs`:
