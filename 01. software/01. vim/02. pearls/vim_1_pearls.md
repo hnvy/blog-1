@@ -3,8 +3,8 @@
 * To search for things on Google from within Vim, add the following code to your `vimrc`:
     * `vmap <C-3> "zy:let @z = substitute(@z,' ','+','g')<CR>:exec ":silent ! start https://www.google.com/search?q=". @z. ""<CR><CR>`
 * This is how it works:
-    * Go into Visual mode by pressing v, and highlight the words of interest
-    * Press Ctrl+3 (by modifying the <C-3> in the line of code above, you can make this keyboard shortcut to whatever you want)
+    * Go into Visual mode by pressing `v`, and highlight the words of interest
+    * Press `Ctrl+3` (by modifying the `<C-3>` in the line of code above, you can make this keyboard shortcut to whatever you want)
 
 # E#5 (21/05/2021) - jump like a rabbit!
 [Link to log entry](../01.%20logs/vim_1_logs.md#e5-21052021---jump-like-a-rabbit)
