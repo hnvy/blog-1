@@ -4,7 +4,7 @@ A repository that is dedicated to my learning experiences and adventures. Skim t
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)!
 
 # About me
-I began falling in love with computer science since I was 11. When I was 15, I made the decision to use Linux. However, the current nature of my work requires Windows (work files, software which cannot run on any operating system (OS) other than Windows, etc.), therefore, I had to stop using Linux. I considered dual-booting, but it would be too complex and extra friction will be added if I wanted to use a Windows virtual machine on Linux.
+I began falling in love with computer science since I was 11. When I was 15, I made the decision to use Linux. However, the current nature of my work requires Windows (work files, software which cannot run on any operating system (OS) other than Windows, etc.) meant that I had to stop using Linux. I considered dual-booting, but it would be too complex and extra friction will be added if I wanted to use a Windows virtual machine on Linux.
 
 I'm not a skilled programmer. I took quite a long break from computer science due to a variety of reasons. And although I continued to make small Python programs for fun, they were by no means large or significant.
 
