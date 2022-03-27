@@ -17,6 +17,8 @@ But the problem was that I never had the opportunity to understand it thoroughly
 
 I'm thinking about publishing some of my work here just to document any potential progress.
 
+Oh, and I'm been using https://drawabox.com/ simply because it seems to have summarised a bunch of lectures and books into neat little exercises.
+
 # E#4 (28/02/2022) - no template, no problem (T)
 I've had to rethink how I operate things as a result of the neglect of this so-called blog. It all began in a rather regular and upbeat manner. But, over time, I began to disregard it. Why? Well, after a few moments of contemplation, I've come up with the answer: I've created too many limiting self-imposed templates and pieces of guidance (which, don't get me wrong, may come in handy at some point in the future. Just not now, especially not when this whole thing is nothing but a baby project) that I've held myself accountable to before even gaining a sense of what this venture is all about, which is unrestrained learning. It was someplace where I could learn and not have to think too hard or be worried of being judged for the messiness of it all by someone (i.e., my overthinking and overcomplicating self).
 
