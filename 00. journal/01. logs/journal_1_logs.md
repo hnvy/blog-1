@@ -10,6 +10,13 @@ Key:
 - T-I = thought/idea
 ```
 
+# E#5 (27/03/2022) - art and peace (T)
+For a long, long time, I was fascinated by art (probably at around the age of 5 or 6). It amazes me that you can bring your imagination to life and share it with others.
+
+But the problem was that I never had the opportunity to understand it thoroughly. I've only recently begun learning it, and it's a lot of fun. It is, in fact, arguably the first and only activity that can properly divert my attention away from my other issues. Up the art!
+
+I'm thinking about publishing some of my work here just to document any potential progress.
+
 # E#4 (28/02/2022) - no template, no problem (T)
 I've had to rethink how I operate things as a result of the neglect of this so-called blog. It all began in a rather regular and upbeat manner. But, over time, I began to disregard it. Why? Well, after a few moments of contemplation, I've come up with the answer: I've created too many limiting self-imposed templates and pieces of guidance (which, don't get me wrong, may come in handy at some point in the future. Just not now, especially not when this whole thing is nothing but a baby project) that I've held myself accountable to before even gaining a sense of what this venture is all about, which is unrestrained learning. It was someplace where I could learn and not have to think too hard or be worried of being judged for the messiness of it all by someone (i.e., my overthinking and overcomplicating self).
 
