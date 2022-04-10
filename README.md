@@ -19,15 +19,15 @@ Please keep in mind that these pearls are meant to serve as a beginner-to-advanc
 
 Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them.
 
-# Note
-Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
-
 ## How will this work?
 So, every time I want to learn about something new, I will create a folder with the name of the project. This folder will contain two more folders:
 
 * The `logs` folder contains markdown files that will be updated with my new learning points, learning needs, and action plans (see [Template](#template)). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. The first file of every `logs` folder (i.e., `PROJECT_1_logs.md`) contains an introduction and some background.
 * The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
 
+# Note
+Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
+~~~
 ## Structure
 New entries will appear at the top of the file. I will use the following description template to make it easier for you to navigate the [commit history](https://github.com/hnvy/blog-1/commits):
 
@@ -66,3 +66,4 @@ Each entry (or day) will consist of:
     * `Sources`:
         * Self-discovery/website
 ```
+~~~
