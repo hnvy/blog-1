@@ -16,4 +16,4 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 
 A blue alien is salivating because the platter in front of it - which contains three fries, a fly, and a brain pie - looks splendid. This is the first time I've ever used digital media to create a piece of art. It was quite a lot of fun.
 
-![](https://drive.google.com/uc?export=view&id=1028yBJlkUDG8Ks7a6Syyt83WSEtG9WHp)
+![](https://lh4.googleusercontent.com/45P5aC9Tn8ge3JDtUGg8lX-55B2EMDgVAIKHW2l1AdYW2u6j2xbkSq8LhY9MDKFQtb-NkYx9dMrkog=w1920-h953-rw)
