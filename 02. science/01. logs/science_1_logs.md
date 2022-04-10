@@ -12,8 +12,12 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
-# E#1 (25/03/2022) - fries, flies, and brain pies
+# E#2 (26/03/2022) - the last shroom heading to its doom
+According to a legend, this is the final mushroom on the planet. And now it is being taken to the final door by a wanderer. The door that will determine whether it will be utilised as a simple ingredient in a potion to save the prince or whether it will be nurtured and grown. We'll never find out...
 
+![](https://lh4.googleusercontent.com/vJqx4PIktTXolyGhu9lKSzStbz61BnVDJ5aCzTv8o2NMmqYhRlb1tXeNv9X_t7i5kNZL4j17d1rGjQ=w1920-h953)
+
+# E#1 (25/03/2022) - fries, flies, and brain pies
 A blue alien is salivating because the platter in front of it - which contains three fries, a fly, and a brain pie - looks splendid. This is the first time I've ever used digital media to create a piece of art. It was quite a lot of fun.
 
 ![](https://lh4.googleusercontent.com/45P5aC9Tn8ge3JDtUGg8lX-55B2EMDgVAIKHW2l1AdYW2u6j2xbkSq8LhY9MDKFQtb-NkYx9dMrkog=w1920-h953-rw)
