@@ -10,6 +10,17 @@ Key:
 - T-I = thought/idea
 ```
 
+# E#6 (10/04/2022) - day by day (I)
+Medicine has many diseases to study, and there is too little time. What is the solution? Consistency.
+
+In Medicine consistency is key: a little and often. There will be no grinding. There will be no cramming.
+
+But what kind of consistency? The "I-have-a-test-coming-up-in-11-days,-and-I-have-25-pages-of-work-to-complete.-As-a-result,-I'll-need-to-work-on-roughly-2.5-pages-every-day" kind.
+
+I've written a [Python program](https://github.com/hnvy/do-it) to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
+
+I've been using it for a year and have to say that it's a fantastic productivity tool.
+
 # E#5 (27/03/2022) - art and peace (T)
 For a long, long time, I was fascinated by art (probably at around the age of 5 or 6). It amazes me that you can bring your imagination to life and share it with others.
 
