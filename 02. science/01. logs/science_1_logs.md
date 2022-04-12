@@ -15,9 +15,9 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # E#2 (26/03/2022) - the last shroom heading to its doom
 According to a legend, this is the final mushroom on the planet. And now it is being taken to the final door by a wanderer. The door that will determine whether it will be utilised as a simple ingredient in a potion to save the prince or whether it will be nurtured and grown. We'll never find out...
 
-![](https://lh4.googleusercontent.com/vJqx4PIktTXolyGhu9lKSzStbz61BnVDJ5aCzTv8o2NMmqYhRlb1tXeNv9X_t7i5kNZL4j17d1rGjQ=w1920-h953)
+![](https://lh3.googleusercontent.com/WNVMj8m9l36cJDO2oW-AUYRsVzPVZN6ljGt0X8mc7sNskuJ1oLVbdPNsQf4gVL82eS1j6joQSM6A73ZdTqNDJ9N_pkKxRVT5ra0ZEHw4hsdtt6X_z1NN7N8sej9St4ZUfXYNxSWZS8Upof_cjvf8Xonu14Tyqr35JF-sfftYRlexNrFUEpOWYnzgTSzWMkBAZrBNH3qrVWUzx1hodl9N5DM_D_x3nay4Zi3E0dVitxg9FjiG-usWnPlug3224ltWGSabhfhEHC0I5e5zkoNSd9Ieo7akwBe_wljm89d0BbEJkAEbkgxUh3H34yn-FqsJnxpswUvjg0XaTvFORl0PS7uthkuspXLiJK-_b1QjIgz70rKZLeDayvpqAAAz3G1V1_qVtaRSHk1ZY8iZv6Iw2FBdQLWvprvFXOvR89-O80Stpky1jvm0j7jzOTV-ioP15nx0Gs8iEHZdd_G1NXONod4xIMqw7edTZnmXJV2pG2NOEt-IAV72jQg31ZW7ILUAGuFE16NT-998QFQYesmpLyUmQGA3nesjjt4QuJaAOVFYdRzu10nGSqbFsNcTGp5iEsDRUUiHQyY96giRmklFTe4looiHUTPsA1WsrCLJDYItn1Owr10RjVPQaHCRHxLwV2TzP86HokKa6_7ZZOYW437LYNPKrHQMMWIV9bQ7KSoI4O9JKy1D1npwmQLjckekzNyGHbdZqIyOyiQnSmystFAMpYOr0RXUN6isAqROSz2RDs-kJg=w720-h718-no?authuser=0)
 
 # E#1 (25/03/2022) - fries, flies, and brain pies
 A blue alien is salivating because the platter in front of it - which contains three fries, a fly, and a brain pie - looks splendid. This is the first time I've ever used digital media to create a piece of art. It was quite a lot of fun.
 
-![](https://lh4.googleusercontent.com/45P5aC9Tn8ge3JDtUGg8lX-55B2EMDgVAIKHW2l1AdYW2u6j2xbkSq8LhY9MDKFQtb-NkYx9dMrkog=w1920-h953-rw)
+![](https://lh3.googleusercontent.com/pw/AM-JKLXDlEkBjC4VBDeNRsyAC5B65dPs_gYgmjWEKBk1A-cjN437lRDerKnzhD069eon9Kh08uTnjCH6Tx2AnHm_7nZUbBvfUJ3n9l0Dz15dKugk_1EjZYlioV2sZeNlwZJEXpnoyv0A_ucIWwmYxmx84Q=w857-h782-no?authuser=0)
