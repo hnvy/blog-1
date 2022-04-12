@@ -15,9 +15,9 @@ I've seen students try to 'optimise' their lifestyle by using a variety of 'prod
 
 And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal by adding more of the latest apps and updates.
 
-It's similar to how you lose the flavour of chewing gum after a while. So, what exactly do you do? Replace it with a spit it out and replace it with a fresh one? OR add a new gum to the already stale one in your mouth?
+It's similar to how you lose the flavour of chewing gum after a while. So, what exactly do you do? Spit it out and replace it with a fresh one? OR add a new gum to the already stale one in your mouth?
 
-To some, the solution to the above conundrum is to replace it. Which, in my opinion, is a far superior option. What do you suppose would happen if you keep adding new gum every time you lose the taste, without getting rid of the globuar mass that has formed inside your cubbyhole?
+To some, the solution to the above conundrum is to replace it. Which, in my opinion, is a far superior option. What do you suppose would happen if you keep adding a new gum every time you lose the taste, without getting rid of the globuar mass that has formed inside your cubbyhole?
 
 Apps for productivity can be used in the same way. A productivity app rarely aids in the completion of a task. All of these bright colours and sophisticated typefaces are just a diversion from your main objective. You spend countless hours researching and customising your new apps, only to have them fail tragically. Instead of pausing to reflect on what has just occurred, you continue to download new ones!
 
