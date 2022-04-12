@@ -10,43 +10,6 @@ Key:
 - T-I = thought/idea
 ```
 
-# E#7 (12/04/2022) - reflect on it (T+I)
-I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
-
-And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal by adding more of the latest apps and updates.
-
-It's similar to how you lose the flavour of chewing gum after a while. So, what exactly do you do? Spit it out and replace it with a fresh one? OR add a new gum to the already stale one in your mouth?
-
-To some, the solution to the above conundrum is to replace it. Which, in my opinion, is a far superior option. What do you suppose would happen if you keep adding a new gum every time you lose the taste, without getting rid of the globuar mass that has formed inside your cubbyhole?
-
-Apps for productivity can be used in the same way. A productivity app rarely aids in the completion of a task. All of these bright colours and sophisticated typefaces are just a diversion from your main objective. You spend countless hours researching and customising your new apps, only to have them fail tragically. Instead of pausing to reflect on what has just occurred, you continue to download new ones!
-
-Reflection is the answer. Assume you have a task that you despise. Or a task you've been putting off for far too long. What would you do in this situation?
-
-So you go to Google and type in your problem, and you get a cliche response like "use a to-do list," "the savvy entrepreneur employed the pomodoro technique," "this well-established business woman has four distinct calendars," and so on. It's a headache to read, and it's occasionally ludicrous.
-
-Don't get me wrong: I've been caught in that trap several times. Until I've had my fill. Because none of the 'productivity' applications helped me be more productive, I quit using them altogether. They give me the impression that I am being productive, but it's merely a psychological effect.
-
-As I have said, reflection is the answer. But what would you reflect about? I usually reflect about two things: do I need to do this task? If so, what would I get out of it?
-
-But wait, there's more. You aren't going to give a half-hearted response. No. Instead, you should jot it down (preferably with a pen and paper rather than a computer). Why? Because writing it down compels you to *really* consider and analyse it. You are forcing your brain to only focus on one thing, and one thing only: reflection.
-
-You will notice that once you've written a paragraph or two about why you should be doing that task, you would have fully convinced yourself to actually begin doing the task. It is then, and only then, do you cease that golden opportunity.
-
-"Great, however after 40 minutes, my motivation begins to wane. So, what do I do now?" You go through the same steps as before. Perhaps you will realise that you should be working on something else this time. Perhaps this new task is more important.
-
-The task's genuine nature is only revealed via reflection. Without reflection, the task is akin to seeing a huge, eerie shadow on your bedroom wall. Upon closer examination, you see that the gigantic shadow is cast by nothing more than a 2 cm toy...
-
-Here are the steps summarised:
-1. Look at your to-do list
-2. Pick a task
-3. Grab a pen and a piece of paper
-4. Write a couple of paragraphs (or rough notes, doodles. Whatever floats your boat) about whether you *need* to do this task? And if yes, what would you get out of it?
-5. Start working on that task once you are motivated
-6. If you are not motivated, then repeat steps 1-5 again.
-
-That is all. A simple life is what you need, not a new app.
-
 # E#6 (10/04/2022) - day by day (I)
 Medicine has many diseases to study, and there is too little time. What is the solution? Consistency.
 
