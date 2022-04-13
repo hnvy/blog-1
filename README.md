@@ -6,7 +6,9 @@ See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the la
 # About me
 I began falling in love with computer science since I was 11. When I was 15, I made the decision to use Linux. However, the current nature of my work requires Windows (work files, software which cannot run on any operating system (OS) other than Windows, etc.) meaning that I had to stop using Linux. I considered dual-booting, but it would be too complex and extra friction will be added if I wanted to use a Windows virtual machine on Linux.
 
-I'm not a skilled programmer. I took quite a long break from computer science due to a variety of reasons. And although I continued to make small Python programs for fun, they were by no means large or significant.
+Unfortunately, I'm not a skilled programmer. I took quite a long break from computer science due to a variety of reasons. And although I continued to make small Python programs for fun, they were by no means large or significant. That does not, however, prevent me from attempting to code (even though all of my programs are basic). The main thing is that I enjoy it, and no one, absolutely no one, can deter me from doing things that I enjoy. I value all constructive criticism and utilise it to help me grow as a person, and I pity those who negatively criticise individuals who are still learning (it's probably one of the most morally repugnant things a person can do). We were all beginners at one point or another, and there's no need to be embarrassed or critical about it.
+
+I am now pursuing a degree in Medicine. My goal is to learn as much as I can before I die (does not have to be related to Medicine). In fact, this is the reason for why I have never been on a holiday. Ever. Anyway, I enjoy difficult and advanced subjects since it ensures that I will never run out of things to learn.
 
 # Pearls
 Due to the unnecessarily sophisticated nature of this 'blog', good bits of knowledge may get lost in all of the filler content. 
