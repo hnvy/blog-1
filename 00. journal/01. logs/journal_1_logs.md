@@ -13,7 +13,7 @@ Key:
 # E#7 (12/04/2022) - reflect on it (T+I)
 I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
 
-And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal by adding more of the latest apps and updates.
+And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal more of the latest apps and updates.
 
 It's similar to how you lose the flavour of chewing gum after a while. So, what exactly do you do? Spit it out and replace it with a fresh one? OR add a new gum to the already stale one in your mouth?
 
