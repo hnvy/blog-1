@@ -7,7 +7,7 @@ Please keep in mind that these ideas and thoughts are based on my personal exper
 Key:
 - T = thought
 - I = idea
-- T-I = thought/idea
+- T+I = thought/idea
 ```
 
 # E#7 (12/04/2022) - reflect on it (T+I)
