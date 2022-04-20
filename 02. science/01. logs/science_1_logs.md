@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#3 (27/03/2022) - a kettle of metal
+Have you ever wished for a scrap metal kettle that could pour your morning coffee into a cup that was attached to it? No, me neither I. But consider this for a moment: would it be a fantastic invention? Or a [violation of our previous discussions](https://github.com/hnvy/blog-1/blob/main/00.%20journal/01.%20logs/journal_1_logs.md#e7-12042022---reflect-on-it-ti)?
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLVzTlhWV3gpt6GEMyB_cZfAgFZJCdv_843fhuLxNr3s-iAIHcqRlxKY2E4Dm1PIr55TMvtYVIXNb0y5NgvW-SqUaBXse9snnJ_PX4tXtjIz9T12hHQNdIUA-5g5CHRvMdvOL78ItARaDUPL-Z42Cg=w720-h697-no?authuser=0)
+
 # E#2 (26/03/2022) - the last shroom heading to its doom
 According to a legend, this is the final mushroom on the planet. And now it is being taken to the final door by a wanderer. The door that will determine whether it will be utilised as a simple ingredient in a potion to save the prince or whether it will be nurtured and grown. We'll never find out...
 
