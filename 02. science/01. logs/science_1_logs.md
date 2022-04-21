@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#4 (28/03/2022) - school time with Albert Einstein
+Micky Mouse, on the other hand, has indeed attended Albert Einstein's Physics School (AEPS). He was a mischievous little guy, but a very imaginative one too. On the sand pit, he exuded vigour, wit, and hilarity. But during the lecture, he showed extreme hunger for knowledge and unfamiliarity...
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLU3elX3pVo78IeyEdfGTqzUcXzTqDiCg5YDh8eHZm_eUeNjcmyh1nqj7VaFXREycf63pd0yI7X8E61z9dQqFdCN6Na5urAjNnOPgcJdt4zTpLK8KlNQYMPF6vBuKZ4dyR63QI0dQ7iiVA3oOfnSog=w720-h721-no?authuser=0)
+
 # E#3 (27/03/2022) - a kettle of metal
 Have you ever wished for a scrap metal kettle that could pour your morning coffee into a cup that was attached to it? No, me neither I. But consider this for a moment: would it be a fantastic invention? Or a [violation of our previous discussions](https://github.com/hnvy/blog-1/blob/main/00.%20journal/01.%20logs/journal_1_logs.md#e7-12042022---reflect-on-it-ti)?
 
