@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#5 (29/03/2022) - milk up the cup
+Whilst I was drawing this, my thinking was something along the lines of: drinketh from this cuppeth and thee shalt liveth forever, or peradventure thee shalt never see the ordinary again for thee wilt beest ascending to the metaverse.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLVPriEhSE6C7JLG-PaNH65oJnyyFwanTfMIGOLfLVFCkE90jcvmKOCtxTk_KbHnDIkJWgbrE4_SbTsBfKBhx04EwmcjroOl9ATwy3zowe404bJQW6tEWdkuLCjZNB0rFI3fMz17e8qkkYBDuKET6Q=w670-h609-no?authuser=0)
+
 # E#4 (28/03/2022) - school time with Albert Einstein
 Micky Mouse, on the other hand, has indeed attended Albert Einstein's Physics School (AEPS). He was a mischievous little guy, but a very imaginative one too. On the sand pit, he exuded vigour, wit, and hilarity. But during the lecture, he showed extreme hunger for knowledge and unfamiliarity...
 
