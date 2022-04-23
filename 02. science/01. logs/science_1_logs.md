@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#6 (30/03/2022) - a brat rat
+The brat rat. A rat that has become so scarce that it can no longer be found on a chessboard. It can only be seen by those who have mastered the game. Only those who have pondered about this topic a thousand times can perceive it for what it is. The rat is the only piece that may be swapped. The piece that can fool the enemy while also saving the comrades in the most unethical way possible.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLW4ExSMpsQuv5h60pEQOGw9LEch6W_Echrua3UthUF9bVhn0HPhRNWrnLIBhKDyfkdW5Fq7L0JTrHbG9c_3cFDph01WmRoWP8OLJO4jma9OD8wWTyHWMm31SoVq53IhpaePMzPiW_DZAKpi1Vcpxg=w720-h714-no?authuser=0)
+
 # E#5 (29/03/2022) - milk up the cup
 Whilst I was drawing this, my thinking was something along the lines of: drinketh from this cuppeth and thee shalt liveth forever, or peradventure thee shalt never see the ordinary again for thee wilt beest ascending to the metaverse.
 
