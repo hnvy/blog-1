@@ -12,6 +12,58 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#8 (24/04/2022) - stress explained
+This is an old piece of writing that I wrote many years ago. Why let it gather dust on the shelves?
+
+I am not going to deny the fact that I have experienced stress. A LOT of it too. I have managed to tackle it well at times, and not so well at others. 
+
+Before we dive in, we need to understand what does "stress" really mean. Psychologically, there are many definitions of stress. Stress could be defined as the body's reaction to an aversive stimulus which is found in the individual's external environment. Another definition is "Stress occurs when environmental demands exceed one's perception of the ability to cope" (Fink, 2016). A stimulus which causes stress is known as a stressor.
+
+People use resources in order to cope with stress, and these resources vary from one individual to another. They range from the teddy bear you had since you were 6 years old, to the counselling sessions provided by your workplace.
+
+Response to stress can be demonstrated in 4 different ways. These are as follows:
+* cognitive
+* physiological
+* behavioural
+* affective
+
+Thomas Holmes and Richard Rahe have devised a way for us to use in order to measure our stress. This can be found [here](https://horizonhealth.com/2019/06/13/whats-your-stress-load/).
+
+There are two types of stress: positive stress (eustress) and negative stress (distress). Distress is the one that is bad, the one that can cause anxiety and fear. Indeed, when experienced for a long period of time, negative stress can cause serious issues such as depression and physical illness. In 2017, an article was published outlining the impacts of stress on health, including but not limited to: cardiovascular disease, GI complications, endocrine disorders, and impaired immune system functions (Ranabir & Reetu, 2011; Yaribeygi, Panahi, Sahraei, Johnston, & Sahebkar, 2017).
+
+Stress is not actually bad for you. Yes, you have read that right. The right amount of stress was the reason for why I made it to Medical school. For why I passed my exams. It shows that I care. However, have too much stress, and you will start experiencing all the bad aspects of it.
+
+There are many ways to deal with this negative stress, and I think these are outlined nicely for you [here](https://stress.lovetoknow.com/Positive_Strategies_in_Managing_Stress). My personal favourites are meditation and expressive writing. This is because they only take few minutes a day, and they do not require me to leave the house (especially useful if you live in a country where it rains most of the time).
+
+Now moving on to the biology of stress. Back in the 1920s, an American physiologist called Walter Bradford Cannon performed experiments involving humans and animals. He saw that during stressful conditions, nerves and glands are triggered which cause the body to either fight, or flight. This is why he called this response as the "fight-or-flight response". The hypothalamus is the "stress centre" of all this action. It is called the "stress centre" because of its function during stress:
+
+It causes the activation of the pituitary gland
+It is responsible for the Autonomic Nervous System (ANS) control
+The hypothalamus sends signals to the pituitary gland. The pituitary gland releases 2 important stress hormones. The first hormone is the ThyroTropic Hormone (TTH), this hormone causes the stimulation of the thyroid gland which, by releasing more hormones, provides further energy to the body. The second hormone is the Adrenal CorticoTropic Hormone (ACTH), this hormone stimulates the adrenal cortex (the outer part of the adrenal gland) which in turn produces hormones that release sugar from the liver into the bloodstream. This is known as Hypothalamic-Pituitary-Adrenocortical (HPA) Axis.
+
+The ANS is the one that causes you to hyperventilate during stressful situations. It is also the one that causes your heart rate to increase. Furthermore, it redirects the blood flow from your digestive system to your muscles (digesting your last meal whilst being chased by a wolf is the last thing on your priority list). The ANS sends signals to your adrenal medulla (the inner part of the adrenal gland). This causes the adrenal glands to release 2 hormones, adrenaline (epinephrine) and noradrenaline (norepinephrine). These two have major functions in the body. For example, they cause the liver to produce more sugars (which boost your body's energy to either fight-or-flight). This is known as the Sympathetic-Adrenomedullary (SAM) Axis.
+
+Shelley Taylor, a health psychologist, has suggested that the physiological processes outlined above may result in different response in females (Taylor, 2006). Along with her colleagues, she says that females experience a "tend-and-befriend response". They say that when stressed, females will protect their offspring (by tending to their needs) and will befriend the members of the surrounding environment, hence further minimising the offspring's vulnerabilities.
+
+That is all! This is "stress" in a nutshell. I would like to write more, but the post would be too lengthy, and readers may get lost and bored. However, if you would like to learn more about stress, I have cited the sources which I have used in this post. You can use those as a starting point for further reading.
+
+There are three main messages that I would like you to take away from all of this:
+Not all stress is bad for you. Exam stress shows that you actually care about your studies. It shows that you want to succeed.
+You should tackle the negative stress as soon as you encounter it. Utilise all the available resources which you have available. Try expressive writing and meditation, see how it goes. If they do not work, then move on to the next strategy. Keep doing so until you find the one that suits you the most.
+Stress causes the release of MANY hormones and being exposed to stress for a prolonged period of time can actually cause many issues.
+
+Take it easy and look after yourself.
+
+_References_
+
+Fink, G. (2016). Fink G. Stress, Definitions, Mechanisms, and Effects Outlined: Lessons from Anxiety. In: Fink G, ed. Stress: Concepts, Cognition, Emotion, and Behavior, Volume 1 of the Handbook of Stress Series. San Diego: Elsevier Inc., 2016: 3-11. In.
+
+Ranabir, S., & Reetu, K. (2011). Stress and hormones. Indian journal of endocrinology and metabolism, 15(1), 18-22. doi:10.4103/2230-8210.77573
+
+Taylor, S. E. (2006). Tend and Befriend:Biobehavioral Bases of Affiliation Under Stress. Current Directions in Psychological Science, 15(6), 273-277. doi:10.1111/j.1467-8721.2006.00451.x
+
+Yaribeygi, H., Panahi, Y., Sahraei, H., Johnston, T. P., & Sahebkar, A. (2017). The impact of stress on body function: A review. EXCLI journal, 16, 1057-1072. doi:10.17179/excli2017-480
+
 # E#7 (31/03/2022) - muddle the puddle-ator
 The sound-generating wheel. This is a remarkable wheel re-invention. It not only assists you in moving your vehicle in a CO2-free manner, but it also (through the use of friction and puddles) plays music for you to enjoy as you run your errands.
 
