@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#7 (31/03/2022) - muddle the puddle-ator
+The sound-generating wheel. This is a remarkable wheel re-invention. It not only assists you in moving your vehicle in a CO2-free manner, but it also (through the use of friction and puddles) plays music for you to enjoy as you run your errands.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLXzTNlf3H9UXzg2jjLKlrYKVshdDSGbpKIbAedOnAOMnLAMrr4g-kJ5r3Uf6yxKlWbvcLoJEYd9-xhoF1RlmcZrdHbbGkUl7cxt_Bz-f99nAaewK7i22rqfv2NnCOLs9IWSKb7rHzvfhIxOaV64eg=w720-h711-no?authuser=0)
+
 # E#6 (30/03/2022) - a brat rat
 The brat rat. A rat that has become so scarce that it can no longer be found on a chessboard. It can only be seen by those who have mastered the game. Only those who have pondered about this topic a thousand times can perceive it for what it is. The rat is the only piece that may be swapped. The piece that can fool the enemy while also saving the comrades in the most unethical way possible.
 
