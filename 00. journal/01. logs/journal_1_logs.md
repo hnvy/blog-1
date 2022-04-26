@@ -10,6 +10,19 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#8 (26/04/2022) - not on my syllabus (T)
+It started to become not uncommon to witness colleagues from medical school completely shut down their eyes, ears, and brains when they hear, from a professor, that the topic we're currently being taught will not be examined. This is despite the fact that some of those colleagues find these certain topics interesting.
+
+I find that such approach generates quite a few issues. Below, I will outline some of the ones that came to mind. I will probably add more in the future.
+
+Instead of using curriculum as a map to direct your journey, use it as a flashlight to see where you should be going. The curriculum, like a torch, has a shortsightedness to it. It frequently fails to anticipate or accurately reflect the future. Allow your hunger for knowledge to serve as the map that leads you across the cosmos.
+
+Keep in mind, however, that this does not apply to all curricula. Some curricula are quite broad and allow for a certain degree of self-exploration and discovery, which is great. Those type of curricula are able to weed out students which are not interested in the subject. Other curricula, on the other hand, are extremely specific. To make matters worse, you'll be labelled a "failure" if you don't follow this ultra-specific curriculum.
+
+The curriculum isn't the same as actual life. There are numerous vital topics that are not covered in the curriculum (and mainly this is because there is little time). You can only be limited by your curriculum if you rely on it too much. Those who let the curriculum determine what they should and shouldn't learn are expected to encounter numerous challenges in the future, as no one will tell them what to learn once they graduate.
+
+Medical school is only the beginning of a career in Medicine. Medicine is a voyage that will last a lifetime. You, my friend, are well on your way to becoming a one-of-a-kind doctor if you can harness this ability, early on, to discover useful content and learn it despite the fact that it is not mandated by the curriculum.
+
 # E#7 (12/04/2022) - reflect on it (T+I)
 I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
 
