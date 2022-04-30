@@ -21,7 +21,7 @@ Keep in mind, however, that this does not apply to all curricula. Some curricula
 
 The curriculum isn't the same as actual life. There are numerous vital topics that are not covered in the curriculum (and mainly this is because there is little time). You can only be limited by your curriculum if you rely on it too much. Those who let the curriculum determine what they should and shouldn't learn are expected to encounter numerous challenges in the future, as no one will tell them what to learn once they graduate.
 
-Medical school is only the beginning of a career in Medicine. Medicine is a voyage that will last a lifetime. You, my friend, are well on your way to becoming a one-of-a-kind doctor if you can harness this ability, early on, to discover useful content and learn it despite the fact that it is not mandated by the curriculum.
+I don't hold it against those students. To some extent, I agree with them: students should devote more time to studying the topics that will be assessed, otherwise they will fail the exams. At the same time, they should not fully block out all non-examineable information. This, in my opinion, is not the best way to nurture learning. Medical school is only the beginning of a career in Medicine. Medicine is a voyage that will last a lifetime. You, my friend, are well on your way to becoming a one-of-a-kind doctor if you can harness this ability, early on, to discover useful content and learn it despite the fact that it is not mandated by the curriculum.
 
 # E#7 (12/04/2022) - reflect on it (T+I)
 I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
