@@ -10,6 +10,15 @@ Unfortunately, I'm not a skilled programmer. I took quite a long break from comp
 
 I am now pursuing a degree in Medicine. My goal is to learn as much as I can before I die (does not have to be related to Medicine). In fact, this is the reason for why I have never been on a holiday. Ever. Anyway, I enjoy difficult and advanced subjects since it ensures that I will never run out of things to learn.
 
+# How will this work?
+So, every time I want to learn about something new, I will create a folder with the name of the project. New entries will appear at the top of the file.
+
+* `Add E#XY to LMN.md`: This means that a new session entry (E#XY) has been added (XY = session number) to `LMN.md`.
+* `Edit E#XY in LMN.md`: This means that an edit has been made (to E#XY) in `LMN.md`.
+* `Update LMN.md`: This means that I have corrected typos and so on.
+* The `logs` folder contain log entries (which are free-prose writings about anything I've learned). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. The first file of every `logs` folder (i.e., `PROJECT_1_logs.md`) contains an introduction and some background.
+* The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
+
 # Pearls
 Due to the unnecessarily sophisticated nature of this 'blog', good bits of knowledge may get lost in all of the filler content. 
 
@@ -21,22 +30,10 @@ Please keep in mind that these pearls are meant to serve as a beginner-to-advanc
 
 Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them.
 
-## How will this work?
-So, every time I want to learn about something new, I will create a folder with the name of the project. This folder will contain two more folders:
-
-* The `logs` folder contains markdown files that will be updated with my new learning points, learning needs, and action plans (see [Template](#template)). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. The first file of every `logs` folder (i.e., `PROJECT_1_logs.md`) contains an introduction and some background.
-* The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
-
 # Note
 Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
 ~~~
-## Structure
-New entries will appear at the top of the file. I will use the following description template to make it easier for you to navigate the [commit history](https://github.com/hnvy/blog-1/commits):
-
-* `Add E#XY to PROJECT_#_logs.md` (or `Add E#XY to PROJECT_#_pearls.md`): This means that a new session entry has been added (XY = session number) to `PROJECT_#_logs.md`/`PROJECT_#_pearls.md`. In a `pearls` file, this means that the pearls for the corresponding entry have been added.
-* `Update FILENAME.md`: This means that I have corrected typos, added some minor details and so on.
-
-## Template
+# Template
 This is the template which I will be using throughout the journey, however I may not use it for everything because it may not be practical!
 
 Each entry (or day) will consist of:
