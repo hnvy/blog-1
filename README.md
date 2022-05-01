@@ -4,11 +4,13 @@ A repository that is dedicated to my learning experiences and adventures. Skim t
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)!
 
 # About me
+A human who has a strong desire to learn (it is a trait which I share with 100% of the other human beings). I enjoy writing about my experiences (my earliest surviving journal dates from when I was seven years old). This repository is primarily for my individual use. Anyone who happens to come across it could find something valuable in what I've written.
+
 I began falling in love with computer science since I was 11. When I was 15, I made the decision to use Linux. However, the current nature of my work requires Windows (work files, software which cannot run on any operating system (OS) other than Windows, etc.) meaning that I had to stop using Linux. I considered dual-booting, but it would be too complex and extra friction will be added if I wanted to use a Windows virtual machine on Linux.
 
 Unfortunately, I'm not a skilled programmer. I took quite a long break from computer science due to a variety of reasons. And although I continued to make small Python programs for fun, they were by no means large or significant. That does not, however, prevent me from attempting to code (even though all of my programs are basic). The main thing is that I enjoy it, and no one, absolutely no one, can deter me from doing things that I enjoy. I value all constructive criticism and utilise it to help me grow as a person, and I pity those who negatively criticise individuals who are still learning (it's probably one of the most morally repugnant things a person can do). We were all beginners at one point or another, and there's no need to be embarrassed or critical about it.
 
-I am now pursuing a degree in Medicine. My goal is to learn as much as I can before I die (does not have to be related to Medicine). In fact, this is the reason for why I have never been on a holiday. Ever. Anyway, I enjoy difficult and advanced subjects since it ensures that I will never run out of things to learn.
+I am now pursuing a degree in Medicine. My goal is to learn as much as I can before I die (does not have to be related to Medicine). In fact, this is the reason for why I have never been on a holiday. Ever. Anyway, I do like difficult and advanced subjects since it ensures that I will never run out of things to learn.
 
 # How will this work?
 So, every time I want to learn about something new, I will create a folder with the name of the project. New entries will appear at the top of the file.
