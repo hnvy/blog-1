@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#9 (04/05/2022) - discocup
+Just a modest old cup made of clay that has been set on top of a clay disc and is ready for the ancient human to use.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLWMF7CqYsjoNws0b_cXcSUSfvxXxpNwJ9s2c-3czxbZxAlGV_daULTmrbIuzvQQdM4ceDlVN7Uvnvay7fBMzR3hFMt_gKCqarVQM0V5DQfSJ43OaHemQyi6L_TDs3_7e5D7xRb-0RKPDhgs38w1prM=s500-no?authuser=0)
+
 # E#8 (24/04/2022) - stress explained
 This is an old piece of writing that I wrote many years ago. Why let it gather dust on the shelves?
 
