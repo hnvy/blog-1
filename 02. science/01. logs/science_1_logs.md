@@ -12,6 +12,11 @@ Finally, you'll note that I've included some of my own artwork. This is because 
 # Disclaimer: this document is NOT for medical advice
 **Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!**
 
+# E#10 (07/05/2022) - shadows
+A human emerges from the shadows. An oppressed individual. A hopeful human. A person who recognises their true essence.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLWrM2Mt6igPfJV6_98SOmugmry104JuVTLm18mwnxN7UPJlIUIPOtMqkYL52zVj_KGBMeymLNPJbHr9z9I6q8maxX9TNFiaC1DBBKisKN2DkLjhunlXDZ_fkzNcBg9PmufDkmCTC09fGHE4Pp8K4-8=s500-no?authuser=0)
+
 # E#9 (04/05/2022) - discocup
 Just a modest old cup made of clay that has been set on top of a clay disc and is ready for the ancient human to use.
 
