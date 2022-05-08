@@ -18,6 +18,11 @@ Key:
 - S = science
 ```
 
+# E#11 (08/05/2022) - tree man (A)
+The man who opposes technology sits alone, his head against a tree, along the road/river (depending on how you look at it), simply reminiscing in a land where technology is widely utilised and required. Meanwhile, in the background, the sky is covered with constructions that block out all natural night light and replace it with dazzling artificial light. What shall he do? Accept it? Or continue to oppose?
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLXmupsfkNCBltdgIrw2RiuEeNdESroz748o86zf7lfZyykFEJFDmsng-0_c_QWUKYhepMO3x2BBYPztMna9lg-qwbJKSeSjaLn8CMcEgW5mL9osjmN9CQDyKvxfVzD_NrBwVvpFcTcuFIXGOyI_x08=s500-no?authuser=0)
+
 # E#10 (07/05/2022) - shadows (A)
 A human emerges from the shadows. An oppressed individual. A hopeful human. A person who recognises their true essence.
 
