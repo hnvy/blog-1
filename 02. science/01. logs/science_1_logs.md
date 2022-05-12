@@ -18,6 +18,11 @@ Key:
 - S = science
 ```
 
+# E#12 (12/05/2022) - bus stop (A)
+The bus stop is probably one of the most tranquil places for the girl to play the ney in order to summon earthworms from the ground, which would create tunnels providing air circulation and allowing the ants to build houses, rooms, shops, and tools.
+
+![](https://lh3.googleusercontent.com/pw/AM-JKLWJWl35vH1vA23CDlwqtmwHr98-lcp4IOMdpgg6Smt4Kftk4yLXRDUXbJGIemywlrmqHiLAvM3jelG1qApOLN7EfZzvYTEQ9nY4LpE5zAIsSrLcZKtzqnutoIZOqk440pCfSXgKLSbuHYLEp6qa0jY=s500-no?authuser=0)
+
 # E#11 (08/05/2022) - tree man (A)
 The man who opposes technology sits alone, his head against a tree, along the road/river (depending on how you look at it), simply reminiscing in a land where technology is widely utilised and required. Meanwhile, in the background, the sky is covered with constructions that block out all natural night light and replace it with dazzling artificial light. What shall he do? Accept it? Or continue to oppose?
 
