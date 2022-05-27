@@ -10,6 +10,27 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#9 (27/05/2022) - non-receptive (T)
+I've begun to realise that my classmates are not at all receptive. By "receptive," I mean they don't share the same passion as their colleagues and don't listen to their fears, venting, or anxiety.
+
+This could be hazardous to the individual who is expressing their problems. When I speak to someone about an issue that affects both of us equally or impacts them personally far more than it affects me, and they do not answer, I know it will give me a great deal of anguish and aggravation.
+
+I had the impression that maybe, just maybe, they are Stoics without realising it. But no, they are unconcerned. How can you be unconcerned if something goes wrong with you? How could you refuse to try to educate someone who has wronged you? Why would you not strive for change?
+
+If you don't care, and I don't care, and the person next to you doesn't care, we'll wind up in a world where nobody gives a flying elephant about anything. This, in my opinion, will only stifle development and progress.
+
+We should not be concerned with things that are beyond our control, according to Stoicism (and various other schools of thought). That is something with which I completely agree. However, all of the issues that bother me are ones over which we could possibly have complete control over.
+
+Consider the following scenario: your workplace implements a new proposal that the majority of your coworkers oppose. You have the power to raise this issue with your manager/supervisor in a meeting. Would you go through with it? You would, of course! If your suggestion is rejected by your manager/supervisor, you should inquire about bringing the matter to your coworkers' attention, where they could voice their opinions through a vote or other means. If your second suggestion is rejected, you will begin to consider the possibility that something is beyond your control. But even then, that should not stop you from trying to change things.
+
+Rejecting both of your suggestions is the worst case scenario. What is the best case scenario? Your manager will take your suggestions into consideration and act on them (imagine how happy you would be when that happens).
+
+Stoicism can be misinterpreted as giving up the moment you sense that something is out of your reach. This, in my opinion, is a major misunderstanding. Yes, you can tell when something is under your control and when it isn't (e.g., the behaviour of others is quite outside of your control whereas your thoughts and actions are totally within). However, in the circumstance I just described, we have no idea unless we give it a go.
+
+Beware, however. Do not confuse "complaining" (which is simply venting without the attempt to bring about a change) with what I have said above. Be a human of action.
+
+Observing this phenomenon is extremely heartbreaking. There could be a variety of personal reasons for this, including but not limited to fear of repercussions and penalties.
+
 # E#8 (26/04/2022) - not on my syllabus (T)
 It started to become not uncommon to witness colleagues from medical school completely shut down their eyes, ears, and brains when they hear, from a professor, that the topic we're currently being taught will not be examined. This is despite the fact that some of those colleagues find these certain topics interesting.
 
