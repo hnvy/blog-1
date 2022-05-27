@@ -27,7 +27,7 @@ Rejecting both of your suggestions is the worst case scenario. What is the best 
 
 Stoicism can be misinterpreted as giving up the moment you sense that something is out of your reach. This, in my opinion, is a major misunderstanding. Yes, you can tell when something is under your control and when it isn't (e.g., the behaviour of others is quite outside of your control whereas your thoughts and actions are totally within). However, in the circumstance I just described, we have no idea unless we give it a go.
 
-Beware, however. Do not confuse "complaining" (which is simply venting without the attempt to bring about a change) with what I have said above. Be a human of action.
+Beware, however. Do not confuse "moaning" (which is simply venting without the attempt to bring about a change) with what I have said above. Be a human of action.
 
 Observing this phenomenon is extremely heartbreaking. There could be a variety of personal reasons for this, including but not limited to fear of repercussions and penalties.
 
