@@ -13,7 +13,7 @@ Key:
 # E#9 (27/05/2022) - non-receptive (T)
 I've begun to realise that my classmates are not at all receptive. By "receptive," I mean they don't share the same passion as their colleagues and don't listen to their fears, venting, or anxiety.
 
-This could be hazardous to the individual who is expressing their problems. When I speak to someone about an issue that affects both of us equally or impacts them personally far more than it affects me, and they do not answer, I know it will give me a great deal of anguish and aggravation.
+This could be hazardous to the individual who is expressing their problems. It irritates me, and gives me a great deal of anguish and aggravation, when I don't get a response from the individual I'm speaking with (especially when the issue I'm discussing affects both of us equally or impacts them far more than it does me).
 
 I had the impression that maybe, just maybe, they are Stoics without realising it. But no, they are unconcerned. How can you be unconcerned if something goes wrong with you? How could you refuse to try to educate someone who has wronged you? Why would you not strive for change?
 
