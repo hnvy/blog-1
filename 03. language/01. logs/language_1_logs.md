@@ -19,6 +19,31 @@ Key:
 - R = Russian
 ```
 
+# E#2 (29/05/2022) - numbers (J)
+
+I learned the numbers today.
+
+- いち - 1
+- に - 2
+- さん - 3
+- し/よん - 4
+- ご - 5
+- ろく - 6
+- なな/しち - 7
+- はち - 8
+- く/きゅう - 9
+- じゅう - 10
+
+In order to say numbers such as 11, 12, 13, etc. you the number 10 first and then add a single digit number. Like so:
+- じゅういち - 11
+- じゅうに - 12
+
+You can remember it this way: you take the number 10, and add to it. So, 10 (じゅう) + 1 (いち) = 11 (じゅういち). If you remember this one, then you can just do the opposite for the next part!
+
+In order to say numbers such as 20, 30, 40, etc. you say a single digit number first, and then the number 10. Like so:
+- にじゅう - 20
+- さんじゅう - 30
+
 # E#1 (16/05/2022) - scripts (J)
 
 So, just to give you some background, I've already memorised the Hiragana and Katakana scripts (in 2019). But I wanted a refresher, so I went over them again this week!
