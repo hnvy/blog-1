@@ -48,6 +48,10 @@ In order to say numbers such as 20, 30, 40, etc. you say a single digit number f
 
 So, just to give you some background, I've already memorised the Hiragana and Katakana scripts (in 2019). But I wanted a refresher, so I went over them again this week!
 
+Also, I already know that the Japanese language is made up of the three scripts: Hiragana, Katakana, and Kanji.
+
+Hiragana and Katakana are the equivalent of letters. Kanji is a little more complex.
+
 Hiragana:
 1. あ - a
 2. い - i
