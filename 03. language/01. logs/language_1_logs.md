@@ -1,8 +1,8 @@
 # Introduction
 Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
-1. Japanese
-2. Arabic
-3. Russian
+1. Japanese (I'd like to read a few of my favourite Japanese books in their original language)
+2. Arabic (I think this has the most complex syntax of any language, and knowing a significant portion of it would be terrific)
+3. Russian (same as reason as Japanese)
 
 On and off, I've attempted to learn Japanese. I began on the 2nd of July, 2019. When university commenced, though, I had little to no time to devote to language learning, and therefore I put it on pause.
 
