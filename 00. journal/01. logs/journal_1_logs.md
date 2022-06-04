@@ -10,6 +10,20 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#10 (04/06/2022) - red ear (T+I)
+Now, I'm going to make a promise to you. In no way, shape, or form is what follows a pseudoscience report. It's just something that has been happening to me for a long time. It's most likely just a coincidence with no significance, but I thought it would be a shame to not share it. After all, this is a learning journey. This is, after all, a learning experience.
+
+My left ear becomes red whenever I think about something that requires reasoning and problem solving. My right ear turns red everytime I try to recall a specific fact (without solving a problem).
+
+I asked three friends to pay close attention to this and report back to me on their findings. Two of them got the same outcome as mine. The other, on the other hand, was the polar opposite. Yes, I know, the sample size couldn't possibly be any smaller!
+
+The left and right hand brain distribution (2 of my pals were left-handed, and the third was right-handed) was the first thing that came to mind. The right-handed friend and the left-handed got the same result as me, whereas the other left-handed friend got the opposite result. Perhaps I need to learn more about this topic to gain a better understanding of it.
+
+Potential topics to learn about:
+- Brain dominance functional variations
+- Brain blood supply
+- Handedness
+
 # E#9 (27/05/2022) - non-receptive (T)
 I've begun to realise that my classmates are not at all receptive. By "receptive," I mean they don't share the same passion as their colleagues and don't listen to their fears, venting, or anxiety.
 
