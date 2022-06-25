@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
 
 A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
 
