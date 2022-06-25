@@ -7,4 +7,4 @@ relative_links:
 include:
   - README.md
 
-theme: moonwalk
+remote_theme: abhinavs/moonwalk
