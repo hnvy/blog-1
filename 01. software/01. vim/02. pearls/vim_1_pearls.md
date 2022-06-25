@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://github.com/hnvy/blog-1/blob/main/main.css">
+<link rel="stylesheet" href="/blog-1/css/main.css">
 
 # E#6 (05/03/2022) - Vim, what does X mean?
 [Link to log entry](../01.%20logs/vim_1_logs.md#e6-05032022---vim-what-does-x-mean)
