@@ -14,7 +14,7 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
 # E#6 (05/03/2022) - Vim, what does X mean?
-[Link to pearl entry (plain text)](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
+[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e6-05032022---vim-what-does-x-mean)
 
 I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
