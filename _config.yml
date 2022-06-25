@@ -7,4 +7,4 @@ relative_links:
 include:
   - README.md
 
-remote_theme: jekyll-theme-hacker
+theme: jekyll-theme-hacker
