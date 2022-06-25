@@ -3,6 +3,8 @@ A repository that is dedicated to my learning experiences and adventures. Skim t
 
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)!
 
+The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/
+
 # About me
 A human who has a strong desire to learn (it is a trait which I share with 100% of the other human beings). I enjoy writing about my experiences (my earliest surviving journal dates from when I was seven years old). This repository is primarily for my individual use. Anyone who happens to come across it could find something valuable in what I've written.
 
