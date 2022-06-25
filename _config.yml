@@ -1,7 +1,7 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: false
-  collections: true
+# plugins:
+#   - jekyll-relative-links
+# relative_links:
+#   enabled: false
+#   collections: true
 
-theme: my-own-theme-which-does-not-exist
+# theme: 
