@@ -1,3 +1,5 @@
+# 00. journal : 01. logs : journal_1_logs
+
 # Table of Content
 <ul>
 <li><a href="#introduction">Introduction</a></li>
