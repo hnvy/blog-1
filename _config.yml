@@ -5,3 +5,4 @@ relative_links:
   collections: true
 include:
   - README.md
+  - ./00.%20journal/01.%20logs/journal_1_logs.md
