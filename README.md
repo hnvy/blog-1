@@ -24,11 +24,17 @@ The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (s
     - `01. logs`
      - [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
 - `01. software`
-    - `01. vim`
-     - `01. logs`
-        - [`File`](./01.%20software/01.%20vim/01.%20logs/vim_1_logs.html)
-     - `02. pearls`
-        - [`File`](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.html)
+   - `01. vim`
+    - `01. logs`
+         - [`File`](./01.%20software/01.%20vim/01.%20logs/vim_1_logs.html)
+    - `02. pearls`
+         - [`File`](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.html)
+- `02. science`
+    - `01. logs`
+		- [`File`](./02.%20science/01.%20logs/science_1_logs.html)
+- `03. language`
+	- `01. logs`
+		- [`File`](./03.%20language/01.%20logs/language_1_logs.html)
 
 # About me
 A human who has a strong desire to learn (it is a trait which I share with 100% of the other human beings). I enjoy writing about my experiences (my earliest surviving journal dates from when I was seven years old). This repository is primarily for my individual use. Anyone who happens to come across it could find something valuable in what I've written.
