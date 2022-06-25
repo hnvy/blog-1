@@ -3,6 +3,8 @@ A repository that is dedicated to my learning experiences and adventures. Skim t
 
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)!
 
+Want an RSS feed of the latest changes? Here: https://github.com/hnvy/blog-1/commits.atom
+
 The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (still a work-in-progress)
 
 ## Directories tree:
