@@ -22,7 +22,7 @@ The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (s
 ### Files tree
 - `00. journal`
     - `01. logs`
-     1. [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
+     - [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
 - `01. software`
     - `01. vim`
      - `01. logs`
