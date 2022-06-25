@@ -7,21 +7,7 @@ Want an RSS feed of the latest changes? Here: https://github.com/hnvy/blog-1/com
 
 The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (still a work-in-progress)
 
-## Directories tree:
-```
-|---00. journal
-│   \---01. logs
-|---01. software
-│   \---01. vim
-│       |---01. logs
-│       \---02. pearls
-|---02. science
-│   \---01. logs
-\---03. language
-    \---01. logs
-```
-
-### Files tree
+## Files tree
 - `00. journal`
     - `01. logs`
         - [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
