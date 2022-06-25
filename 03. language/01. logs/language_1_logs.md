@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="/blog-1/css/main.css">
 
 # Introduction
 Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
