@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://github.com/hnvy/blog-1/blob/main/main.css">
+<link rel="stylesheet" href="/blog-1/css/main.css">
 
 ```
 > 00. journal/01. logs/journal_1_logs
