@@ -14,7 +14,8 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
 # E#6 (05/03/2022) - Vim, what does X mean?
-[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
+[Link to pearl entry (plain text)](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e6-05032022---vim-what-does-x-mean)
 
 I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
 1. Copy the thing which you want to search up on the internet
@@ -35,6 +36,7 @@ This was originally something I found online, but for some reason the web answer
 
 # E#5 (21/05/2021) - jump like a rabbit!
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e5-21052021---jump-like-a-rabbit)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e5-21052021---jump-like-a-rabbit)
 
 * `GTs`:
     * I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.
@@ -54,7 +56,9 @@ This was originally something I found online, but for some reason the web answer
         * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
 
 # E#4 (10/05/2021) - a clipboard dilemma.
-[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma). Updated: (20/05/2021).
+Updated: (20/05/2021).
+[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e4-10052021---a-clipboard-dilemma)
 
 * `GTs`:
     * I noticed that pressing `p` whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
@@ -74,7 +78,9 @@ This was originally something I found online, but for some reason the web answer
         * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
 
 # E#3 (21/04/2021) - Notepad++ > Vim?!
-[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e3-21042021---notepad--vim). Updated: (19/05/2021).
+Updated: (19/05/2021).
+[Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e3-21042021---notepad--vim)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e3-21042021---notepad--vim)
 
 * `GTs`:
     * Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
@@ -93,6 +99,7 @@ This was originally something I found online, but for some reason the web answer
 
 # E#2 (20/04/2021) - vimtutor.
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e2-20042021---vimtutor)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e2-20042021---vimtutor)
 
 * `GTs`:
     * I found the `vimtutor` file! It took about a minute or two to achieve this.
@@ -115,6 +122,7 @@ This was originally something I found online, but for some reason the web answer
 
 # E#1 (19/04/2021) - day 0.
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e1-19042021---day-0)
+[Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e1-19042021---day-0)
 
 * `GTs`:
     * Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.
