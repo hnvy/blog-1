@@ -33,7 +33,7 @@ Please keep in mind that these pearls are meant to serve as a beginner-to-advanc
 Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them.
 
 # Note
-Please see [this entry](00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
+Please see [this entry](./00.%20journal/01.%20logs/journal_1_logs.md#e4-28022022---no-template-no-problem-t) to learn more about why I will probably no longer follow the format below.
 ~~~
 # Template
 This is the template which I will be using throughout the journey, however I may not use it for everything because it may not be practical!
