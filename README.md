@@ -22,13 +22,13 @@ The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (s
 ### Files tree
 - `00. journal`
     - `01. logs`
-     - [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
+        - [`File`](./00.%20journal/01.%20logs/journal_1_logs.html)
 - `01. software`
-   - `01. vim`
-    - `01. logs`
-         - [`File`](./01.%20software/01.%20vim/01.%20logs/vim_1_logs.html)
-    - `02. pearls`
-         - [`File`](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.html)
+    - `01. vim`
+        - `01. logs`
+            - [`File`](./01.%20software/01.%20vim/01.%20logs/vim_1_logs.html)
+        - `02. pearls`
+            - [`File`](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.html)
 - `02. science`
     - `01. logs`
 		- [`File`](./02.%20science/01.%20logs/science_1_logs.html)
