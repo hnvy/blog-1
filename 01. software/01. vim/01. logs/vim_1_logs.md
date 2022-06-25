@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://github.com/hnvy/blog-1/blob/main/main.css">
+<link rel="stylesheet" href="/blog-1/css/main.css">
 
 # Current experience
 As I have previously [stated](https://github.com/hnvy/blog-1#about-me), I am not an experienced programmer (though I hope to be one someday. Just think of all of the unlimited doors which you could open!). I used Notepad++ as my primary text editor while writing programs. I still use it (almost every day), but not for programming.
