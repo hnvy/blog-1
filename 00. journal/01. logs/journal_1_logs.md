@@ -1,4 +1,4 @@
-# 00. journal : 01. logs : journal_1_logs
+# 00. journal/01. logs/journal_1_logs
 
 # Table of Content
 <ul>
