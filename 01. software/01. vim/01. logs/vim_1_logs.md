@@ -15,6 +15,7 @@ Now that we're done with the introduction. Let's get learning! As this file may 
 
 # E#6 (05/03/2022) - Vim, what does X mean?
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e6-05032022---vim-what-does-x-mean)
 
 I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
@@ -36,6 +37,7 @@ This was originally something I found online, but for some reason the web answer
 
 # E#5 (21/05/2021) - jump like a rabbit!
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e5-21052021---jump-like-a-rabbit)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e5-21052021---jump-like-a-rabbit)
 
 * `GTs`:
@@ -58,6 +60,7 @@ This was originally something I found online, but for some reason the web answer
 # E#4 (10/05/2021) - a clipboard dilemma.
 Updated: (20/05/2021).
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e4-10052021---a-clipboard-dilemma)
 
 * `GTs`:
@@ -80,6 +83,7 @@ Updated: (20/05/2021).
 # E#3 (21/04/2021) - Notepad++ > Vim?!
 Updated: (19/05/2021).
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e3-21042021---notepad--vim)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e3-21042021---notepad--vim)
 
 * `GTs`:
@@ -99,6 +103,7 @@ Updated: (19/05/2021).
 
 # E#2 (20/04/2021) - vimtutor.
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e2-20042021---vimtutor)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e2-20042021---vimtutor)
 
 * `GTs`:
@@ -122,6 +127,7 @@ Updated: (19/05/2021).
 
 # E#1 (19/04/2021) - day 0.
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e1-19042021---day-0)
+
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e1-19042021---day-0)
 
 * `GTs`:
@@ -135,3 +141,4 @@ Updated: (19/05/2021).
 * `LNs`:
     * I need to look into `vimtutor`.
 * `AP` {x 20/04/2021}: I need look into `vimtutor`, and find the file location. This should be relatively easy to achieve.
+
