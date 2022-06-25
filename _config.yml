@@ -1,8 +1,8 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-feed
 relative_links:
   enabled: true
   collections: true
 include:
   - README.md
-  - 03.%20language
