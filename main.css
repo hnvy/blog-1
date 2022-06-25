@@ -1,0 +1,23 @@
+title {
+	text-align: center;
+	margin-bottom: .2em;
+}
+
+html {
+	max-width: 30em;
+	margin: auto;
+	background-color: #000000;
+	color: #FFD042;
+	font-size: 20px;
+	font-family: "consolas";
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-shadow: 2px 2px 8px #f8eabe;
+	text-decoration: underline;
+}
+
+code {
+	font-family: "courier new";
+	color: #8CD0D3;
+}
