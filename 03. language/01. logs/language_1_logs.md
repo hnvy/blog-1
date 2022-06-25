@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://github.com/hnvy/blog-1/blob/main/main.css">
+
 # Introduction
 Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
 1. Japanese (I'd like to read a few of my favourite Japanese books in their original language)
