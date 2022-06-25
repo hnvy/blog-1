@@ -7,4 +7,4 @@ relative_links:
 theme: minima
 
 header_pages:
-  - 00.%20journal/01.%20logs/journal_1_logs.md
+  - ./00.%20journal/01.%20logs/journal_1_logs.md
