@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://github.com/hnvy/blog-1/blob/main/main.css">
+<link rel="stylesheet" href="./main.css">
 
 # Introduction
 Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
