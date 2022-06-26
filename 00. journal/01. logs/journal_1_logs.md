@@ -33,6 +33,25 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#11 (26/06/2022) - catching thoughts with reflection (T+I)
+Your brain is like a fruit and vegetable-bearing tree. New ones are always being created, whether seasonally or throughout the year.
+
+That tree's fruits and vegetables are your thoughts and ideas. The tree is the source of these.
+
+When the fruit is fully developed and mature, it falls from the tree and rolls to the ground. Until it is either devoured by a rat or rots to the point of no longer being discernible.
+
+The same is true of your brain, which contains hundreds of thousands of subconcious and transitory thoughts. Almost all of the time, you are completely unaware of it while you go about your daily routine. You are completely oblivious of the vast array of possibilities that would have opened up if you had caught all of those thoughts.
+
+However, your external environment requires far too much of you. Because you're continuously distracted, these potentially strong thoughts aren't properly registered by oneself, and they fade away over time.
+
+What is the solution?
+
+Consider yourself a farmer who wants to harvest the fruits and veggies of this incredibly fruitful tree. What is the best course of action? A basket!
+
+But how does that relate to thought-catching? The answer, as you might have suspected, is reflection.
+
+In this circumstance, the basket is reflection. It's a tool that people can use to capture ephemeral thoughts that aren't usually logged by your brain.
+
 # E#10 (04/06/2022) - red ear (T+I)
 Now, I'm going to make a promise to you. In no way, shape, or form is what follows a pseudoscience report. It's just something that has been happening to me for a long time. It's most likely just a coincidence with no significance, but I thought it would be a shame to not share it. After all, this is a learning journey. This is, after all, a learning experience.
 
