@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="css/main.css">
 
+```
+> README.md
+```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<hr>
+
 # What is this?
 A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
 
