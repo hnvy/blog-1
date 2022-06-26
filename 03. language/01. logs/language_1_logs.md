@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
 ```
-> 03. language/01. logs/language_1_logs.md
+> ./03. language/01. logs/language_1_logs.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
 <hr>
