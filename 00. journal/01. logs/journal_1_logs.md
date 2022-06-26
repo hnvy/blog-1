@@ -3,6 +3,10 @@
 ```
 > 00. journal/01. logs/journal_1_logs
 ```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Return to home page</a></p>
+<hr>
+
+Home page
 
 # Table of Content
 <ul>
