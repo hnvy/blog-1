@@ -16,7 +16,7 @@ On and off, I've attempted to learn Japanese. I began on the 2nd of July, 2019. 
 
 On the 26th of August, 2020, I attempted to restart. The same problem as before has arisen, and I've put it on hold once more.
 
-After some thought, I believe the lack of a comprehensive timeline and roadmap was to blame. It was a disaster to not have either of those. It's going to be different this time. Every weekend, I will commit a couple of hours to learning a language. Slowly but steadily, I am improving at this skill. Take a look at the number of [art pieces](/02.%20science/01.%20logs/science_1_logs.md) I've created, for example (I know it is not much, but at least it is not zero!).
+After some thought, I believe the lack of a comprehensive timeline and roadmap was to blame. It was a disaster to not have either of those. It's going to be different this time. Every weekend, I will commit a couple of hours to learning a language. Slowly but steadily, I am improving at this skill. Take a look at the number of [art pieces](/02.%20science/01.%20logs/science_1_logs.html) I've created, for example (I know it is not much, but at least it is not zero!).
 
 When it comes to learning a language, spaced repetition is crucial. Integrating yourself in it is just as, if not more, beneficial. So, these are the only two tool which I will use in order to learn new languages. No paid apps, and certainly no fancy software!
 
