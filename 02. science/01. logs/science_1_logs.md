@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
+```
+> 02. science/01. logs/science_1_logs.md
+```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<hr>
+
 # Introduction
 Here I'll discuss various non-computer science topics that I find fascinating. Please do your research after reading the content before memorising it, as there is no assurance that it will be accurate, correct, or up-to-date. If you see an error, or if you want to discuss something, then please let me know. I'll be more than happy to chat about geeky things!
 
