@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
+```
+> 01. software/01. vim/01. logs/vim_1_logs.md
+```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<hr>
+
 # Current experience
 As I have previously [stated](https://github.com/hnvy/blog-1#about-me), I am not an experienced programmer (though I hope to be one someday. Just think of all of the unlimited doors which you could open!). I used Notepad++ as my primary text editor while writing programs. I still use it (almost every day), but not for programming.
 
