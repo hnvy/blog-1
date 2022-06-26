@@ -28,3 +28,9 @@ code {
 	font-family: "Lucida Console";
 	color: #8CD0D3;
 }
+
+
+/* Styling for images */
+img {
+	width: 100%;
+}
