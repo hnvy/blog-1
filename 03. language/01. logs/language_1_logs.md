@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
+```
+> 03. language/01. logs/language_1_logs.md
+```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<hr>
+
 # Introduction
 Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
 1. Japanese (I'd like to read a few of my favourite Japanese books in their original language)
