@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/main.css">
 
 ```
-> ./README.md
+> ./blog-1/README.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
 <hr>
