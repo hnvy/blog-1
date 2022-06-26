@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
+```
+> 01. software/01. vim/02. pearls/vim_1_pearls.md
+```
+<p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<hr>
+
 # E#6 (05/03/2022) - Vim, what does X mean?
 [Link to log entry](../01.%20logs/vim_1_logs.md#e6-05032022---vim-what-does-x-mean)
 
