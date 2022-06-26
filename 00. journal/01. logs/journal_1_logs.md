@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
+<title>journal_1_logs</title>
+
 ```
 > 00. journal/01. logs/journal_1_logs
 ```
