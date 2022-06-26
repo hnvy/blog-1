@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="css/main.css">
 
+# What is this?
 A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
 
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)!
