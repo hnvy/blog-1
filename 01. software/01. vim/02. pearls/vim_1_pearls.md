@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
 ```
-> 01. software/01. vim/02. pearls/vim_1_pearls.md
+> ./01. software/01. vim/02. pearls/vim_1_pearls.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
 <hr>
