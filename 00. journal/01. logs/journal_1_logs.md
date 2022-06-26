@@ -8,8 +8,8 @@
 
 # Table of Content
 <ul>
-<li><a href="#introduction">Introduction</a></li>E#11 (26/06/2022) - catching thoughts with reflection (T+I)</a></li>
-<li><a href="#e11-26062022---catching-thoughts-with-reflection-ti">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#e11-26062022---catching-thoughts-with-reflection-ti">E#11 (26/06/2022) - catching thoughts with reflection (T+I)</a></li>
 <li><a href="#e10-04062022---red-ear-ti">E#10 (04/06/2022) - red ear (T+I)</a></li>
 <li><a href="#e9-27052022---non-receptive-t">E#9 (27/05/2022) - non-receptive (T)</a></li>
 <li><a href="#e8-26042022---not-on-my-syllabus-t">E#8 (26/04/2022) - not on my syllabus (T)</a></li>
