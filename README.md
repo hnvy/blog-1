@@ -8,7 +8,7 @@
 <hr>
 
 # What is this?
-A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas.
+A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas. Think of it as a personal Wiki page of a young learner rather than a blog (the name of the repo is "blog-1" so that people know what it is about).
 
 See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main). Or, alternatively to the alternative, you can search for the important [Adds and Edits](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits)
 
