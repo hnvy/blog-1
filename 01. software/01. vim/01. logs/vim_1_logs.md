@@ -23,6 +23,8 @@ Org-mode is one feature of Emacs that has piqued my interest. I have no idea how
 Now that we're done with the introduction. Let's get learning! As this file may become very long, here is a link for those who want to read about my [first impression](#e1-19042021---day-0) of Vim.
 
 # E#6 (05/03/2022) - Vim, what does X mean?
+Updated: (27/06/2022)
+
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e6-05032022---vim-what-does-x-mean)
 
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e6-05032022---vim-what-does-x-mean)
@@ -67,7 +69,8 @@ This was originally something I found online, but for some reason the web answer
         * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
 
 # E#4 (10/05/2021) - a clipboard dilemma.
-Updated: (20/05/2021).
+Updated: (20/05/2021)
+
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma)
 
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e4-10052021---a-clipboard-dilemma)
@@ -90,7 +93,8 @@ Updated: (20/05/2021).
         * Here is the [website](https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim) which was used.
 
 # E#3 (21/04/2021) - Notepad++ > Vim?!
-Updated: (19/05/2021).
+Updated: (19/05/2021)
+
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e3-21042021---notepad--vim)
 
 [Link to pearl entry (HTML)](../02.%20pearls/vim_1_pearls.html#e3-21042021---notepad--vim)
