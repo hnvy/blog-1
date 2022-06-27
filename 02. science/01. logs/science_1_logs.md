@@ -7,22 +7,6 @@
 <p><a href="https://github.com/hnvy/blog-1/edit/main/02.%20science/01.%20logs/science_1_logs.md">Edit</a></p>
 <hr>
 
-# Table of Contents
-<ul>
-<li><a href="#e12-12052022---bus-stop-a">E#12 (12/05/2022) - bus stop (A)</a></li>
-<li><a href="#e11-08052022---tree-man-a">E#11 (08/05/2022) - tree man (A)</a></li>
-<li><a href="#e10-07052022---shadows-a">E#10 (07/05/2022) - shadows (A)</a></li>
-<li><a href="#e9-04052022---discocup-a">E#9 (04/05/2022) - discocup (A)</a></li>
-<li><a href="#e8-24042022---stress-explained-s">E#8 (24/04/2022) - stress explained (S)</a></li>
-<li><a href="#e7-31032022---muddle-the-puddle-ator-a">E#7 (31/03/2022) - muddle the puddle-ator (A)</a></li>
-<li><a href="#e6-30032022---a-brat-rat-a">E#6 (30/03/2022) - a brat rat (A)</a></li>
-<li><a href="#e5-29032022---milk-up-the-cup-a">E#5 (29/03/2022) - milk up the cup (A)</a></li>
-<li><a href="#e4-28032022---school-time-with-albert-einstein-a">E#4 (28/03/2022) - school time with Albert Einstein (A)</a></li>
-<li><a href="#e3-27032022---a-kettle-of-metal-a">E#3 (27/03/2022) - a kettle of metal (A)</a></li>
-<li><a href="#e2-26032022---the-last-shroom-heading-to-its-doom-a">E#2 (26/03/2022) - the last shroom heading to its doom (A)</a></li>
-<li><a href="#e1-25032022---fries-flies-and-brain-pies-a">E#1 (25/03/2022) - fries, flies, and brain pies (A)</a></li>
-</ul>
-
 # Introduction
 Here I'll discuss various non-computer science topics that I find fascinating. Please do your research after reading the content before memorising it, as there is no assurance that it will be accurate, correct, or up-to-date. If you see an error, or if you want to discuss something, then please let me know. I'll be more than happy to chat about geeky things!
 
