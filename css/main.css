@@ -1,4 +1,4 @@
-/* Overall stlying */
+/* Overall */
 html {
 	max-width: 30em;
 	margin: auto;
@@ -9,25 +9,26 @@ html {
 }
 
 
-/* Styling for headings */
+/* Headings */
 h1,h2,h3,h4,h5,h6 {
 	text-shadow: 2px 2px 8px #f8eabe;
 	text-decoration: underline;
 }
 
 
-/* Styling for code blocks */
+/* Code blocks */
 code {
 	font-family: "Lucida Console";
 	color: #8CD0D3;
 }
 
 
-/* Styling for images */
+/* Images */
 img {
 	width: 75%;
 	margin: auto;
 }
+
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
