@@ -42,7 +42,7 @@ So, this is how it works:
 2. Press `Ctrl+3` (by modifying the `<C-3>` in the line of code above, you can make this keyboard shortcut to whatever you want)
 3. That's it! Isn't that so convenient?!
 
-This was originally something I found online, but for some reason the web answer did not work. So I tweaked the code a bit and it worked. In any case, here's the link: https://vim.fandom.com/wiki/Search_the_web_for_text_selected_in_Vim.
+This was originally something I found online, but for some reason the web answer did not work. So I tweaked the code a bit and it worked. In any case, here's the link to the original answer: https://vim.fandom.com/wiki/Search_the_web_for_text_selected_in_Vim.
 
 # E#5 (21/05/2021) - jump like a rabbit!
 [Link to pearl entry](../02.%20pearls/vim_1_pearls.md#e5-21052021---jump-like-a-rabbit)
