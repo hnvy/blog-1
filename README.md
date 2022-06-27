@@ -42,5 +42,3 @@ I didn't like the idea that all of the potentially useful pieces of information 
 Pearls are top-notch pieces of information which I found to be useful. You'll hopefully be one pearl richer when you find one (unless, of course, you already had a better (or the same) pearl stored in your knowledge box).
 
 Please keep in mind that these pearls are meant to serve as a beginner-to-advanced cheat sheet rather than an all-in-one guide. My skills will develop over time, and the content covered will progress from basic to intermediate, and eventually (hopefully) advanced. So, keep an eye out!
-
-Of course, some pearls will be major and useful, and hence it might be worthwhile to devote a longer post to them.
