@@ -4,6 +4,7 @@
 > ./blog-1/README.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/README.md">Edit</a></p>
 <hr>
 
 # What is this?
