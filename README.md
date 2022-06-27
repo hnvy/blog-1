@@ -14,7 +14,7 @@ See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the la
 
 Want an RSS feed of the latest changes? Here: https://github.com/hnvy/blog-1/commits.atom
 
-The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/ (still a work-in-progress)
+The blazing-fast HTML version is available on: https://hnvy.github.io/blog-1/.
 
 # About me
 A human who has a strong desire to learn (it is a trait which I share with 100% of the other human beings). I enjoy writing about my experiences (my earliest surviving journal dates from when I was seven years old). This repository is primarily for my individual use. Anyone who happens to come across it could find something valuable in what I've written.
