@@ -35,7 +35,7 @@ So, every time I want to learn about something new, I will create a folder with 
 * The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
 
 # Pearls
-Due to the unnecessarily sophisticated nature of this 'blog', good bits of knowledge may get lost in all of the filler content. Here is an [example](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.md) of a Pearls file:
+Due to the unnecessarily sophisticated nature of this 'blog', good bits of knowledge may get lost in all of the filler content. Here is an [example](./01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.md) of a Pearls file.
 
 I didn't like the idea that all of the potentially useful pieces of information will end up floating around, everywhere, in the deep sea of knowledge, waiting for a person to take a plunge and discover them. Therefore, I have come up with this new plan. I called it "pearls".
 
