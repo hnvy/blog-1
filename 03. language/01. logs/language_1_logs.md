@@ -4,6 +4,7 @@
 > ./blog-1/03. language/01. logs/language_1_logs.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/03.%20language/01.%20logs/language_1_logs.md">Edit</a></p>
 <hr>
 
 # Introduction
