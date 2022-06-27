@@ -4,6 +4,7 @@
 > ./blog-1/01. software/01. vim/02. pearls/vim_1_pearls.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.md">Edit</a></p>
 <hr>
 
 # E#6 (05/03/2022) - Vim, what does X mean?
