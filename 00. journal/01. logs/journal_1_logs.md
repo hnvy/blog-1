@@ -7,22 +7,6 @@
 <p><a href="https://github.com/hnvy/blog-1/edit/main/00.%20journal/01.%20logs/journal_1_logs.md">Edit</a></p>
 <hr>
 
-# Table of Contents
-<ul>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#e11-26062022---catching-thoughts-with-reflection-ti">E#11 (26/06/2022) - catching thoughts with reflection (T+I)</a></li>
-<li><a href="#e10-04062022---red-ear-ti">E#10 (04/06/2022) - red ear (T+I)</a></li>
-<li><a href="#e9-27052022---non-receptive-t">E#9 (27/05/2022) - non-receptive (T)</a></li>
-<li><a href="#e8-26042022---not-on-my-syllabus-t">E#8 (26/04/2022) - not on my syllabus (T)</a></li>
-<li><a href="#e7-12042022---reflect-on-it-ti">E#7 (12/04/2022) - reflect on it (T+I)</a></li>
-<li><a href="#e6-10042022---day-by-day-i">E#6 (10/04/2022) - day by day (I)</a></li>
-<li><a href="#e5-27032022---art-and-peace-t">E#5 (27/03/2022) - art and peace (T)</a></li>
-<li><a href="#e4-28022022---no-template-no-problem-t">E#4 (28/02/2022) - no template, no problem (T)</a></li>
-<li><a href="#e3-10092021---a-free-mind-is-a-creative-mind-t">E#3 (10/09/2021) - a free mind is a creative mind (T)</a></li>
-<li><a href="#e2-09082021---graphical-view-of-your-day-i">E#2 (09/08/2021) - graphical view of your day (I)</a></li>
-<li><a href="#e1-08082021---daily-proportion-i">E#1 (08/08/2021) - daily proportion (I)</a></li>
-</ul>
-
 # Introduction
 This is where I'll put my ideas or thoughts. I've adapted some of them from other sources (all of which will be credited and referenced). Others, as far as I'm aware, are unique. If I later discover that a concept has already been proposed elsewhere, I shall reference it.
 
