@@ -7,7 +7,7 @@
 <p><a href="https://github.com/hnvy/blog-1/edit/main/00.%20journal/01.%20logs/journal_1_logs.md">Edit</a></p>
 <hr>
 
-# Table of Content
+# Table of Contents
 <ul>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#e11-26062022---catching-thoughts-with-reflection-ti">E#11 (26/06/2022) - catching thoughts with reflection (T+I)</a></li>
