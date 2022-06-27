@@ -25,7 +25,7 @@ code {
 
 /* Styling for images */
 img {
-	mac-width: 400px;
+	max-width: 400px;
 }
 
 /* Makes the link change colour when the mouse hovers over it */
