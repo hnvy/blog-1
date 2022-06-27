@@ -26,6 +26,8 @@ code {
 /* Styling for images */
 img {
 	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Makes the link change colour when the mouse hovers over it */
