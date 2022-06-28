@@ -6,9 +6,5 @@ relative_links:
 
 include:
   - README.md
-  
-markdown: kramdown
-kramdown:
-  input: GFM
 
 theme: my-own-theme-which-does-not-exist
