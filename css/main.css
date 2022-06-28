@@ -6,6 +6,7 @@ html {
 	color: #FFD042;
 	font-size: 20px;
 	font-family: "Courier";
+        overflow-wrap: break-word;
 }
 
 
