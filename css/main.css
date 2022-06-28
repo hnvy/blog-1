@@ -39,6 +39,6 @@ a {
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-  color: black;
-  background-color: pink;
+  color: #111111;
+  background-color: #FFEDB8;
 }
