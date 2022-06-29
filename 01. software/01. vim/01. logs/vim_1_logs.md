@@ -114,7 +114,7 @@ Updated: (19/05/2021)
     * The interface is minimalistic and is not crowded with buttons. I like this quite a lot.
 * Time spent: 30
 * `LPs`:
-    * I found out how to modify the font-size! So, basically I had to write the following `:set: guifont=*`, and this brought up the standard font window that you see in pretty much every text editor. Neat!
+    * I found out how to modify the font-size! So, basically I had to write the following `:set guifont=*`, and this brought up the standard font window that you see in pretty much every text editor. Neat!
     * I learned to make the font persistent (see the [comment](https://vi.stackexchange.com/questions/3093/how-can-i-change-the-font-size-in-gvim) by the user "pkout"). I had to use Notepad++ to achieve this because: one, I did not know how to copy/paste text in Vim, and two, I don't know how to open text files via Vim.
     * Using `vimtutor`, I learned that the letter `j` moves the text cursor downwards (because it looks like a down arrow!), and the letter `k` moves it up. The letter `l` moves the cursor to the right, and finally, the letter `h` moves the cursor to the left! It was a little strange to use at the start, but I slowly started to love it.
 * `LNs`:
