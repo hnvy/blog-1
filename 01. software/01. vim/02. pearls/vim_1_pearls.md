@@ -60,7 +60,7 @@
 # E#2 (20/04/2021) - vimtutor.
 [Link to log entry](../01.%20logs/vim_1_logs.html#e2-20042021---vimtutor)
 * The `vimtutor` file is located in `\Vim\vim82\tutor`.
-* `:set: guifont=*` to change the font of the interface.
+* `:set guifont=*` to change the font of the interface.
 * `i` to enter Insert mode.
 * Use the Escape button, `Esc`, to return to Normal mode.
 * Whilst in Normal mode, you can move up, down, right, and left by using the following keys: `k`, `j`, `l`, and `h`, respectively (remember, `j` looks like a down arrow!).
