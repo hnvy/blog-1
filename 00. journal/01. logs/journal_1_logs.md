@@ -20,10 +20,9 @@ Key:
 ```
 
 # E#12 (01/07/2022) - perseverance and tasks (T)
-```
 TL;DR
 Incremental change of your behaviour is fantastic method to manage your current habits and continue. Small achievable dollops of targets are set before your eyes. But, the biggest issue is that a perseverance test is only undertaken when you reach a plateau line, which you may not have expected. Also, a lot of (mental and/or physical) effort is required for someone to induce this change.
-```
+
 Let's look at an example to explain the above.
 
 I used to adore going to the gym; I began to make progress and build strength, but after a little while, my progress seemed to have stifled! It felt as though I hit a brick wall, and I had no idea that something like this was intended to occur.
