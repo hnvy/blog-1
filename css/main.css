@@ -27,14 +27,14 @@ code {
 
 /* Link colour */
 a {
-	color: #FF79C6;
+	color: #DDA0DD;
 }
 
 
 /* Makes the link change colour when the mouse hovers over it */
 a:hover {
-	background-color: #FFEDB8;
-	color: #111111;
+	background-color: #DDA0DD;
+	color: #FFEDB8;
 }
 
 
