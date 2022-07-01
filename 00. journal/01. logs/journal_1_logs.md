@@ -19,6 +19,29 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#12 (01/07/2022) - perseverance and tasks (T)
+```
+TL;DR
+Incremental change of your behaviour is fantastic method to manage your current habits and continue. Small achievable dollops of targets are set before your eyes. But, the biggest issue is that a perseverance test is only undertaken when you reach a plateau line, which you may not have expected. Also, a lot of (mental and/or physical) effort is required for someone to induce this change.
+```
+Let's look at an example to explain the above.
+
+I used to adore going to the gym; I began to make progress and build strength, but after a little while, my progress seemed to have stifled! It felt as though I hit a brick wall, and I had no idea that something like this was intended to occur.
+
+Let's use water as an example (I apologise, but water is a terrific way to convey this idea. Please do bear with me).
+
+Water has 3 states, right? Solid, liquid, and gas.
+
+Let's say that we start off in the solid form, which is getting heated; as a result, our entropy, which literally translates to "disorder" in physical chemistry, increases. As the entropy increases, the water molecules begin to break free from this organised framework (i.e., they will begin to move away from the solid state, and turn to liquid). This describes the negligible improvement I have made with my body and is comparable to the gym narrative above.
+
+So let's keep heating our water till it becomes liquid. Just as before, once this liquid is heated, it continues to destabilise (until it begins turning into gas, which represents the maximum point of disorder). The issue is that turning water from solid to liquid requires MUCH LESS energy than turning it from liquid to gas. This is an illustration of a fitness plateau I experienced, where, even though I had already experienced some progress, I have to put in a lot more time and work before I could start making new improvements.
+
+What is the point of the above example?
+
+Well, it had occurred to me that a lot of people give up far too soon. That could happen for a variety of reasons, many of which I have not yet identified.
+
+Let this serve as a reminder to myself to persevere because, after a plateau, progress might occur.
+
 # E#11 (26/06/2022) - catching thoughts with reflection (T+I)
 Your brain is like a fruit and vegetable-bearing tree. New ones are always being created, whether seasonally or throughout the year.
 
