@@ -10,9 +10,10 @@
 # What is this?
 A repository that is dedicated to my learning experiences and adventures. Skim through the journal to see if there are any possibly beneficial thoughts or ideas. Think of it as a personal Wiki page of a young learner rather than a blog (the name of the repo is "blog-1" so that people know what it is about).
 
-See the [commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates. Alternatively, see the [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main). Or, alternatively to the alternative, you can search for the important [Adds and Edits](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits).
-
-Or, alternatively to the alternative alternative, here is a link to the <a href="https://raw.githubusercontent.com/hnvy/hnvy.github.io/main/rss.xml">RSS feed</a>!
+* [Commit history](https://github.com/hnvy/blog-1/commits/main) for the latest updates
+* [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)
+* [Additions and Editions](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits)
+* [RSS feed](https://raw.githubusercontent.com/hnvy/hnvy.github.io/main/rss.xml)
 
 # About me
 A human who has a strong desire to learn (it is a trait which I share with 100% of the other human beings). I enjoy writing about my experiences (my earliest surviving journal dates from when I was seven years old). This repository is primarily for my individual use. Anyone who happens to come across it could find something valuable in what I've written.
