@@ -26,7 +26,7 @@ Let's look at an example to explain the above.
 
 I used to adore going to the gym; I began to make progress and build strength, but after a little while, my progress seemed to have stifled! It felt as though I hit a brick wall, and I had no idea that something like this was intended to occur.
 
-Let's use water as an example (I apologise, but water is a terrific way to convey this idea. Please do bear with me).
+If we use water as an example (I apologise, but water is a terrific way to convey this idea. Please do bear with me).
 
 Water has 3 states, right? Solid, liquid, and gas.
 
