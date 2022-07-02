@@ -24,7 +24,7 @@
 * `W` to jump FORWARD to the start of the next word in a sentence (thinks that ONLY the words separated by spaces are true words). For example, "Vim-is-a-modal-text-editor" will be treated as having only one word.
     * `E` will do the same thing, except it will jump to the end of the current word.
     * `B` will do the same thing, except it goes BACKWARD.
-* Save and exit. See this [pearl entry](../02.%20pearls/vim_1_pearls.md#e3-21042021---notepad--vim) to learn more about a third method.:
+* Save and exit. See this [pearl entry](../02.%20pearls/vim_1_pearls.html#e3-21042021---notepad--vim) to learn more about a third method.:
    * `:x` will do the same thing as `:wq` except that it will not save the file if you have not made a change.
    * `ZZ` will do the same thing as `:x` (and hence `:wq`).
 
