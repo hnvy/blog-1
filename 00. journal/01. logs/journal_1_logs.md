@@ -19,6 +19,22 @@ Key:
 - T+I = thought/idea
 ```
 
+# E#13 (03/07/2022) - land of code (I)
+Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat.
+
+I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
+
+I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see <a href="https://hnvy.github.io/">main directory</a>). Personally, I found it to be quite helpful.
+
+Of course, there should be certain regulations for this:
+- The snippet must be by annotated so that everyone can understand it and make good use of it
+- The code should be broad enough to be employed in multiple contexts.
+- The developer could include some examples of how/when to utilise the code snippet they shared
+
+I might attempt this. It is still a good idea to post for everyone to see even though I am not well-known enough to get volunteers to offer their expertise. Who knows, perhaps a well-known programmer can take this simple concept and turn it into something big.
+
+It will function similarly to GitHub Gist, but as a hub as opposed to being dispersed everywhere.
+
 # E#12 (01/07/2022) - perseverance and tasks (T)
 Incremental change of your behaviour is fantastic method to manage your current habits and continue. Small achievable dollops of targets are set before your eyes. But, the biggest issue is that a perseverance test is only undertaken when you reach a plateau line, which you may not have expected. Also, a lot of (mental and/or physical) effort is required for someone to induce this change.
 
