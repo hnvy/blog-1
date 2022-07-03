@@ -12,7 +12,6 @@ A repository that is dedicated to my learning experiences and adventures. Skim t
 
 For the latest updates, see the following (in order of convenience):
 * [RSS feed](https://raw.githubusercontent.com/hnvy/hnvy.github.io/main/rss.xml)
-* [Simplified changelog](https://hnvy.github.io/blog-1/#changelog)
 * [Additions and Editions](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits)
 * [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)
 * [Commit history](https://github.com/hnvy/blog-1/commits/main)
