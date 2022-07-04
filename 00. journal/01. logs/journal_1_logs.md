@@ -8,7 +8,7 @@
 <hr>
 
 # Introduction
-See <a href="https://hnvy.github.io/#journal">this</a>.
+See <a href="https://hnvy.github.io/html/about.html#journal">this</a>.
 
 # E#13 (03/07/2022) - land of code (I)
 Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat.
