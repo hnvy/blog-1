@@ -8,7 +8,7 @@
 <hr>
 
 # Introduction
-See <a href="https://hnvy.github.io/#language">this</a>.
+See <a href="https://hnvy.github.io/html/about.html#language">this</a>.
 
 # E#2 (29/05/2022) - numbers (J)
 I learned the numbers today.
