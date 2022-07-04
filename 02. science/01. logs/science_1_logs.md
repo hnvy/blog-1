@@ -8,7 +8,7 @@
 <hr>
 
 # Introduction
-See <a href="http://hnvy.github.io/#science">this</a>.
+See <a href="http://hnvy.github.io/html/about.html#science">this</a>.
 
 # Disclaimer: this document is NOT for medical advice
 <p><span style="text-decoration: underline; background-color: yellow; color: red;"><strong>Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!</strong></span></p>
