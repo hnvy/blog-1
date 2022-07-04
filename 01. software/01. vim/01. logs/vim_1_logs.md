@@ -8,7 +8,7 @@
 <hr>
 
 # Introduction
-See <a href="https://hnvy.github.io/#vim">this</a>.
+See <a href="https://hnvy.github.io/html/about.html#vim">this</a>.
 
 # E#6 (05/03/2022) - Vim, what does X mean?
 Updated: (27/06/2022)
