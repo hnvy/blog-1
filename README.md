@@ -31,7 +31,7 @@ So, every time I want to learn about something new, I will create a folder with 
 * `Add E#XY to LMN.md`: This means that a new session entry (E#XY) has been added (XY = session number) to `LMN.md`.
 * `Edit E#XY in LMN.md`: This means that an edit has been made (to E#XY) in `LMN.md`.
 * `Update LMN.md`: This means that I have corrected typos and so on.
-* The `logs` folder contain log entries (which are free-prose writings about anything I've learned). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. The first file of every `logs` folder (i.e., `PROJECT_1_logs.md`) contains an introduction and some background.
+* The `logs` folder contain log entries (which are free-prose writings about anything I've learned). The names of the files in `logs` will follow this naming convention: `PROJECT_#_logs.md`. Introductions to each of these files can be found <a href="https://hnvy.github.io/#introductions">here</a>.
 * The `pearls` folder will also contain markdown files with names that correspond to their `logs` counterparts. The naming convention is the same as before (i.e., a `pearls` file for `PROJECT_1_logs.md` will be called `PROJECT_1_pearls.md`).
 
 # Pearls
