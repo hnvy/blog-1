@@ -8,16 +8,7 @@
 <hr>
 
 # Introduction
-This is where I'll put my ideas or thoughts. I've adapted some of them from other sources (all of which will be credited and referenced). Others, as far as I'm aware, are unique. If I later discover that a concept has already been proposed elsewhere, I shall reference it.
-
-Please keep in mind that these ideas and thoughts are based on my personal experiences. Don't expect something I've written to suit you if you decide to implement it into your personal life.
-
-```
-Key:
-- T = thought
-- I = idea
-- T+I = thought/idea
-```
+See <a href="https://hnvy.github.io/#journal">this</a>.
 
 # E#13 (03/07/2022) - land of code (I)
 Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat.
