@@ -8,28 +8,9 @@
 <hr>
 
 # Introduction
-Here I will document my language learning progress. I plan to learn the following languages (in order of priority):
-1. Japanese (I'd like to read a few of my favourite Japanese books in their original language)
-2. Arabic (I think this has the most complex syntax of any language, and knowing a significant portion of it would be terrific)
-3. Russian (same as reason as Japanese)
-
-On and off, I've attempted to learn Japanese. I began on the 2nd of July, 2019. When university commenced, though, I had little to no time to devote to language learning, and therefore I put it on pause.
-
-On the 26th of August, 2020, I attempted to restart. The same problem as before has arisen, and I've put it on hold once more.
-
-After some thought, I believe the lack of a comprehensive timeline and roadmap was to blame. It was a disaster to not have either of those. It's going to be different this time. Every weekend, I will commit a couple of hours to learning a language. Slowly but steadily, I am improving at this skill. Take a look at the number of <a href="https://hnvy.github.io/blog-1/02.%20science/01.%20logs/science_1_logs.html">art pieces</a> I've created, for example (I know it is not much, but at least it is not zero!).
-
-When it comes to learning a language, spaced repetition is crucial. Integrating yourself in it is just as, if not more, beneficial. So, these are the only two tool which I will use in order to learn new languages. No paid apps, and certainly no fancy software!
-
-```
-Key:
-- J = Japanese
-- A = Arabic
-- R = Russian
-```
+See <a href="https://hnvy.github.io/#language">this</a>.
 
 # E#2 (29/05/2022) - numbers (J)
-
 I learned the numbers today.
 
 - いち - 1
@@ -54,7 +35,6 @@ In order to say numbers such as 20, 30, 40, etc. you say a single digit number f
 - さんじゅう - 30
 
 # E#1 (16/05/2022) - scripts (J)
-
 So, just to give you some background, I've already memorised the Hiragana and Katakana scripts (in 2019). But I wanted a refresher, so I went over them again this week!
 
 Also, I already know that the Japanese language is made up of the three scripts: Hiragana, Katakana, and Kanji.
