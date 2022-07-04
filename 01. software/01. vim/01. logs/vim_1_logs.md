@@ -48,7 +48,7 @@ This was originally something I found online, but for some reason the web answer
 * `Review`:
     * I reviewed APE#4
     * `New LPs`:
-        * You can paste from the system clipboard (rather than from the Vim register) by typing `"+p` or `"+P` (depending on where you prefer to paste the line. You can refer to this [pearl entry](../02.%20pearls/vim_1_pearls.md#e4-10052021---a-clipboard-dilemma) to learn more about the types of pasting in Vim).
+        * You can paste from the system clipboard (rather than from the Vim register) by typing `"+p` or `"+P` (depending on where you prefer to paste the line. You can refer to this [pearl entry](../02.%20pearls/vim_1_pearls.html#e4-10052021---a-clipboard-dilemma) to learn more about the types of pasting in Vim).
     * `Sources`:
         * I used the answer by the user "Martin Tournoij" on [here](https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim).
 
