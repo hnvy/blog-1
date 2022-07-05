@@ -11,7 +11,7 @@
 See <a href="https://hnvy.github.io/html/about.html#journal">this</a>.
 
 # E#13 (03/07/2022) - land of code (I)
-Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat.
+Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat, no fluff, no filler content. Literally, just useful code snippets.
 
 I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
 
