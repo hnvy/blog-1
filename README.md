@@ -13,6 +13,6 @@ See <a href="https://hnvy.github.io/html/about.html">this</a>.
 # Updates
 For the latest updates of this subdomain, see the following (in order of convenience):
 * [RSS feed](https://raw.githubusercontent.com/hnvy/hnvy.github.io/main/rss.xml) (the BEST option)
-* [Additions and Editions](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits)
-* [10 most recent changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)
-* [Commit history](https://github.com/hnvy/blog-1/commits/main)
+* [GitHub repository search of all the Additions and Editions](https://github.com/search?l=&o=desc&p=1&q=add+OR+edit+repo%3Ahnvy%2Fblog-1&s=committer-date&type=Commits)
+* [GitHub 10 most recent repository changes](https://github.com/hnvy/blog-1/compare/main%5E%5E%5E%5E%5E%5E%5E%5E%5E%5E...main)
+* [GitHub repository commit history](https://github.com/hnvy/blog-1/commits/main)
