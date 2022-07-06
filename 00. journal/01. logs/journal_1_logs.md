@@ -15,7 +15,7 @@ Imagine a website where you could post your helpful code snippets for everyone t
 
 I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
 
-I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see <a href="https://hnvy.github.io/">main directory</a>). Personally, I found it to be quite helpful.
+I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see <a href="https://hnvy.github.io/html/about.html">About</a>). Personally, I found it to be quite helpful.
 
 Of course, there should be certain regulations for this:
 - The snippet must be by annotated so that everyone can understand it and make good use of it
@@ -209,7 +209,7 @@ I recently realised that if I could 'gamify' (or visually express) my daily TODO
 
 Take a look at the illustration below. A category/task is represented by a coloured block. The timestamps indicate hour at which you should switch tasks. Looking at it now, it doesn't seem so frightening because all I have to do is keep up with the black triangle and everything will be alright.
 
-![](https://drive.google.com/uc?export=view&id=1sYXB5n3Q86dGG4HLeMAzOT4zYaRwDTaT)
+<img src="https://drive.google.com/uc?export=view&id=1sYXB5n3Q86dGG4HLeMAzOT4zYaRwDTaT">
 
 I know that there are apps out there which utilise pie/donut charts, but I personally find a bar chart more suitable for this.
 
@@ -230,13 +230,12 @@ Take a look at the graphs below.
 
 You can see that, on this particular day, category "F" took the longest time:
 
-![](https://drive.google.com/uc?export=view&id=1e_DRuKaEHvn9x-Bh19zY7SY6y3EiVogB)
+<img src="https://drive.google.com/uc?export=view&id=1e_DRuKaEHvn9x-Bh19zY7SY6y3EiVogB">
 
 Here is a different set of data:
 
-![](https://drive.google.com/uc?export=view&id=1fwYM6pu9wJcjyQZoF-iI1hcnaABSCaQD)
+<img src="https://drive.google.com/uc?export=view&id=1fwYM6pu9wJcjyQZoF-iI1hcnaABSCaQD">
 
 This chart was created using the information gathered previously. We can now observe that category "B" has occupied the majority of the time during the last three days:
 
-![](https://drive.google.com/uc?export=view&id=1-oQJSYm0f5pbOt4eflNpQ6GP1PE8-otj)
-
+<img src="https://drive.google.com/uc?export=view&id=1-oQJSYm0f5pbOt4eflNpQ6GP1PE8-otj">
