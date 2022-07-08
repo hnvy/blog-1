@@ -11,6 +11,8 @@
 See <a href="https://hnvy.github.io/html/about.html#vim">this</a>.
 
 # E#7 (08/07/2022) - contents table in plain text.
+[Link to pearl entry](../02.%20pearls/vim_1_pearls.html#e7-08072022---contents-table-in-plain-text)
+
 Here is how to create an interactive table of contents (well, sort of) in a plain text file.
 
 Your text file must first have some kind of structure that outlines headings. Even though it is not necessary, this step will undoubtedly make your life much simpler.
@@ -32,7 +34,7 @@ So, let's say we have the following format:
 
 Since this is the Vim logs (`vim_1_logs.md`) file, here is how you would go about it in Vim:
 1. Press `:`
-2. Type the following: `let @"=sha256('____')` (replace the `____` with whatever text. In this case, the text will be our headings.)
+2. Type the following: `let @"=sha256('____')` (replace the `____` with whatever text you want. In this case, the text will be our headings).
 3. The command above has now made the `"` register in Vim equal to the `sha256` of our text. So, if you press `p`, Vim will paste the content of the `"` register into your text file. So, to encode `Heading 1`, we will have to write the following `let @"=sha256('# Heading 1')`. The content of the `"` register will now be: `bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03` (this is known as the "hash"). We can use this unique identifier to create our table of contents.
 4. Place your cursor at the beginning of the line which has `# Heading 1`, and press `P`. This will paste the hash right before `# Heading 1`. So, you should have something like this `bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1` (I know, it looks quite ugly).
 5. Now, press `yy` to yank (or copy) the line.
