@@ -37,7 +37,7 @@ code {
 	color: #1EFF00;
 	font-family: "Courier";
 	font-weight: bold;
-	overflow-wrap: break-word;
+	overflow-wrap: anywhere;
 }
 
 /* Links colour */
