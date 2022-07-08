@@ -37,7 +37,8 @@ code {
 	color: #1EFF00;
 	font-family: "Courier";
 	font-weight: bold;
-	overflow-wrap: anywhere;
+	max-width: 45em;
+	overflow-wrap: break-word;
 }
 
 /* Links colour */
