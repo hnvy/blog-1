@@ -7,6 +7,15 @@
 <p><a href="https://github.com/hnvy/blog-1/edit/main/01.%20software/01.%20vim/02.%20pearls/vim_1_pearls.md">Edit</a></p>
 <hr>
 
+# E#7 (08/07/2022) - contents table in plain text.
+[Link to log entry](../01.%20logs/vim_1_logs.html#e7-08072022---contents-table-in-plain-text)
+* Encode your headings in Vim using `sha256`
+* Type `:let @"=sha256('____')` (replace the `____` the heading title)
+* Paste the `sha256` hash at the start of the heading line (so you end up with something like this `HASH# Heading 1`)
+* Yank the `HASH# Heading 1` line and paste it at the start of your document under a `# Table of Contents` heading
+* Place the cursor at a hash, and press `#` to jump to the corresponding heading
+* You can use the following mapping to assist you with the above: `nmap <M-0> ^v$hy:let @"=sha256('<C-r>"')<CR>Pyygg` (this maps the steps 1-6 to `Alt-0`. You can then go down and paste the content using `p`).
+
 # E#6 (05/03/2022) - Vim, what does X mean?
 [Link to log entry](../01.%20logs/vim_1_logs.html#e6-05032022---vim-what-does-x-mean)
 * To search for things on Google from within Vim, add the following code to your `vimrc`:
