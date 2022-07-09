@@ -10,6 +10,11 @@
 # Introduction
 See <a href="https://hnvy.github.io/html/about.html#journal">this</a>.
 
+# E#14 (09/07/2022) - public story (I)
+For a time now, I've been considering posting a story on this website. I was reluctant to do so primarily due to my concern for other people's opinions. But, everyone has to start someplace. Others choose to write publicly, while some prefer to write more discreetly and privately.
+
+Anyhow, the journey will be intriguing. I have quite a few ideas in mind.
+
 # E#13 (03/07/2022) - land of code (I)
 Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat, no fluff, no filler content. Literally, just useful code snippets.
 
