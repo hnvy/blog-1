@@ -9,3 +9,18 @@
 
 # Introduction
 See <a href="https://hnvy.github.io/html/about.html#misc">this</a>.
+
+# E#1 (16/07/2022) - RegEx, match lines to end of file.
+In a text file, I recently had to replace something. Starting at a certain text (`PieceOfText`), up until the last line of the file. Here is how I went about it:
+```
+Find: PieceOfText((.|\n)*)
+Replace: Blah blah blah
+```
+
+So, this has highlighted the following:
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p><span style="background-color: red;">PieceOfText</span></p>
+<p><span style="background-color: red;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+<p><span style="background-color: red;">Here is the end of the text file. Nice!</span></p>
