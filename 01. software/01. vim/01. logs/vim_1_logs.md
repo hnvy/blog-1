@@ -35,14 +35,14 @@ So, let's say we have the following format:
 Since this is the Vim logs (`vim_1_logs.md`) file, here is how you would go about it in Vim:
 1. Press `:`
 2. Type the following: `let @"=sha256('____')` (replace the `____` with whatever text you want. In this case, the text will be our headings).
-3. The command above has now made the `"` register in Vim equal to the `sha256` of our text. So, if you press `p`, Vim will paste the content of the `"` register into your text file. So, to encode `Heading 1`, we will have to write the following `let @"=sha256('# Heading 1')`. The content of the `"` register will now be: `bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03` (this is known as the "hash"). We can use this unique identifier to create our table of contents.
-4. Place your cursor at the beginning of the line which has `# Heading 1`, and press `P`. This will paste the hash right before `# Heading 1`. So, you should have something like this `bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1` (I know, it looks quite ugly).
+3. The command above has now made the `"` register in Vim equal to the `sha256` of our text. So, if you press `p`, Vim will paste the content of the `"` register into your text file. So, to encode `Heading 1`, we will have to write the following `let @"=sha256('# Heading 1')`. The content of the `"` register will now be: `bbc42...e1f03` (this is known as the "hash"). We can use this unique identifier to create our table of contents.
+4. Place your cursor at the beginning of the line which has `# Heading 1`, and press `P`. This will paste the hash right before `# Heading 1`. So, you should have something like this `bbc42...e1f03# Heading 1` (I know, it looks quite ugly).
 5. Now, press `yy` to yank (or copy) the line.
 6. Press `gg` to go back to the start of the text file, and create a heading with a name like `# Table of Contents`.
 7. Press `p` to paste the line that we have yanked in the previous step. So, you should end up with something like this:
 ```
 # Table of Contents
-bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1
+bbc42...e1f03# Heading 1
 ```
 8. What we have done is, effectively, create some visible 'link' between the Table of Contents heading and the actual heading in the text file. Again, it looks ugly, but at least it works.
 9. Repeat the steps above for the rest of your headings, or, you can use the following macro: `nmap <M-0> ^v$hy:let @"=sha256('<C-r>"')<CR>Pyygg` (this maps the steps 1-6 to `Alt-0`. You can then go down and paste the content using `p`. Also, to ensure that the mapping is wiped and that it does not affect you in the future, execute `unmap <M-0>` after you're done).
@@ -50,30 +50,41 @@ bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1
 
 ```
 # Table of Contents
-bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1
-37ce05dfdcf7288c56d5f60cf1f25777da3d830b857c87837a2b0352b81bfc1c## Subheading 1.1
-96620f4837244832345df265c70a3345d113cda42a4d061b105a609110201a72## Subheading 1.2
-a8a5e8b35301a2bb6a51c6ea3380aa3d13e2d5bb000a3018cc2d49ef5b193789## Subheading 1.3
-1cb48c5133619d979aa9a7e9c6fc6b7166e9aedadbf1c9724eb2debd0fdee0ef# Heading 2
-4ee32e2519dd52ce949a59880abff538e22ea76dad3d46d5fe8b991d5766a839# Heading 3
-b1e438e3443797515d8806a8e7a47d4cdc132e65108af3f740a060b9cb99698f## Subheading 3.1
+bbc42...e1f03# Heading 1
+37ce0...bfc1c## Subheading 1.1
+96620...01a72## Subheading 1.2
+a8a5e...93789## Subheading 1.3
+1cb48...e0efi# Heading 2
+4ee32...6a839# Heading 3
+b1e43...9698f## Subheading 3.1
 
 
 
 
-bbc4232b7faac39afcd3c1cfea1c8e954d48bb6983e7d3d39b99486618be1f03# Heading 1
+bbc42...e1f03# Heading 1
 Here is some text
-37ce05dfdcf7288c56d5f60cf1f25777da3d830b857c87837a2b0352b81bfc1c## Subheading 1.1
+
+37ce0...bfc1c## Subheading 1.1
 Some more text!
-96620f4837244832345df265c70a3345d113cda42a4d061b105a609110201a72## Subheading 1.2
+
+96620...01a72## Subheading 1.2
 Blah blah blah blah...
-a8a5e8b35301a2bb6a51c6ea3380aa3d13e2d5bb000a3018cc2d49ef5b193789## Subheading 1.3
+
+a8a5e...93789## Subheading 1.3
 Running out of text ideas :\
-1cb48c5133619d979aa9a7e9c6fc6b7166e9aedadbf1c9724eb2debd0fdee0ef# Heading 2
+
+1cb48...e0efi# Heading 2
 Maybe I should have used a Lorem Ipsum generator or something...
-4ee32e2519dd52ce949a59880abff538e22ea76dad3d46d5fe8b991d5766a839# Heading 3
-Or maybe, I should have used less headings.
-b1e438e3443797515d8806a8e7a47d4cdc132e65108af3f740a060b9cb99698f## Subheading 3.1
+
+Second paragraph.
+
+4ee32...6a839# Heading 3
+Or maybe, I should have used less headings:
+- Reminder
+- For
+- Me
+
+b1e43...9698f## Subheading 3.1
 Anyway, I'm glad that this is done now.
 ```
 
