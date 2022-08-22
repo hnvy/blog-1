@@ -4,7 +4,7 @@
 > ./blog-1/02. science/01. logs/science_1_logs.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
-<p><a href="https://github.com/hnvy/blog-1/edit/main/02.%20science/01.%20logs/science_1_logs.md">Edit</a></p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/02_science/01_logs/science_1_logs.md">Edit</a></p>
 <hr>
 
 # Introduction
@@ -106,7 +106,7 @@ Micky Mouse, on the other hand, has indeed attended Albert Einstein's Physics Sc
 ![](https://lh3.googleusercontent.com/pw/AM-JKLU3elX3pVo78IeyEdfGTqzUcXzTqDiCg5YDh8eHZm_eUeNjcmyh1nqj7VaFXREycf63pd0yI7X8E61z9dQqFdCN6Na5urAjNnOPgcJdt4zTpLK8KlNQYMPF6vBuKZ4dyR63QI0dQ7iiVA3oOfnSog=w720-h721-no?authuser=0)
 
 # E#3 (27/03/2022) - a kettle of metal (A)
-Have you ever wished for a scrap metal kettle that could pour your morning coffee into a cup that was attached to it? No, me neither I. But consider this for a moment: would it be a fantastic invention? Or a violation of our <a href="https://hnvy.github.io/blog-1/00.%20journal/01.%20logs/journal_1_logs.html#e7-12042022---reflect-on-it-ti">previous discussions</a>?
+Have you ever wished for a scrap metal kettle that could pour your morning coffee into a cup that was attached to it? No, me neither I. But consider this for a moment: would it be a fantastic invention? Or a violation of our <a href="https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#e7-12042022---reflect-on-it-ti">previous discussions</a>?
 
 ![](https://lh3.googleusercontent.com/pw/AM-JKLVzTlhWV3gpt6GEMyB_cZfAgFZJCdv_843fhuLxNr3s-iAIHcqRlxKY2E4Dm1PIr55TMvtYVIXNb0y5NgvW-SqUaBXse9snnJ_PX4tXtjIz9T12hHQNdIUA-5g5CHRvMdvOL78ItARaDUPL-Z42Cg=w720-h697-no?authuser=0)
 

@@ -4,7 +4,7 @@
 > ./blog-1/00. journal/01. logs/journal_1_logs.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
-<p><a href="https://github.com/hnvy/blog-1/edit/main/00.%20journal/01.%20logs/journal_1_logs.md">Edit</a></p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/00_journal/01_logs/journal_1_logs.md">Edit</a></p>
 <hr>
 
 # Introduction
