@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
 ```
-> ./blog-1/01. software/00. misc/01. logs/misc_1_logs.md
+> ./blog-1/01_software/00_misc/01_logs/misc_1_logs.md
 ```
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
 <p><a href="https://github.com/hnvy/blog-1/edit/main/01_software/00_misc/01_logs/misc_1_logs.md">Edit</a></p>
