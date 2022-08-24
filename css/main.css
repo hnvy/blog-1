@@ -1,55 +1,31 @@
 /* HTML and body */
 html, body {
-	background-color: #0C0D0F;
-	font-family: "Courier New";
-	font-size: 15px;
-	max-width: 45em;
-	margin: auto;
+	background-color: SaddleBrown;
+	color: White;
+	font-size: 20px;
+	max-width: 800px;
+	padding: 20px;
 	overflow-wrap: break-word;
-}
-
-/* Body */
-body {
-	background-color: #282828;
-	color: #FEF4DC;
-	border-style: solid;
-	border-color: #D3869B;
-	/* border-width: 10px; */
-	padding: 10px;
-}
-
-/* H1 headings */
-h1 {
-	color: #B8BB26;
-	text-shadow: 2px 2px 20px #FBFD85;
-	text-decoration: underline;
-}
-
-/* Rest of headings */
-h2,h3,h4,h5,h6 {
-	color: #A9C1B8;
-	text-shadow: 2px 2px 20px #BADBCE;
-	text-decoration: underline;
 }
 
 /* Code blocks */
 code {
-	color: #1EFF00;
+	color: lime;
 	font-family: "Courier";
 	font-weight: bold;
-	max-width: 45em;
 	overflow-wrap: break-word;
 }
 
 /* Links colour */
 a {
-	color: #61AFEF;
+	background-color: PaleTurquoise;
+	color: Black;
 }
 
 /* Makes links change colour when the mouse hovers over */
 a:hover {
-	background-color: #61AFEF;
-	color: #0F0F2F;
+	background-color: Black;
+	color: PaleTurquoise;
 }
 
 /* Images */
