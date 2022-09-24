@@ -1,26 +1,35 @@
 <link rel="stylesheet" href="/blog-1/css/main.css">
 
-```
-> ./blog-1/00_journal/01_logs/journal_1_logs.md
-```
+<pre>
+<code>> ./blog-1/00_journal/01_logs/journal_1_logs.md</code>
+</pre>
+
 <p style="text-align: right;"><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+
 <p><a href="https://github.com/hnvy/blog-1/edit/main/00_journal/01_logs/journal_1_logs.md">Edit</a></p>
+
 <hr>
 
-# Introduction
-See <a href="https://hnvy.github.io/html/about.html#journal">this</a>.
+* Introduction
+See [[https://hnvy.github.io/html/about.html#journal][this]].
 
-# E#14 (09/07/2022) - public story (I)
+* E#14 (09/07/2022) - public story (I)
+:PROPERTIES:
+:CUSTOM_ID: org8016f98
+:END:
 For a time now, I've been considering posting a story on this website. I was reluctant to do so primarily due to my concern for other people's opinions. But, everyone has to start someplace. Others choose to write publicly, while some prefer to write more discreetly and privately.
 
 Anyhow, the journey will be intriguing. I have quite a few ideas in mind.
 
-# E#13 (03/07/2022) - land of code (I)
+* E#13 (03/07/2022) - land of code (I)
+:PROPERTIES:
+:CUSTOM_ID: org88cb90e
+:END:
 Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat, no fluff, no filler content. Literally, just useful code snippets.
 
 I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
 
-I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see <a href="https://hnvy.github.io/html/about.html">About</a>). Personally, I found it to be quite helpful.
+I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see [[https://hnvy.github.io/html/about.html][About]]). Personally, I found it to be quite helpful.
 
 Of course, there should be certain regulations for this:
 - The snippet must be by annotated so that everyone can understand it and make good use of it
@@ -31,7 +40,10 @@ I might attempt this. It is still a good idea to post for everyone to see even t
 
 It will function similarly to GitHub Gist, but as a hub as opposed to being dispersed everywhere.
 
-# E#12 (01/07/2022) - perseverance and tasks (T)
+* E#12 (01/07/2022) - perseverance and tasks (T)
+:PROPERTIES:
+:CUSTOM_ID: orgee07f40
+:END:
 Incremental change of your behaviour is fantastic method to manage your current habits and continue. Small achievable dollops of targets are set before your eyes. But, the biggest issue is that a perseverance test is only undertaken when you reach a plateau line, which you may not have expected. Also, a lot of (mental and/or physical) effort is required for someone to induce this change.
 
 Let's look at an example to explain the above.
@@ -52,7 +64,10 @@ Well, it had occurred to me that a lot of people give up far too soon. That coul
 
 Let this serve as a reminder to myself to persevere because, after a plateau, progress might occur.
 
-# E#11 (26/06/2022) - catching thoughts with reflection (T+I)
+* E#11 (26/06/2022) - catching thoughts with reflection (T+I)
+:PROPERTIES:
+:CUSTOM_ID: org1a85822
+:END:
 Your brain is like a fruit and vegetable-bearing tree. New ones are always being created, whether seasonally or throughout the year.
 
 That tree's fruits and vegetables are your thoughts and ideas. The tree is the source of these.
@@ -71,7 +86,10 @@ But how does that relate to thought-catching? The answer, as you might have susp
 
 In this circumstance, the basket is reflection. It's a tool that people can use to capture ephemeral thoughts that aren't usually logged by your brain.
 
-# E#10 (04/06/2022) - red ear (T+I)
+* E#10 (04/06/2022) - red ear (T+I)
+:PROPERTIES:
+:CUSTOM_ID: org7a7dcd7
+:END:
 Now, I'm going to make a promise to you. In no way, shape, or form is what follows a pseudoscience report. It's just something that has been happening to me for a long time. It's most likely just a coincidence with no significance, but I thought it would be a shame to not share it. After all, this is a learning journey. This is, after all, a learning experience.
 
 My left ear becomes red whenever I think about something that requires reasoning and problem solving. My right ear turns red everytime I try to recall a specific fact (without solving a problem).
@@ -85,7 +103,10 @@ Potential topics to learn about:
 - Brain blood supply
 - Handedness
 
-# E#9 (27/05/2022) - non-receptive (T)
+* E#9 (27/05/2022) - non-receptive (T)
+:PROPERTIES:
+:CUSTOM_ID: orga3943e2
+:END:
 I've begun to realise that my classmates are not at all receptive. By "receptive," I mean they don't share the same passion as their colleagues and don't listen to their fears, venting, or anxiety.
 
 This could be hazardous to the individual who is expressing their problems. It irritates me, and gives me a great deal of anguish and aggravation, when I don't get a response from the individual I'm speaking with (especially when the issue I'm discussing affects both of us equally or impacts them far more than it does me).
@@ -106,7 +127,10 @@ Beware, however. Do not confuse "moaning" (which is simply venting without the a
 
 Observing this phenomenon is extremely heartbreaking. There could be a variety of personal reasons for this, including but not limited to fear of repercussions and penalties.
 
-# E#8 (26/04/2022) - not on my syllabus (T)
+* E#8 (26/04/2022) - not on my syllabus (T)
+:PROPERTIES:
+:CUSTOM_ID: org73993f1
+:END:
 It started to become not uncommon to witness colleagues from medical school completely shut down their eyes, ears, and brains when they hear, from a professor, that the topic we're currently being taught will not be examined. This is despite the fact that some of those colleagues find these certain topics interesting.
 
 I find that such approach generates quite a few issues. Below, I will outline some of the ones that came to mind. I will probably add more in the future.
@@ -119,7 +143,10 @@ The curriculum isn't the same as actual life. There are numerous vital topics th
 
 I don't hold it against those students. To some extent, I agree with them: students should devote more time to studying the topics that will be assessed, otherwise they will fail the exams. At the same time, they should not fully block out all non-examineable information. This, in my opinion, is not the best way to nurture learning. Medical school is only the beginning of a career in Medicine. Medicine is a voyage that will last a lifetime. You, my friend, are well on your way to becoming a one-of-a-kind doctor if you can harness this ability, early on, to discover useful content and learn it despite the fact that it is not mandated by the curriculum.
 
-# E#7 (12/04/2022) - reflect on it (T+I)
+* E#7 (12/04/2022) - reflect on it (T+I)
+:PROPERTIES:
+:CUSTOM_ID: org8d2b587
+:END:
 I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
 
 And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal more of the latest apps and updates.
@@ -156,27 +183,36 @@ Here are the steps summarised:
 
 That is all. A simple life is what you need, not a new app.
 
-# E#6 (10/04/2022) - day by day (I)
+* E#6 (10/04/2022) - day by day (I)
+:PROPERTIES:
+:CUSTOM_ID: org480def8
+:END:
 Medicine has many diseases to study, and there is too little time. What is the solution? Consistency.
 
 In Medicine consistency is key: a little and often. There will be no grinding. There will be no cramming.
 
 But what kind of consistency? The "I-have-a-test-coming-up-in-11-days,-and-I-have-25-pages-of-work-to-complete.-As-a-result,-I'll-need-to-work-on-roughly-2.5-pages-every-day" kind.
 
-I've written a [Python program](https://github.com/hnvy/do-it) to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
+I've written a [[https://github.com/hnvy/do-it][Python program]] to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
 
 I've been using it for a year and have to say that it's a fantastic productivity tool.
 
-# E#5 (27/03/2022) - art and peace (T)
+* E#5 (27/03/2022) - art and peace (T)
+:PROPERTIES:
+:CUSTOM_ID: org6460da5
+:END:
 For a long, long time, I was fascinated by art (probably at around the age of 5 or 6). It amazes me that you can bring your imagination to life and share it with others.
 
 But the problem was that I never had the opportunity to understand it thoroughly. I've only recently begun learning it, and it's a lot of fun. It is, in fact, arguably the first and only activity that can properly divert my attention away from my other issues. Up the art!
 
 I'm thinking about publishing some of my work here just to document any potential progress.
 
-Oh, and I'm been using [DrawABox](https://drawabox.com/) simply because it seems to have summarised a bunch of lectures and books into neat little exercises.
+Oh, and I'm been using [[https://drawabox.com/][DrawABox]] simply because it seems to have summarised a bunch of lectures and books into neat little exercises.
 
-# E#4 (28/02/2022) - no template, no problem (T)
+* E#4 (28/02/2022) - no template, no problem (T)
+:PROPERTIES:
+:CUSTOM_ID: org3d1bfdb
+:END:
 I've had to rethink how I operate things as a result of the neglect of this so-called blog. It all began in a rather regular and upbeat manner. But, over time, I began to disregard it. Why? Well, after a few moments of contemplation, I've come up with the answer: I've created too many limiting self-imposed templates and pieces of guidance (which, don't get me wrong, may come in handy at some point in the future. Just not now, especially not when this whole thing is nothing but a baby project) that I've held myself accountable to before even gaining a sense of what this venture is all about, which is unrestrained learning. It was someplace where I could learn and not have to think too hard or be worried of being judged for the messiness of it all by someone (i.e., my overthinking and overcomplicating self).
 
 I went through this unnecessary tension before every commitment. The anxiety and concern that I had made a mistake, whether it was an intellectual or a spelling/grammar one. All of this occurred without my realising that mistakes are perfectly acceptable. I think that mistakes, not perfectionism, is a better way for us to learn.
@@ -185,9 +221,13 @@ Anyway, let this serve as a reminder to myself. There will be no more overcompli
 
 There will be no more onerous templates to follow from now on. It's just me passing along pearls of information.
 
-# E#3 (10/09/2021) - a free mind is a creative mind (T)
+* E#3 (10/09/2021) - a free mind is a creative mind (T)
+:PROPERTIES:
+:CUSTOM_ID: org99a5a80
+:END:
 I was asked the other day about what sort of activities do I do when I listen to a podcast. Here was my response:
-> I wander around the room while listening to the podcast. It's not the same as going for a walk outside. I tend to recall more information that way, which may sound strange. Not only that, but I like to use walking and cleaning as a way to disconnect from technology. While cleaning, I've solved innumerable dilemmas and come up with countless ideas. I don't want to miss out on this opportunity. If I listen to a podcast during cleaning, I fail to achieve the same effect.
+
+@@html:<blockquote>I wander around the room while listening to the podcast. It's not the same as going for a walk outside. I tend to recall more information that way, which may sound strange. Not only that, but I like to use walking and cleaning as a way to disconnect from technology. While cleaning, I've solved innumerable dilemmas and come up with countless ideas. I don't want to miss out on this opportunity. If I listen to a podcast during cleaning, I fail to achieve the same effect.</blockquote>@@
 
 More often than I initially thought, I will come up with ideas when I am away from the task. It is as if my brain is doing some thinking in the background without me realising, linking previous and current knowledge together to formulate new knowledge. Which, I personally think, is fascinating.
 
@@ -207,40 +247,46 @@ Why am I not interested in listening to a podcast during this time off? Listenin
 
 I plan to write more about this subject in the future, but for now, I'll sign off.
 
-# E#2 (09/08/2021) - graphical view of your day (I)
+* E#2 (09/08/2021) - graphical view of your day (I)
+:PROPERTIES:
+:CUSTOM_ID: org0c7deff
+:END:
 I'll be honest with you: I'm not a big fan of traditional daily TODO lists. They can be rather intimidating at times, especially if I let them build up over time. I've tried a lot of TODO list applications, but none of them alleviated this feeling.
 
 I recently realised that if I could 'gamify' (or visually express) my daily TODO list so that it no longer feels overwhelming, I would finally be able to complete tasks.
 
 Take a look at the illustration below. A category/task is represented by a coloured block. The timestamps indicate hour at which you should switch tasks. Looking at it now, it doesn't seem so frightening because all I have to do is keep up with the black triangle and everything will be alright.
 
-<img src="https://drive.google.com/uc?export=view&id=1sYXB5n3Q86dGG4HLeMAzOT4zYaRwDTaT">
+@@html:<img src="https://drive.google.com/uc?export=view&id=1sYXB5n3Q86dGG4HLeMAzOT4zYaRwDTaT">@@
 
 I know that there are apps out there which utilise pie/donut charts, but I personally find a bar chart more suitable for this.
 
 Why? Well, to begin with, it is easier for me to read than a round donut chart. Secondly, it provides a more straightforward comparison of relative time spent on each task. I can easily see that the dark blue task takes more time than the amber one.
 
-# E#1 (08/08/2021) - daily proportion (I)
+* E#1 (08/08/2021) - daily proportion (I)
+:PROPERTIES:
+:CUSTOM_ID: org99a4745
+:END:
 Have you ever had the problem of not being able to see which tasks take up most of your time? Here's a suggestion based on the Pomodoro approach that I picked up and developed.
 
-1. Create a table with two columns: `Task category` and `Time spent`.
+1. Create a table with two columns: @@html:<code>Task category</code>@@ and @@html:<code>Time spent</code>@@.
 2. Track the time spend on each of the tasks you do/plan to do throughout your day.
 3. At the end of the day, put these tasks into categories.
-4. Add up the time taken per category, and record it under `Time spent`.
+4. Add up the time taken per category, and record it under @@html:<code>Time spent</code>@@.
 5. Using Excel/Google spreadsheets, create a bar chart of all of the categories.
 6. Save your spreadsheet.
 7. Repeat the next day. Over time, you will end up with a enough data to get meaningful results.
 
 Take a look at the graphs below.
 
-You can see that, on this particular day, category "F" took the longest time:
+You can see that, on this particular day, category "F" took the longest time:
 
-<img src="https://drive.google.com/uc?export=view&id=1e_DRuKaEHvn9x-Bh19zY7SY6y3EiVogB">
+@@html:<img src="https://drive.google.com/uc?export=view&id=1e_DRuKaEHvn9x-Bh19zY7SY6y3EiVogB">@@
 
 Here is a different set of data:
 
-<img src="https://drive.google.com/uc?export=view&id=1fwYM6pu9wJcjyQZoF-iI1hcnaABSCaQD">
+@@html:<img src="https://drive.google.com/uc?export=view&id=1fwYM6pu9wJcjyQZoF-iI1hcnaABSCaQD">@@
 
 This chart was created using the information gathered previously. We can now observe that category "B" has occupied the majority of the time during the last three days:
 
-<img src="https://drive.google.com/uc?export=view&id=1-oQJSYm0f5pbOt4eflNpQ6GP1PE8-otj">
+@@html:<img src="https://drive.google.com/uc?export=view&id=1-oQJSYm0f5pbOt4eflNpQ6GP1PE8-otj">@@
