@@ -1,6 +1,7 @@
 /* HTML and body */
 html, body {
    font: monospace
+   display: block;
    padding: 2em;
 }
 
