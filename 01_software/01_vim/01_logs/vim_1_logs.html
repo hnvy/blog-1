@@ -47,15 +47,14 @@ Your text file must first have some kind of structure that outlines headings. Ev
 So, let's say we have the following format:
 </p>
 
-<pre><code>
-# Heading 1
+<pre><code># Heading 1
 ## Subheading 1.1
 ## Subheading 1.2
 ## Subheading 1.3
 # Heading 2
 # Heading 3
-## Subheading 3.1
-</code></pre>
+## Subheading 3.1</code>
+</pre>
 
 <p>
 &#x2026; and you wish to rapidly traverse that file using a table of contents of some kind. What you need to have is as follows (there is really just one thing):
@@ -76,18 +75,16 @@ Since this is the Vim logs (<code>vim_1_logs.md</code>) file, here is how you wo
 <li>Press <code>gg</code> to go back to the start of the text file, and create a heading with a name like <code># Table of Contents</code>.</li>
 <li>Press <code>p</code> to paste the line that we have yanked in the previous step. So, you should end up with something like this:</li>
 </ol>
-<pre><code>
-# Table of Contents
-bbc42...e1f03# Heading 1
-</code></pre>
+<pre><code># Table of Contents
+bbc42...e1f03# Heading 1</code>
+</pre>
 <ol class="org-ol">
 <li>What we have done is, effectively, create some visible 'link' between the Table of Contents heading and the actual heading in the text file. Again, it looks ugly, but at least it works.</li>
 <li>Repeat the steps above for the rest of your headings, or, you can use the following macro: <code>nmap &lt;M-0&gt; ^v$hy:let @"=sha256('&lt;C-r&gt;"')&lt;CR&gt;Pyygg</code> (this maps the steps 1-6 to <code>Alt-0</code>. You can then go down and paste the content using <code>p</code>. Also, to ensure that the mapping is wiped and that it does not affect you in the future, execute <code>unmap &lt;M-0&gt;</code> after you're done).</li>
 <li>The end result should be something like this (To use the 'navigation feature', you can place your cursor on the hash that is under the Table of Contents, and press <code>#</code>. This will take you straight to the desired heading.):</li>
 </ol>
 
-<pre><code>
-# Table of Contents
+<pre><code># Table of Contents
 bbc42...e1f03# Heading 1
 37ce0...bfc1c## Subheading 1.1
 96620...01a72## Subheading 1.2
@@ -123,8 +120,8 @@ Or maybe, I should have used less headings:
 - Me
 
 b1e43...9698f## Subheading 3.1
-Anyway, I'm glad that this is done now.
-</code></pre>
+Anyway, I'm glad that this is done now.</code>
+</pre>
 </div>
 </div>
 
