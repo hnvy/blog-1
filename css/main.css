@@ -1,75 +1,72 @@
 /* HTML and body */
 html, body {
-	background-color: SaddleBrown;
-	color: White;
-	font-size: 20px;
-	max-width: 800px;
-	padding: 20px;
-	overflow-wrap: auto;
+   font: monospace
+   display: block;
+   padding: 2em;
 }
 
 /* Code blocks */
 code {
-	color: lime;
-	font-family: "Courier";
-	font-weight: bold;
-	overflow-wrap: auto;
+  color: red;
+  font-family: monospace;
+  font-weight: bold;
+  overflow-wrap: auto;
 }
 
 /* Links colour */
 a {
-	background-color: PaleTurquoise;
-	color: Black;
+  background-color: PaleTurquoise;
+  color: Black;
 }
 
 /* Makes links change colour when the mouse hovers over */
 a:hover {
-	background-color: Black;
-	color: PaleTurquoise;
+  background-color: Black;
+  color: PaleTurquoise;
 }
 
 /* Images */
 img {
-	width: 75%;
-	margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 /* Source code */
 pre {
-    background-color: #181a26;
-    font-family: Courier New;
-    font-size: 15px;
-    border: 3px solid;
-    padding: 8pt;
-    overflow: auto;
+  background-color: black;
+  font-family: monospace;
+  font-size: 1em;
+  border: 0.5em solid;
+  padding: 0.25em;
+  overflow: auto;
 }
 
 /* These classes are exported from the almighty Emacs (I've changed the colors). */
 /* Emacs saved my life here as it has automatically generated everything for me. */
 span.default {
-    color: Grey;
+  color: Grey;
 }
 
 span.keyword {
-    color: DodgerBlue;
+  color: DodgerBlue;
 }
 
 span.function-name {
-    color: BlanchedAlmond;
+  color: BlanchedAlmond;
 }
 
 span.type {
-    color: Aquamarine;
+  color: Aquamarine;
 }
 
 span.string {
-    color: DarkGoldenRod;
+  color: DarkGoldenRod;
 }
 
 span.preprocessor {
-    color: Gold;
+  color: Gold;
 }
 
 span.comment, span.comment-delimiter {
-    color: LightSlateGray;
+  color: LightSlateGray;
 }
