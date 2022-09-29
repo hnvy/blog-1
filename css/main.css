@@ -33,6 +33,7 @@ img {
 
 /* Source code */
 pre {
+  background-color: black;
   font-family: monospace;
   font-size: 1em;
   padding: 0.25em;
