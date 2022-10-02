@@ -31,11 +31,12 @@ img {
 
 /* Source code */
 pre {
-  background-color: black;
   color: white;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: black;
   font-size: 1em;
   padding: 0.5em;
-  overflow: auto;
 }
 
 /* These classes are exported from the almighty Emacs (I've changed the colors). */
