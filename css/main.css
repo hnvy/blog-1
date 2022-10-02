@@ -1,14 +1,12 @@
 /* HTML and body */
 html, body {
-   font-family: monospace;
    display: block;
-   padding: 2em;
+   padding: 3em;
 }
 
 /* Code blocks */
 code {
   color: red;
-  font-family: monospace;
   font-weight: bold;
   overflow-wrap: auto;
 }
@@ -34,9 +32,8 @@ img {
 /* Source code */
 pre {
   background-color: black;
-  font-family: monospace;
   font-size: 1em;
-  padding: 0.25em;
+  padding: 0.5em;
   overflow: auto;
 }
 
