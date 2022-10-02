@@ -32,6 +32,7 @@ img {
 /* Source code */
 pre {
   background-color: black;
+  color: white;
   font-size: 1em;
   padding: 0.5em;
   overflow: auto;
