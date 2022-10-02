@@ -84,7 +84,9 @@ bbc42...e1f03# Heading 1</code>
 <li>The end result should be something like this (To use the 'navigation feature', you can place your cursor on the hash that is under the Table of Contents, and press <code>#</code>. This will take you straight to the desired heading.):</li>
 </ol>
 
-<pre><code># Table of Contents
+<pre>
+<code>
+# Table of Contents
 bbc42...e1f03# Heading 1
 37ce0...bfc1c## Subheading 1.1
 96620...01a72## Subheading 1.2
@@ -120,7 +122,8 @@ Or maybe, I should have used less headings:
 - Me
 
 b1e43...9698f## Subheading 3.1
-Anyway, I'm glad that this is done now.</code>
+Anyway, I'm glad that this is done now.
+</code>
 </pre>
 </div>
 </div>
@@ -151,7 +154,11 @@ And, to my surprise, there was! Here is what you need to add to your <code>vimrc
 </p>
 
 <p>
-<code>vmap &lt;C-3&gt; "zy:let @z = substitute(@z,' ','+','g')&lt;CR&gt;:exec ":silent ! start https://www.google.com/search?q=". @z. ""&lt;CR&gt;&lt;CR&gt;</code>
+<code>
+<pre>
+vmap &lt;C-3&gt; "zy:let @z = substitute(@z,' ','+','g')&lt;CR&gt;:exec ":silent ! start https://www.google.com/search?q=". @z. ""&lt;CR&gt;&lt;CR&gt;
+</code>
+<pre>
 </p>
 
 <p>
