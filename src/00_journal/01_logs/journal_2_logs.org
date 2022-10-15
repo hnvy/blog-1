@@ -26,7 +26,7 @@ Recently, I have been slacking on my work. I open the computer, launch my usual 
 
 It is getting hideous, and frankly, I have had enough.
 
-What follows is a public mini-reflection which utilises what I have spoken about [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][Previously]].
+What follows is a public mini-reflection which utilises what I have spoken about [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][previously]]:
 
 #+BEGIN_QUOTE
 I need to complete this chapter. No, I want to complete this chapter. I have wasted too much time on trivial things that are not as useful as the chapter I am currently learning. Sure, learning how to match the capturing group in RegEx is cool, but is it useful *right now*? No.
@@ -39,3 +39,7 @@ So, from now on, I will use [[https://github.com/hnvy/day-ploy][day-ploy]] to fi
 
 Sure, this seems like a radical approach to some, but it isn't. I have stalled for too long. Although the chapter is quite lengthy, I shouldn't unjustifiably be afraid of it and put off acquiring what knowledge it can bestow upon me.
 #+END_QUOTE
+
+Now that I got that off my chest, I should probably go back to work.
+
+Side note: to match the capturing group in the replace box using RegEx you can use ~$0~.
