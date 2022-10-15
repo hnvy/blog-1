@@ -13,11 +13,8 @@
 @@html:<hr>@@
 
 * Introduction
-
 :PROPERTIES:
-
 :CUSTOM_ID: intro
-
 :END:
 See [[https://hnvy.github.io/html/about.html#coding][this]].
 
