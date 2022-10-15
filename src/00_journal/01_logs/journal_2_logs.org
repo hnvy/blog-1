@@ -42,4 +42,4 @@ Sure, this seems like a radical approach to some, but it isn't. I have stalled f
 
 Now that I got that off my chest, I should probably go back to work.
 
-Side note: to match the capturing group in the replace box using RegEx you can use ~$0~.
+Side note: use ~$0~ to match the capturing group in the replace box in RegEx.
