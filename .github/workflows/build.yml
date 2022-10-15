@@ -1,0 +1,37 @@
+name: Publish to GitHub Pages
+# Most of this code is from System Crafters.
+# You can find the original at: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Emacs
+        run: sudo add-apt-repository ppa:ubuntu-elisp/ppa && sudo apt-get update && sudo apt install emacs-snapshot
+       # uses: purcell/setup-emacs@master
+       # with:
+       #   version: 27.2 # You must use this version of Emacs (or higher), otherwise you would get issues with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
+
+      - name: Change permission of script.sh
+        run: chmod +x script.sh
+
+      - name: Build the site
+        run: ./script.sh
+      
+      - name: Copy main.css and rss.xml to the ~public~ folder
+        run: cp -R ./src/css/ ./src/rss.xml ./public
+
+      - name: Publish generated content to GitHub Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          commit-message: Update ${{ github.sha }}
+          folder: public
