@@ -8,7 +8,7 @@
 
 @@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
 
-@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/02_coding/01_logs/coding_1_logs.md">ESotP</a></p>@@
+@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/02_coding/01_logs/coding_1_logs.org">ESotP</a></p>@@
 
 @@html:<hr>@@
 
@@ -70,7 +70,7 @@ Let</span><span class="comment">'</span><span class="comment">s print the good o
 
 ~include~ is a called a pre-processor directive. This tells the compiler &quot;What</span><span class="comment">'</span><span class="comment">s up old friend, next time you compile this text file, mind including the contents of the stdio.h (aka standard input/output) file? Okay, cool. Bye!&quot;
 
-The ~stdio.h~ is called a header file. It includes stuff (aka definitions) that we can use in our program. One of these definitions is... you guessed it, ~put~.
+The ~stdio.h~ is called a header file. It includes stuff (aka definitions) that we can use in our program. One of these definitions is... you guessed it, ~puts~.
 
 In fact, I realised that you can view the content of this ~stdio.h~ file.
 
@@ -81,7 +81,7 @@ On Linux, it is located at ~/usr/include/stdio.h~.
 
 <span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>() <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">This is called the entry point to the C program.
 </span>{
-	put(<span class="string">&quot;Hello, World!&quot;</span>);
+	puts(<span class="string">&quot;Hello, World!&quot;</span>);
 	<span class="keyword">return</span>(0);
 }
 
