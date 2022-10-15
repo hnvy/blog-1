@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Misc 1 Logs</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://hnvy.github.io/css/main.css" />
+</head>
+<body>
+<div id="content" class="content">
+<pre>
+<code>> ./blog-1/01_software/00_misc/01_logs/misc_1_logs.html</code>
+</pre>
+
+<p>
+<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+</p>
+
+<p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/01_software/00_misc/01_logs/misc_1_logs.html">EStoP</a></p>
+</p>
+
+<p>
+<hr>
+</p>
+
+<div id="outline-container-orgb2372c5" class="outline-2">
+<h2 id="orgb2372c5">Introduction</h2>
+<div class="outline-text-2" id="text-orgb2372c5">
+<p>
+
+</p>
+
+<p>
+:CUSTOM_ID: intro
+</p>
+<p>
+See <a href="https://hnvy.github.io/html/about.html#misc">this</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb2a8f30" class="outline-2">
+<h2 id="orgb2a8f30">E#002 (25/07/2022) - CMD, find X in subdirectories.</h2>
+<div class="outline-text-2" id="text-orgb2a8f30">
+<p>
+Let's imagine that you are searching through a number of files for the string "<code>please find me</code>". There are 400 text files in 20 directories. You're unsure of which file that string belongs in.
+</p>
+
+<p>
+What's the solution? Well, <code>findstr</code>!
+</p>
+
+<p>
+<code>findstr</code> is a command that runs on CMD. Using <code>findstr</code> is very simple (you can run <code>findstr /?</code> to get the manual). My favourite arguments to run are:
+</p>
+<ul class="org-ul">
+<li><code>/s</code>: searches the subdirectories</li>
+<li><code>/i</code>: ignores sentence-case</li>
+<li><code>/c:</code>: allows <code>findstr</code> to search for a string that has white spaces</li>
+</ul>
+
+<p>
+Suppose you have the following directory <code>c:/Stats/Spreadsheets/</code>. Also, let's assume that the <code>Spreadsheets</code> folder has many files and many subfolders, and you're looking for the "<code>please find me</code>" string:
+</p>
+<ul class="org-ul">
+<li><code>findstr /s /i /c:"please find me" "c:/Stats/Spreadsheets/*"</code> - This can be used if you aren't currently located in the directory.</li>
+<li><code>findstr /s /i /c:"please find me" *.*</code> - this can be used if you are located in the directory.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org317807a" class="outline-2">
+<h2 id="org317807a">E#001 (16/07/2022) - RegEx, match lines to end of file.</h2>
+<div class="outline-text-2" id="text-org317807a">
+<p>
+In a text file, I recently had to replace something. Starting at a certain text (<code>PieceOfText</code>), up until the last line of the file. Here is how I went about it:
+</p>
+<pre class="example">
+Find: PieceOfText((.|\n)*)
+Replace: Blah blah blah
+</pre>
+
+<p>
+So, with the help of <code>((.|\n)*)</code>, the following has been highlighted:
+</p>
+
+<code>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div style="background-color: yellow;"><p>PieceOfText</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Here is the end of the text file. Nice!</p></div>
+</code>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.0.50 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
+</div>
+</body>
+</html>
