@@ -1,6 +1,13 @@
 name: Publish to GitHub Pages
 # Most of this code is from System Crafters.
 # You can find the original at: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
+# To allow a specific external action to be run, you need
+# to add it to the list of permitted actions. This is done like so:
+# - Go to the repository settings
+# - Under "Code and automation", click on Actions
+# - Choose "General"
+# - Under "Actions permissions", write the name of your chosen external action
+# - See also: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#allowing-specific-actions-to-run
 
 on:
   push:
