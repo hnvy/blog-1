@@ -1,0 +1,94 @@
+#+TITLE: Coding 1 Logs
+
+#+BEGIN_EXPORT html
+<pre>
+<code>> ./blog-1/01_software/02_coding/01_logs/coding_1_logs.html</code>
+</pre>
+#+END_EXPORT
+
+@@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
+
+@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/01_software/02_coding/01_logs/coding_1_logs.md">ESotP</a></p>@@
+
+@@html:<hr>@@
+
+* Introduction
+
+:PROPERTIES:
+
+:CUSTOM_ID: intro
+
+:END:
+See [[https://hnvy.github.io/html/about.html#coding][this]].
+
+* E#002 (02/10/2022) - placeholders (C)
+:PROPERTIES:
+:CUSTOM_ID: org93j42p0
+:END:
+#+BEGIN_EXPORT html
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 02_placeholders.c
+</span>
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">We can use placeholders in order to &quot;place&quot; values in a string. Let</span><span class="comment">'</span><span class="comment">s have a look:
+</span>
+<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">stdio.h</span><span class="string">&gt;</span> <span class="comment-delimiter">// </span><span class="comment">We are going to use the ~printf~ function, so therefore we need to include the ~stdio.h~ header.
+</span>
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	printf(<span class="string">&quot;Hello, here we have a number in the string format (so, really, it</span><span class="string">'</span><span class="string">s not a number): 73498\n&quot;</span>); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">The ~\n~ is simply telling the program to start a new line (this is called an escape sequence). There is a whole massive list of these escape sequences: ~\t~ (for a tab), ~\\~ (for a literal slash character)...
+</span>
+	printf(<span class="string">&quot;Woah, now we can use the placeholder print out an actual number: %d\n&quot;</span>, 847562); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">As can be seen, there is now a ~%d~ inside the double quotes. This is the placeholder. The number 847562 corresponds to that ~%d~.
+</span>
+	printf(<span class="string">&quot;Let</span><span class="string">'</span><span class="string">s experiment with some of these placeholders, shall we?\n&quot;</span>);
+
+	printf(<span class="string">&quot;We can add many placeholders into one string, like so: (first number) %d - (second number) %d = (third number) %d\n&quot;</span>, 10, 4, 6); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">As can be seen, 10 corresponds to the first ~%d~, 4 corresponds to the second ~%d~, and finally, 6 corresponds to the third ~%d~. Cool, huh?
+</span>
+	printf(<span class="string">&quot;Interestingly, we can make C do the maths for us! Like so: %d - %d = %d&quot;</span>, 10, 4, 10-4); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">The last argument (i.e., 10-4) makes C actually place the result of 10-4.
+</span>
+	printf(<span class="string">&quot;\n\n\n&quot;</span>); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">Printing 3 new lines to leave some space.
+</span>	
+	printf(<span class="string">&quot;There is a\nnew line going\nto be inserted\nright here!\n\n&quot;</span>);
+
+	printf(<span class="string">&quot;We can place some %s&quot;</span>, <span class="string">&quot;dinosaurs&quot;</span>); <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">You guessed it! ~%s~ is just like ~%d~, but instead, it</span><span class="comment">'</span><span class="comment">s for strings rather than digits. You can replace &quot;dinosaurs&quot; with any word you like!
+</span>
+	<span class="keyword">r</span><span class="keyword">eturn</span>(0);
+}
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 2: Test time! Write a program which prints out the following: There are many numbers in life, some arer big (like 297563476) and others are small (such as 3). Use the correct placeholder for the numbers.
+</span>
+</pre>
+#+END_EXPORT
+
+* E#001 (28/08/2022) - intro (C)
+:PROPERTIES:
+:CUSTOM_ID: org3a63e75
+:END:
+#+BEGIN_EXPORT html
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 01_intro.c
+</span>
+<span class="comment-delimiter">/</span><span class="comment-delimiter">*</span><span class="comment">
+The following is what we call a dummy program. It literally does nothing:
+~main () {}~
+
+Let</span><span class="comment">'</span><span class="comment">s print the good old &quot;Hello, World!&quot;
+
+~include~ is a called a pre-processor directive. This tells the compiler &quot;What</span><span class="comment">'</span><span class="comment">s up old friend, next time you compile this text file, mind including the contents of the stdio.h (aka standard input/output) file? Okay, cool. Bye!&quot;
+
+The ~stdio.h~ is called a header file. It includes stuff (aka definitions) that we can use in our program. One of these definitions is... you guessed it, ~put~.
+
+In fact, I realised that you can view the content of this ~stdio.h~ file.
+
+On Linux, it is located at ~/usr/include/stdio.h~.
+</span><span class="comment-delimiter">*/</span>
+
+<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">stdio.h</span><span class="string">&gt;</span>
+
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>() <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">This is called the entry point to the C program.
+</span>{
+	put(<span class="string">&quot;Hello, World!&quot;</span>);
+	<span class="keyword">return</span>(0);
+}
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 1: Test time! Write a program (from memory!) That prints out the following text: &quot;This is my first ever mini C program. It</span><span class="comment">'</span><span class="comment">s not much, but it</span><span class="comment">'</span><span class="comment">s honest work...&quot;
+</span>
+</pre>
+#+END_EXPORT
