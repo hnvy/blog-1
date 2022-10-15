@@ -8,7 +8,7 @@
 
 @@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
 
-@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/00_journal/01_logs/journal_1_logs.html">ESotP</a></p>@@
+@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/src/00_journal/01_logs/journal_1_logs.org">ESotP</a></p>@@
 
 @@html:<hr>@@
 
