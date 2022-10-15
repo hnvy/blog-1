@@ -1,0 +1,41 @@
+#+TITLE: Journal 2 Logs
+
+#+BEGIN_EXPORT html
+<pre>
+<code>> ./blog-1/00_journal/01_logs/journal_2_logs.html</code>
+</pre>
+#+END_EXPORT
+
+@@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
+
+@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/00_journal/01_logs/journal_2_logs.org">ESotP</a></p>@@
+
+@@html:<hr>@@
+
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: intro
+:END:
+See [[https://hnvy.github.io/html/about.html#journal][this]].
+
+* E#016 (16/10/2022) - following a plan (T)
+:PROPERTIES:
+:CUSTOM_ID: org29jro21
+:END:
+Recently, I have been slacking on my work. I open the computer, launch my usual work-related software, and then, once I think of something trivial such as "how to match the capturing group in the replace box using RegEx" go down a rabbit whole which takes 3-4 hours.
+
+It is getting hideous, and frankly, I have had enough.
+
+What follows is a public mini-reflection which utilises what I have spoken about [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][Previously]].
+
+#+BEGIN_QUOTE
+I need to complete this chapter. No, I want to complete this chapter. I have wasted too much time on trivial things that are not as useful as the chapter I am currently learning. Sure, learning how to match the capturing group in RegEx is cool, but is it useful *right now*? No.
+
+The medical chapter I am referring to is fascinating. It is beautiful. Som much pathophysiology and so much content to learn about. So many new pieces of life-saving information that many before me have memorised and learned off by heart.
+
+Memorisation is not the problem. I don't what is. My learn drive seems to, uselessly, want me to search up how to match the capturing group in RegEx rather than how to attempt to diagnose pneumonia using clinical judgement.
+
+So, from now on, I will use [[https://github.com/hnvy/day-ploy][day-ploy]] to fix this. I want to have a fixed routine where I don't waste time on things which do not benefit me right now.
+
+Sure, this seems like a radical approach to some, but it isn't. I have stalled for too long. Although the chapter is quite lengthy, I shouldn't unjustifiably be afraid of it and put off acquiring what knowledge it can bestow upon me.
+#+END_QUOTE
