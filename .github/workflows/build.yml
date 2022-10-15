@@ -25,9 +25,6 @@ jobs:
 
       - name: Build the site
         run: ./script.sh
-      
-      - name: Copy main.css and rss.xml to the ~public~ folder
-        run: cp -R ./src/css/ ./src/rss.xml ./public
 
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
