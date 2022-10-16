@@ -43,3 +43,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automatic commit
+          file_pattern: 'public/timestamps/*.cache'
