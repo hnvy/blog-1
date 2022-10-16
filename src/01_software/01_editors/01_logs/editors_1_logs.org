@@ -32,6 +32,7 @@ Note: this is an old entry which I procrastinated on adding due to the reasons o
   - The number of times I had to press either ~Ctrl~, ~Meta~, or the ~Shift~ keys is formidable.
 - ~Time spent~: 30
 - ~LPs~:
+  - Launch the tutorial by either clicking on the button that is on the home page, or by ~C-h t~
   - The Meta key!
 - ~LNs~:
   - I need to finish the tutorial
