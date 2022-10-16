@@ -20,12 +20,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
-      - name: List files
-        run: |
-          ls -la public/
-          pwd
-      
+
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
        # uses: purcell/setup-emacs@master
@@ -33,9 +28,7 @@ jobs:
        #   version: 27.2 # You must use this version of Emacs (or higher), otherwise you would get issues with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
 
       - name: Build the site
-        run: |
-          chmod +x script.sh
-          ./script.sh
+        run: emacs -Q --script org-publish.el
         
       - name: Commit timestamps changes
         uses: stefanzweifel/git-auto-commit-action@v4
