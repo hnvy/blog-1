@@ -23,7 +23,7 @@ jobs:
       
       - name: List files
         run: |
-          ls -la
+          ls -la public/
           pwd
       
       - name: Install Emacs
