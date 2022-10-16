@@ -38,3 +38,9 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
+          
+      - name: Commit timestamps changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated Change
+          
