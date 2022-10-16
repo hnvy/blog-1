@@ -22,6 +22,7 @@ See [[https://hnvy.github.io/html/about.html#editors][this]].
 :PROPERTIES:
 :CUSTOM_ID: org1795ff3
 :END:
+[[../02_pearls/editors_1_pearls.html#org82pokn1][Link to pearl entry]]
 Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
 
 - ~GTs~:
