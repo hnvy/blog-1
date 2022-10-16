@@ -133,4 +133,3 @@ Below is the archive for this subdomain. You can find the archive for all the su
 <p>Please note that the content on this site is NOT intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek professional medical attention. My notes are NOT intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice! In fact, NONE of this site's information should be taken as advice, because the content on this site may NOT be applicable to you.</p>
 </footer>
 #+END_EXPORT
-
