@@ -19,7 +19,7 @@
 :CUSTOM_ID: intro
 
 :END:
-See [[http://hnvy.github.io/html/about.html#science][this]].
+See [[http://hnvy.github.io//about.html#science][this]].
 
 * Disclaimer: this document is NOT for medical advice
 :PROPERTIES:
