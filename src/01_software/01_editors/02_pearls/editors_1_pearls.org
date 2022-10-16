@@ -8,9 +8,15 @@
 
 @@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
 
-@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/01_vim/02_pearls/editors_1_pearls.org">ESotP</a></p>@@
+@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/01_editors/02_pearls/editors_1_pearls.org">ESotP</a></p>@@
 
 @@html:<hr>@@
+
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: intro
+:END:
+See [[https://hnvy.github.io/about.html#system][this]].
 
 * E#008 (24/05/2021) - day 0. (E)
 :PROPERTIES:
