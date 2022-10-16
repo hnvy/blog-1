@@ -23,8 +23,8 @@ See [[https://hnvy.github.io/html/about.html#editors][this]].
 :CUSTOM_ID: org1795ff3
 :END:
 [[../02_pearls/editors_1_pearls.html#org82pokn1][Link to pearl entry]]
-Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
 
+Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
 - ~GTs~:
   - Well, finding the tutorial wasn't as bad. The link to the tutorial was quite literally on the main menu.
   - The tutorial was very dense and filled with information. I am already glad that I started to learn and explore this new realm.
