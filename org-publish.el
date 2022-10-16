@@ -34,4 +34,5 @@
              :time-stamp-file nil)))
 
 ;; Generate the site output
-(org-publish-all t)
+;; (org-publish-all t)
+(org-publish "hnvy" t)
