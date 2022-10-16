@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Editors 1 Logs</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://hnvy.github.io/css/main.css" />
+</head>
+<body>
+<div id="content" class="content">
+<pre>
+<code>> ./blog-1/01_software/01_vim/01_logs/editors_1_logs.html</code>
+</pre>
+
+<p>
+<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>
+</p>
+
+<p>
+<p><a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/01_editors/01_logs/editors_1_logs.org">ESotP</a></p>
+</p>
+
+<p>
+<hr>
+</p>
+
+<div id="outline-container-intro" class="outline-2">
+<h2 id="intro">Introduction</h2>
+<div class="outline-text-2" id="text-intro">
+<p>
+See <a href="https://hnvy.github.io/html/about.html#editors">this</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1795ff3" class="outline-2">
+<h2 id="org1795ff3">E#008 (24/05/2021) - day 0. (E)</h2>
+<div class="outline-text-2" id="text-org1795ff3">
+<p>
+Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>Well, finding the tutorial wasn't as bad. The link to the tutorial was quite literally on the main menu.</li>
+<li>The tutorial was very dense and filled with information. I am already glad that I started to learn and explore this new realm.</li>
+<li>Emacs felt a little more like the usual text editors that I am used to. In other words, it is not a modal editor like Vim (i.e., there is nothing like Insert mode, Visual mode, Normal mode, etc.).</li>
+<li>The number of times I had to press either <code>Ctrl</code>, <code>Meta</code>, or the <code>Shift</code> keys is formidable.</li>
+</ul></li>
+<li><code>Time spent</code>: 30</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>The Meta key!</li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to finish the tutorial</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7018e49" class="outline-2">
+<h2 id="org7018e49">E#007 (08/07/2022) - contents table in plain text. (V)</h2>
+<div class="outline-text-2" id="text-org7018e49">
+<p>
+<a href="../02_pearls/editors_1_pearls.html#org47fc157">Link to pearl entry</a>
+</p>
+
+<p>
+Here is how to create an interactive table of contents (well, sort of) in a plain text file.
+</p>
+
+<p>
+Your text file must first have some kind of structure that outlines headings. Even though it is not necessary, this step will undoubtedly make your life much simpler.
+</p>
+
+<p>
+So, let's say we have the following format:
+</p>
+
+<pre class="example">
+# Heading 1
+## Subheading 1.1
+## Subheading 1.2
+## Subheading 1.3
+# Heading 2
+# Heading 3
+## Subheading 3.1
+</pre>
+
+<p>
+&#x2026; and you wish to rapidly traverse that file using a table of contents of some kind. What you need to have is as follows (there is really just one thing):
+</p>
+<ul class="org-ul">
+<li><code>sha256</code>: According to Wikipedia, <code>sha256</code> is a "cryptographic hash functions." In other words, it is a function which encodes the text you give it. In fact, you don't even need to use <code>sha256</code>. You can using any algorithm which encodes your text. You can even make your own! But, why go through all the trouble of creating your own algorithm when you can use Notepad++ or Vim (as they have this as a built-in feature)?</li>
+</ul>
+
+<p>
+Since this is the Vim logs (<code>editors_1_logs.md</code>) file, here is how you would go about it in Vim:
+</p>
+<ol class="org-ol">
+<li>Press <code>:</code></li>
+<li>Type the following: <code>let @"=sha256('____')</code> (replace the <code>____</code> with whatever text you want. In this case, the text will be our headings).</li>
+<li>The command above has now made the <code>"</code> register in Vim equal to the <code>sha256</code> of our text. So, if you press <code>p</code>, Vim will paste the content of the <code>"</code> register into your text file. So, to encode <code>Heading 1</code>, we will have to write the following <code>let @"=sha256('# Heading 1')</code>. The content of the <code>"</code> register will now be: <code>bbc42...e1f03</code> (this is known as the "hash"). We can use this unique identifier to create our table of contents.</li>
+<li>Place your cursor at the beginning of the line which has <code># Heading 1</code>, and press <code>P</code>. This will paste the hash right before <code># Heading 1</code>. So, you should have something like this <code>bbc42...e1f03# Heading 1</code> (I know, it looks quite ugly).</li>
+<li>Now, press <code>yy</code> to yank (or copy) the line.</li>
+<li>Press <code>gg</code> to go back to the start of the text file, and create a heading with a name like <code># Table of Contents</code>.</li>
+<li>Press <code>p</code> to paste the line that we have yanked in the previous step. So, you should end up with something like this:</li>
+</ol>
+<pre class="example">
+# Table of Contents
+bbc42...e1f03# Heading 1
+</pre>
+<ol class="org-ol">
+<li>What we have done is, effectively, create some visible 'link' between the Table of Contents heading and the actual heading in the text file. Again, it looks ugly, but at least it works.</li>
+<li>Repeat the steps above for the rest of your headings, or, you can use the following macro: <code>nmap &lt;M-0&gt; ^v$hy:let @"=sha256('&lt;C-r&gt;"')&lt;CR&gt;Pyygg</code> (this maps the steps 1-6 to <code>Alt-0</code>. You can then go down and paste the content using <code>p</code>. Also, to ensure that the mapping is wiped and that it does not affect you in the future, execute <code>unmap &lt;M-0&gt;</code> after you're done).</li>
+<li>The end result should be something like this (To use the 'navigation feature', you can place your cursor on the hash that is under the Table of Contents, and press <code>#</code>. This will take you straight to the desired heading.):</li>
+</ol>
+
+<pre class="example">
+# Table of Contents
+bbc42...e1f03# Heading 1
+37ce0...bfc1c## Subheading 1.1
+96620...01a72## Subheading 1.2
+a8a5e...93789## Subheading 1.3
+1cb48...e0efi# Heading 2
+4ee32...6a839# Heading 3
+b1e43...9698f## Subheading 3.1
+
+
+
+
+bbc42...e1f03# Heading 1
+Here is some text
+
+37ce0...bfc1c## Subheading 1.1
+Some more text!
+
+96620...01a72## Subheading 1.2
+Blah blah blah blah...
+
+a8a5e...93789## Subheading 1.3
+Running out of text ideas :\
+
+1cb48...e0efi# Heading 2
+Maybe I should have used a Lorem Ipsum generator or something...
+
+Second paragraph.
+
+4ee32...6a839# Heading 3
+Or maybe, I should have used less headings:
+- Reminder
+- For
+- Me
+
+b1e43...9698f## Subheading 3.1
+Anyway, I'm glad that this is done now.
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org5bcae9c" class="outline-2">
+<h2 id="org5bcae9c">E#006 (05/03/2022) - Vim, what does X mean? (V)</h2>
+<div class="outline-text-2" id="text-org5bcae9c">
+<p>
+Updated: (27/06/2022)
+</p>
+
+<p>
+<a href="../02_pearls/editors_1_pearls.html#orgd5064e5">Link to pearl entry</a>
+</p>
+
+<p>
+I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
+</p>
+<ol class="org-ol">
+<li>Copy the thing which you want to search up on the internet</li>
+<li>Open the browser</li>
+<li>Paste it in the search bar of your browser</li>
+<li>Press <code>Enter</code></li>
+</ol>
+
+<p>
+And, to my surprise, there was! Here is what you need to add to your <code>vimrc</code>:
+</p>
+
+<pre>
+<code>
+vmap &lt;C-3&gt; "zy:let @z = substitute(@z,' ','+','g')&lt;CR&gt;:exec ":silent ! start https://www.google.com/search?q=". @z. ""&lt;CR&gt;&lt;CR&gt;
+</code>
+</pre>
+
+<p>
+So, this is how it works:
+</p>
+<ol class="org-ol">
+<li>Go into Visual mode by pressing <code>v</code>, and highlight the words of interest</li>
+<li>Press <code>Ctrl+3</code> (by modifying the <code>&lt;C-3&gt;</code> in the line of code above, you can make this keyboard shortcut to whatever you want)</li>
+<li>That's it! Isn't that so convenient?!</li>
+</ol>
+
+<p>
+This was originally something I found online, but for some reason the web answer did not work. So I tweaked the code a bit and it worked. In any case, here's the link to the <a href="https://vim.fandom.com/wiki/Search_the_web_for_text_selected_in_Vim">original answer</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf9b7ba1" class="outline-2">
+<h2 id="orgf9b7ba1">E#005 (21/05/2021) - jump like a rabbit! (V)</h2>
+<div class="outline-text-2" id="text-orgf9b7ba1">
+<p>
+<a href="../02_pearls/editors_1_pearls.html#org92d4798">Link to pearl entry</a>
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.</li>
+<li>Vim keeps breaking long lines to smaller ones (not just visually wrapping, but actually changing the text). Not sure whether or not this is useful just yet.</li>
+</ul></li>
+<li>Time spent: 45</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>I learned about 2 more different ways which you can save and exit the file in Vim.
+<ul class="org-ul">
+<li>In Vim, we have two types of 'words'. For example, Vim can read the following statement as an 11-word sentence or a one-word sentence: "Vim-is-a-modal-text-editor". You can find out more about this by going over to the pearl entry!</li>
+</ul></li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to find out how to stop Vim from automatically inserting line breaks.</li>
+</ul></li>
+<li><code>AP</code> {}: I need to find out how to stop Vim from automatically inserting line breaks when the line is too long. This is quite urgent because, at the moment, I'm not a big fan of this feature (in terms of writing these entries). However, I am sure that it will be useful when writing a piece of code.</li>
+<li><code>Review</code>:
+<ul class="org-ul">
+<li>I reviewed APE#004</li>
+<li><code>New LPs</code>:
+<ul class="org-ul">
+<li>You can paste from the system clipboard (rather than from the Vim register) by typing <code>"+p</code> or <code>"+P</code> (depending on where you prefer to paste the line. You can refer to this <a href="../02_pearls/editors_1_pearls.html#e4-10052021---a-clipboard-dilemma">pearl entry</a> to learn more about the types of pasting in Vim).</li>
+</ul></li>
+<li><code>Sources</code>:
+<ul class="org-ul">
+<li>I used the answer by the user "Martin Tournoij" on <a href="https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim">here</a>.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd75c69a" class="outline-2">
+<h2 id="orgd75c69a">E#004 (10/05/2021) - a clipboard dilemma. (V)</h2>
+<div class="outline-text-2" id="text-orgd75c69a">
+<p>
+Updated: (20/05/2021)
+</p>
+
+<p>
+<a href="../02_pearls/editors_1_pearls.html#org8526d38">Link to pearl entry</a>
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>I noticed that pressing <code>p</code> whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!</li>
+<li>I have finished going through <code>vimtutor</code> twice now. The first time was on 23/04/2021 and the second time was on 25/04/2021. The problem is that I keep forgetting some of the commands due to the lack of use.</li>
+<li>Fun fact: this entry was written using Vim.</li>
+</ul></li>
+<li>Time spent: 30</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>I learned that the Vim register is separate from the Windows clipboard.</li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to find out how to access the Windows clipboard rather than the Vim register.</li>
+</ul></li>
+<li><code>AP</code> {}: I need to find out how to access the system clipboard rather than the Vim register, which is (as usual) relatively easy to achieve thanks to this thing that is called "the internet".</li>
+<li><code>Review</code>:
+<ul class="org-ul">
+<li>I reviewed APE#003.</li>
+<li><code>New LPs</code>:
+<ul class="org-ul">
+<li>To duplicate a line in Vim, you need to first be in Normal mode (done by pressing Escape on your keyboard). Then, type <code>yy</code> on the line which you want to duplicate. This will yank (copy) it. Now, press <code>P</code> to paste the line above the current line, or press <code>p</code> to paste it below the current line. So, in short, just type <code>yyp</code>!</li>
+</ul></li>
+<li><code>Sources</code>:
+
+<ul class="org-ul">
+<li>Here is the <a href="https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim">website</a> which was used.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga8b1a4c" class="outline-2">
+<h2 id="orga8b1a4c">E#003 (21/04/2021) - Notepad++ &gt; Vim?! (V)</h2>
+<div class="outline-text-2" id="text-orga8b1a4c">
+<p>
+Updated: (19/05/2021)
+</p>
+
+<p>
+<a href="../02_pearls/editors_1_pearls.html#org03354ca">Link to pearl entry</a>
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.</li>
+</ul></li>
+<li>Time spent: 15</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>I learned how to delete the character that is directly under the cursor by pressing the letter <code>x</code>. I think this is a better alternative to pressing <code>del</code> (which is at the top-right corner of my keyboard). Much more comfortable!</li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to find out how to duplicate the current line in Vim.</li>
+</ul></li>
+<li><code>AP</code> {x 10/05/2021}: I need to find out how to duplicate the current line in Vim, which is easy to achieve thanks to the internet!</li>
+<li><code>Review</code>:
+<ul class="org-ul">
+<li>I reviewed APE#002</li>
+<li><code>New LPs</code>:
+<ul class="org-ul">
+<li>I learned how to copy and paste in Vim, it is quite quick and convenient too. All I had to do is press the letter <code>y</code> for "yank" (which means "copy" in the Vim lingo), and the letter <code>p</code> for "paste".</li>
+</ul></li>
+<li><code>Sources</code>:
+<ul class="org-ul">
+<li>Here is the <a href="https://linuxize.com/post/how-to-copy-cut-paste-in-vim/">website</a> which was used.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3197b89" class="outline-2">
+<h2 id="org3197b89">E#002 (20/04/2021) - vimtutor. (V)</h2>
+<div class="outline-text-2" id="text-org3197b89">
+<p>
+<a href="../02_pearls/editors_1_pearls.html#orgae35ea3">Link to pearl entry</a>
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>I found the <code>vimtutor</code> file! It took about a minute or two to achieve this.</li>
+<li>The interface is minimalistic and is not crowded with buttons. I like this quite a lot.</li>
+</ul></li>
+<li>Time spent: 30</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>I found out how to modify the font-size! So, basically I had to write the following <code>:set guifont=*</code>, and this brought up the standard font window that you see in pretty much every text editor. Neat!</li>
+<li>I learned to make the font persistent (see the <a href="https://vi.stackexchange.com/questions/3093/how-can-i-change-the-font-size-in-gvim">comment</a> by the user "pkout"). I had to use Notepad++ to achieve this because: one, I did not know how to copy/paste text in Vim, and two, I don't know how to open text files via Vim.</li>
+<li>Using <code>vimtutor</code>, I learned that the letter <code>j</code> moves the text cursor downwards (because it looks like a down arrow!), and the letter <code>k</code> moves it up. The letter <code>l</code> moves the cursor to the right, and finally, the letter <code>h</code> moves the cursor to the left! It was a little strange to use at the start, but I slowly started to love it.</li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to learn how to open a text file in Vim (from within the editor).</li>
+<li>I need to learn how to copy/paste text in Vim.</li>
+</ul></li>
+<li><code>AP</code> {x 21/04/2021}: I need learn how to copy/paste text in Vim. This should be easy to achieve with a quick Google search.</li>
+<li><code>Review</code>:
+<ul class="org-ul">
+<li>I reviewed APE#001</li>
+<li><code>New LPs</code>:
+<ul class="org-ul">
+<li>I found the location of <code>vimtutor</code> in <code>/Vim/vim82/tutor</code>. It was simply called <code>tutor</code>. To find it, I used the following search string in Windows Explorer <code>~=tut</code>.</li>
+</ul></li>
+<li><code>Sources</code>:
+<ul class="org-ul">
+<li>Self-discovery.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5f3b26d" class="outline-2">
+<h2 id="org5f3b26d">E#001 (19/04/2021) - day 0. (V)</h2>
+<div class="outline-text-2" id="text-org5f3b26d">
+<p>
+<a href="../02_pearls/editors_1_pearls.html#org9e2ad22">Link to pearl entry</a>
+</p>
+
+<ul class="org-ul">
+<li><code>GTs</code>:
+<ul class="org-ul">
+<li>Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.</li>
+<li>There was a README file which didn't have much in it. It was some sort of "here is a list of good links to use when you need help". But it did talk about this <code>vimtutor</code>. I need to look into it soon.</li>
+<li>There is some GUI? I thought it was literally just text cursor and a bunch of commands (this was the case in Linux).</li>
+<li>I can actually exit the editor this time! <code>:q!</code>. This will probably get quite tedious over time (or maybe not!).</li>
+</ul></li>
+<li>Time spent: 10</li>
+<li><code>LPs</code>:
+<ul class="org-ul">
+<li>I learned that there seems to be different versions of Vim. For example, I can see that there is <code>gVim</code>, <code>gVim Read only</code>, and <code>gVim Easy</code>, etc. Not entirely sure what they are.</li>
+</ul></li>
+<li><code>LNs</code>:
+<ul class="org-ul">
+<li>I need to look into <code>vimtutor</code>.</li>
+</ul></li>
+<li><code>AP</code> {x 20/04/2021}: I need look into <code>vimtutor</code>, and find the file location. This should be relatively easy to achieve.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.1 (<a href="https://orgmode.org">Org</a> mode 9.5.2)</p>
+</div>
+</body>
+</html>
