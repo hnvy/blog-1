@@ -7,7 +7,7 @@
 (require 'ox-publish)
 
 ;; (setq org-publish-use-timestamps-flag nil)
-(setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/blog-1/public/timestamps/")
+(setq org-publish-timestamp-directory "/home/runner/work/blog-1/blog-1/public/timestamps/")
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
