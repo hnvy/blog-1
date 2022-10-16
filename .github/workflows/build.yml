@@ -49,8 +49,3 @@ jobs:
           branch: gh-pages
           commit-message: Update ${{ github.sha }}
           folder: public
-        
-      - name: List files
-        run: |
-          ls -la public/
-          pwd
