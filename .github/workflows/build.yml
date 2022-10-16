@@ -20,7 +20,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
+      
+      - name: List files
+        run: |
+          ls -la public/
+          pwd
+      
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
        # uses: purcell/setup-emacs@master
@@ -46,4 +51,6 @@ jobs:
           folder: public
         
       - name: List files
-        run: ls -la public/
+        run: |
+          ls -la public/
+          pwd
