@@ -12,6 +12,14 @@
 
 @@html:<hr>@@
 
+* E#008 (24/05/2021) - day 0. (E)
+:PROPERTIES:
+:CUSTOM_ID: org82pokn1
+:END:
+[[../01_logs/editors_1_logs.html#org1795ff3][Link to log entry]]
+- ~Ctrl~ in Emacs is writter as ~C~, ~Meta~ (aka ~Alt~) as ~M~, and ~Shift~ as ~S~
+- You can launch the Emacs tutorial using ~C-h~ and then pressing the letter ~t~
+
 * E#007 (08/07/2022) - contents table in plain text. (V)
 :PROPERTIES:
 :CUSTOM_ID: org47fc157
