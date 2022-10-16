@@ -46,4 +46,4 @@ jobs:
           folder: public
         
       - name: List files
-        run: ls -la
+        run: ls -la public/
