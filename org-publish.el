@@ -6,9 +6,8 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
-;; (setq org-publish-use-timestamps-flag nil)
+(setq org-publish-use-timestamps-flag t)
 (setq org-publish-cache t)
-
 (setq org-publish-timestamp-directory "/home/runner/work/blog-1/blog-1/public/timestamps/")
 
 ;; Customize the HTML output
@@ -25,14 +24,16 @@
        (list "hnvy"
              :recursive t
              :base-directory "./src"
-             :publishing-function 'org-html-publish-to-html
+             :publishing-function '(org-html-publish-to-html)
              :publishing-directory "./public"
              :with-creator t
+             :with-timestamps t
+             
              :with-author nil
              :with-toc nil
              :section-numbers nil
              :time-stamp-file nil)))
 
 ;; Generate the site output
-;; (org-publish-all t)
-(org-publish "hnvy" t)
+(org-publish-all t)
+;; (org-publish "hnvy" t)
