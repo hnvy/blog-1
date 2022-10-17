@@ -7,7 +7,7 @@
 (require 'ox-publish)
 
 (setq org-publish-use-timestamps-flag t)
-(setq org-publish-cache t)
+;; (setq org-publish-cache t)
 (setq org-publish-timestamp-directory "/home/runner/work/blog-1/blog-1/public/timestamps/")
 
 ;; Customize the HTML output
