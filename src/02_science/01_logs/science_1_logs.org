@@ -24,6 +24,14 @@ See [[http://hnvy.github.io//about.html#science][this]].
 :END:
 @@html:<p><span style="text-decoration: underline; background-color: yellow; color: red;"><strong>Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!</strong></span></p>@@
 
+* E#013 (12/05/2022) - dragon's heart (A)
+:PROPERTIES:
+:CUSTOM_ID: org1oplxms
+:END:
+The animal is constructed from the materials found in its heart. By extension, a dragon has a heart that is designed like a dragon. The anatomists have yet to witness this as of this writing. In light of this, I wonder what it means to "possess lionheart."
+
+[[https://lh3.googleusercontent.com/pw/AL9nZEWmlURuTfBqHs_UKMr0JnkJGbkJspwL8i2kehIEpFoi02FfwIICa5_x6mOWg8hIhAt-ey2_tvoeWsdCEiwBsHAbviJEPEuM5jLD1ehXrS-Rd8d5TAr-6QYo_6YxxG-XEs1izWMNd3nV0Ns0jmX91mU=s500-no?authuser=0][Here is the picture]]
+
 * E#012 (12/05/2022) - bus stop (A)
 :PROPERTIES:
 :CUSTOM_ID: org20ca0ad
