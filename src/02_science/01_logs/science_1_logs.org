@@ -24,7 +24,7 @@ See [[http://hnvy.github.io//about.html#science][this]].
 :END:
 @@html:<p><span style="text-decoration: underline; background-color: yellow; color: red;"><strong>Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!</strong></span></p>@@
 
-* E#013 (12/05/2022) - dragon's heart (A)
+* E#013 (25/06/2022) - dragon's heart (A)
 :PROPERTIES:
 :CUSTOM_ID: org1oplxms
 :END:
