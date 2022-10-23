@@ -30,10 +30,49 @@ See <a href="https://hnvy.github.io//about.html#coding">this</a>.
 </div>
 </div>
 
+<div id="outline-container-orge9efb7b" class="outline-2">
+<h2 id="orge9efb7b">E#004 (24/10/2022) - 03.2_variables (C)</h2>
+<div class="outline-text-2" id="text-orge9efb7b">
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03.2_variables.c
+</span>
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">This is a little bit more about variables
+</span>
+<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">stdio.h</span><span class="string">&gt;</span> <span class="comment-delimiter">// </span><span class="comment">Same old, same old...
+</span>
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">*</span><span class="comment">
+	Sometimes, we might declare a variable, call it somewhere (e.g., in a ~printf~ statement), and get a weird error.
+
+	This might be because we have not assigned a value to that variable.
+
+	The issue outlined about can be easily overcome by initialising the variable with a value. Like so:
+
+	The following program will calculate the area of a rectangle...
+</span><span class="comment-delimiter">	*/</span>
+
+	<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="variable-name">width</span> = 5, <span class="variable-name">height</span> = 10, <span class="variable-name">area</span>; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">The number 5, and the number 10, are called &quot;initialisers&quot; (because they have initialised the ~width~ and ~height~, respectively)
+</span>
+	area = width * height; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">We now multiply the two values
+</span>
+	printf(<span class="string">&quot;The area of the square is\n%d * %d = %d&quot;</span>, height, width, area);
+
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">To avoid having to use so many variables, we can simply write the expression WITHIN the ~printf~. Like so:
+</span>	printf(<span class="string">&quot;\n\n\n\nThe are of the square is\n%d&quot;</span>, height * width);
+
+	<span class="keyword">return</span>(0);
+}
+
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 5: Create a program which will calculate the area of the circle that has a radius of 10. For Pi, use the value &quot;3.14&quot;. Print out your answer.</span><span class="comment">
+</span></pre>
+</div>
+</div>
+
 <div id="outline-container-orgf8f7736" class="outline-2">
-<h2 id="orgf8f7736">E#003 (23/10/2022) - variables (C)</h2>
+<h2 id="orgf8f7736">E#003 (23/10/2022) - 03.1_variables (C)</h2>
 <div class="outline-text-2" id="text-orgf8f7736">
-<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03_variables.c
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03.1_variables.c
 </span>
 <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">We can declare a variable. Let</span><span class="comment">'</span><span class="comment">s have look:
 </span>
@@ -64,7 +103,9 @@ See <a href="https://hnvy.github.io//about.html#coding">this</a>.
 	<span class="comment-delimiter">// </span><span class="comment">If you want to print a float value to a certain number of decimal places, then you can do something like this
 </span>	printf(<span class="string">&quot;\n\nThis is the decimal number to 2 d.p.: %.2f&quot;</span>, decimal);
 	<span class="comment-delimiter">// </span><span class="comment">Note how we have this ~.2f~? Well, this is to tell C that we want the answer to be rounded to 2 decimal places.
-</span>}
+</span>
+	<span class="keyword">return</span>(0);
+}
 
 <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 4: Test time! Based on the concepts above, write a program which prints out the solution for ~((12+90)/18.23)*50~. Store each number in an appropriate variable. Round the answer to 4 decimal places.
 </span>
@@ -94,7 +135,7 @@ int main()
 </div>
 
 <div id="outline-container-org93j42p0" class="outline-2">
-<h2 id="org93j42p0">E#002 (02/10/2022) - placeholders (C)</h2>
+<h2 id="org93j42p0">E#002 (02/10/2022) - 02_placeholders (C)</h2>
 <div class="outline-text-2" id="text-org93j42p0">
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 02_placeholders.c
 </span>
@@ -130,7 +171,7 @@ int main()
 </div>
 
 <div id="outline-container-org3a63e75" class="outline-2">
-<h2 id="org3a63e75">E#001 (28/08/2022) - intro (C)</h2>
+<h2 id="org3a63e75">E#001 (28/08/2022) - 01_intro (C)</h2>
 <div class="outline-text-2" id="text-org3a63e75">
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 01_intro.c
 </span>
