@@ -52,7 +52,7 @@ See [[https://hnvy.github.io//about.html#coding][this]].
 }
 
 
-<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 5: Create a program which will calculate the area of the circle that has a radius of 10. For Pi, use the value &quot;3.14&quot;. Print out your answer.</span><span class="comment">
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 4: Create a program which will calculate the area of the circle that has a radius of 10. For Pi, use the value &quot;3.14&quot;. Print out your answer.</span><span class="comment">
 </span></pre>
 #+END_EXPORT
 
@@ -96,7 +96,7 @@ See [[https://hnvy.github.io//about.html#coding][this]].
 	<span class="keyword">return</span>(0);
 }
 
-<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 4: Test time! Based on the concepts above, write a program which prints out the solution for ~((12+90)/18.23)*50~. Store each number in an appropriate variable. Round the answer to 4 decimal places.
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 3: Test time! Based on the concepts above, write a program which prints out the solution for ~((12+90)/18.23)*50~. Store each number in an appropriate variable. Round the answer to 4 decimal places.
 </span>
 <span class="comment-delimiter">/</span><span class="comment-delimiter">* </span><span class="comment">
 #include &lt;stdio.h&gt;
