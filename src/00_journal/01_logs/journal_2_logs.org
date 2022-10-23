@@ -6,13 +6,11 @@
 </pre>
 #+END_EXPORT
 
-@@html:<p><a href="https://hnvy.github.io/blog-1/">Home page</a></p>@@
-
-@@html:<p><a href="https://github.com/hnvy/blog-1/edit/main/src/00_journal/01_logs/journal_2_logs.org">ESotP</a></p>@@
+[[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/00_journal/01_logs/journal_2_logs.org][ESotP]]
 
 [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html][Previous page]] - Next page
 
-@@html:<hr>@@
+-----
 
 * Introduction
 :PROPERTIES:
