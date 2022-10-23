@@ -36,6 +36,70 @@ See <a href="https://hnvy.github.io//about.html#coding">this</a>.
 </div>
 </div>
 
+<div id="outline-container-orgf8f7736" class="outline-2">
+<h2 id="orgf8f7736">E#003 (23/10/2022) - variables (C)</h2>
+<div class="outline-text-2" id="text-orgf8f7736">
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03_variables.c
+</span>
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">We can declare a variable. Let</span><span class="comment">'</span><span class="comment">s have look:
+</span>
+<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">stdio.h</span><span class="string">&gt;</span> <span class="comment-delimiter">// </span><span class="comment">Same old, same old...
+</span>
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">It seems that, usually, we should declare the variables before we create any statements.
+</span>	<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="variable-name">digit1</span>, <span class="variable-name">digit2</span>, <span class="variable-name">total</span>; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">~int~ is a special keyword which C reads. It stands for &quot;integer&quot;. You can replace the words which follow with whatever you like.
+</span>	<span class="type">f</span><span class="type">loa</span><span class="type">t</span> <span class="variable-name">decimal</span>; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">~float~ is another special word. It stands for floating-point. You can replace the word &quot;decimal&quot; with whatever you like.
+</span>
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">*</span><span class="comment">
+	// We can declare many things at once:
+	int variable1, variable2, variable3, variable4, variable5; // All of these will be classed as integers.
+</span><span class="comment-delimiter">	*/</span>
+
+	<span class="comment-delimiter">// </span><span class="comment">Now, the stuff we declared above are all EMPTY! Let</span><span class="comment">'</span><span class="comment">s give (i.e., assign) them some values. You must ALWAYS declare before assign.
+</span>
+	digit1 = 30;
+	digit2 = 326;
+	decimal = 23.827f; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">Since this has a decimal point, it seems that people recommend that we add the letter ~f~ at the end.
+</span>
+	total = digit1*digit2; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">Multiply the two digits.
+</span>
+	printf(<span class="string">&quot;Multiplying %d and %d will give us %d&quot;</span>, digit1, digit2, total);
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">Ta-daaa! We used the placeholders (which we learned about in the 02_placeholders.c lesson) to create a beautiful ~printf~ statement!
+</span>	
+	<span class="comment-delimiter">// </span><span class="comment">If you want to print a float value to a certain number of decimal places, then you can do something like this
+</span>	printf(<span class="string">&quot;\n\nThis is the decimal number to 2 d.p.: %.2f&quot;</span>, decimal);
+	<span class="comment-delimiter">// </span><span class="comment">Note how we have this ~.2f~? Well, this is to tell C that we want the answer to be rounded to 2 decimal places.
+</span>}
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 4: Test time! Based on the concepts above, write a program which prints out the solution for ~((12+90)/18.23)*50~. Store each number in an appropriate variable. Round the answer to 4 decimal places.
+</span>
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">* </span><span class="comment">
+#include &lt;stdio.h&gt;
+
+int main()
+{
+	int d1, d2, d3;
+	float decimal, result;
+
+	d1 = 12;
+	d2 = 90;
+	d3 = 50;
+
+	decimal = 18.23f;
+
+	result = ((d1+d2)/decimal)*d3;
+
+	printf(&quot;The answer to ((%d+%d)/%f)*%d = </span><span class="comment">'</span><span class="comment">fg</span><span class="comment">'</span><span class="comment"> %.4f&quot;, d1, d2, decimal, d3, result);
+
+	return(0);
+}
+</span><span class="comment-delimiter">*/</span>
+</pre>
+</div>
+</div>
+
 <div id="outline-container-org93j42p0" class="outline-2">
 <h2 id="org93j42p0">E#002 (02/10/2022) - placeholders (C)</h2>
 <div class="outline-text-2" id="text-org93j42p0">
