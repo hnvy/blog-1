@@ -41,7 +41,7 @@
 :PROPERTIES:
 :CUSTOM_ID: archive
 :END:
-Below is the archive for this subdomain. You can find the archive for all the subdomains [[https://hnvy.github.io/archive.html][here]].
+You can find the archive for all the subdomains [[https://hnvy.github.io/archive.html][here]].
 
 #+BEGIN_EXPORT html
 <p>
