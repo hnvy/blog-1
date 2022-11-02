@@ -18,6 +18,26 @@
 :END:
 See [[https://hnvy.github.io/about.html#journal][this]].
 
+* E#017 (02/11/2022) - go Google it (T)
+:PROPERTIES:
+:CUSTOM_ID: org1c1fe0f
+:END:
+[[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org73993f1][Previously]], I have been a little too harsh on the medical students. I don't blame them, there is too much too learn and too little time. Their issues are exacerbated further by their variable clinical rotation experiences.
+
+I have come to realise that the staff on the wards don't tell you to go and Google something because "they're lazy and don't want to teach", but rather, because some of them feel like you would not pay attention to the things that they were about to bestow upon yourself. Or, some may feel that they cannot teach things quite well, and hence avoid it altogether. And, that's a problem. This issue most probably originated when those specific staff members encountered some inattentive/uninterested students, and did what people are so good at: generalising.
+
+As a result of the aforementioned issue, many staff members will suggest you to "just Google it." While that might be a good solution in a few situations, it actually isn't in many more. Just so you know, I'm not talking about the staff who are now too busy to teach you; rather, I'm talking about the ones who have some free time on their hands and would be willing to give you a lesson, yet they encourage you to Google it instead.
+
+Sometimes, they may tell you to Google it because they are afraid of giving you the wrong information. I truly appreciate those people who admit that they don't know a certain topic.
+
+Some, which I really appreciate, will advise you to go study the subject for a short while before returning to discuss it. Those staff are on a very different plane.
+
+But why am I writing on this issue? You see, I think that teaching during the ward rounds/clinical rotations is paramount. The more varieties of explanations and analogies you hear of the same concept, the better. Why? Because it allows your brain to pick the ones it likes the most, and hence encode it in a way where you would understand and remember it better and for longer. Further, I imagine a piece of knowledge as a Rubik's cube. You're very unlikely to solve a Rubik's without having a look at all of the faces. The same thing applies to knowledge. Being a multifaceted entity, I think it would be far better to encode the same piece of information in different forms.
+
+So, as a staff member, what can you do to ensure that students don't feel this way? Well, communication is key. Tell them! Inform them that you don't know enough about the subject to be able to provide much knowledge, but you are curious about what they would discover. If you're interested in teaching, let them know that you'd be pleased to teach them later in the day because you're a little busy right now. Give them a few minutes to learn about the subject before you bring it up for discussion. Inform them of a noteworthy clinical instance you recently encountered. Show a compelling blood test result to them. Show them a scan that is fascinating. Asking them to determine the diagnosis, investigation, and course of therapy of a clinical scenario (which you could discuss with them later that day).
+
+How then, as a student, can you make sure that you benefit the most from ward teaching? You may think about a subject to discuss with the staff and then see where things go from there. Or, you can hint at the above suggestions. What if that doesn't succeed, though? I'll let you know when I learn the answer to this question...
+
 * E#016 (16/10/2022) - following a plan (T)
 :PROPERTIES:
 :CUSTOM_ID: org29jro21
