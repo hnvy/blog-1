@@ -22,6 +22,13 @@ See [[http://hnvy.github.io//about.html#science][this]].
 :END:
 @@html:<p><span style="text-decoration: underline; background-color: yellow; color: red;"><strong>Please note that the following content is not intended to be used as a diagnostic or treatment tool. If you are having any symptoms, you should always seek medical advice. My notes are not intended to be medical advice; you should seek guidance from your physician rather than the internet. Once again, this document is NOT for medical advice!</strong></span></p>@@
 
+* E#014 (14/11/2022) - coal (A)
+:PROPERTIES:
+:CUSTOM_ID: org1632067
+:END:
+Expressed!
+[[https://lh3.googleusercontent.com/pw/AL9nZEXY-8hB_xSGbZe6jpW4zbDqbzubO06YeEYOL2pAuaH-D-gDZEYID6oB3QnMnq7mFV690GONQs0SuXU95L077G4pV25EbTWa4Toj0bmra00i3teBkBsg8PjYr9mwIgEnd3rUD9O3gSGaEaFXjbBr2Xk=s500-no?authuser=0][Here is the picture]]
+
 * E#013 (25/06/2022) - dragon's heart (A)
 :PROPERTIES:
 :CUSTOM_ID: org1oplxms
