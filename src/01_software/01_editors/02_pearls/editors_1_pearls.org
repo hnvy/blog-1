@@ -20,7 +20,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org82pokn1
 :END:
-[[file:../01_logs/editors_1_logs.org::#prg1795ff3][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#org1795ff3][Link to log entry]]
 - ~Ctrl~ in Emacs is writter as ~C~, ~Meta~ (aka ~Alt~) as ~M~, and ~Shift~ as ~S~
 - You can launch the Emacs tutorial using ~C-h~ and then pressing the letter ~t~
 
@@ -28,7 +28,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org47fc157
 :END:
-[[file:../01_logs/editors_1_logs.org::#prg7018e49][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#org7018e49][Link to log entry]]
 - Encode your headings in Vim using ~sha256~
 - Type ~:let @"=sha256('____')~ (replace the ~____~ the heading title)
 - Paste the ~sha256~ hash at the start of the heading line (so you end up with something like this ~HASH# Heading 1~)
@@ -40,7 +40,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: orgd5064e5
 :END:
-[[file:../01_logs/editors_1_logs.org::#prg5bcae9c][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#org5bcae9c][Link to log entry]]
 - To search for things on Google from within Vim, add the following code to your ~vimrc~:
   - ~vmap <C-3> "zy:let @z = substitute(@z,' ','+','g')<CR>:exec ":silent ! start https://www.google.com/search?q=". @z. ""<CR><CR>~
 - This is how it works:
@@ -51,7 +51,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org92d4798
 :END:
-[[file:../01_logs/editors_1_logs.org::#prgf9b7ba1][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#orgf9b7ba1][Link to log entry]]
 - Vim has several different modes. You use Normal mode to navigate through your text. Whereas you use Insert mode to insert text (obviously). Typing ~:~ will activate Command mode.
 - ~w~ to jump FORWARD to the start of the next word in a sentence (thinks that hyphens, dots, commas, etc. are actually spaces, and will hence treat them as such). For example, "Vim-is-a-modal-text-editor" will be treated as having 11 words.
   - ~e~ will do the same thing, except it will jump to the end of the current word.
@@ -67,7 +67,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org8526d38
 :END:
-[[file:../01_logs/editors_1_logs.org::#prgd75c69a][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#orgd75c69a][Link to log entry]]
 - ~yy~ to yank (copy) the line into the Vim register.
   - Combine this with ~p~ to get ~yyp~ and hence duplicate the current line.
 - ~yw~ to yank (copy) the word under the cursor into the Vim register.
@@ -87,7 +87,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org03354ca
 :END:
-[[file:../01_logs/editors_1_logs.org::#prga8b1a4c][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#orga8b1a4c][Link to log entry]]
 - ~x~ to delete the character AFTER the cursor.
 - ~X~ to delete the character BEFORE the cursor.
 - ~A~ to insert text at the end of the line.
@@ -102,7 +102,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: orgae35ea3
 :END:
-[[file:../01_logs/editors_1_logs.org::#prg5f3b26d][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#org5f3b26d][Link to log entry]]
 - The ~vimtutor~ file is located in ~/Vim/vim82/tutor~.
 - ~:set guifont=*~ to change the font of the interface.
 - ~i~ to enter Insert mode.
@@ -113,7 +113,7 @@ See [[https://hnvy.github.io/about.html#system][this]].
 :PROPERTIES:
 :CUSTOM_ID: org9e2ad22
 :END:
-[[file:../01_logs/editors_1_logs.org::#prg3197b89][Link to log entry]]
+[[file:../01_logs/editors_1_logs.org::#org3197b89][Link to log entry]]
 - To enter commands into Vim, you should write ~:~. After doing so, you will notice that your cursor has moved to the bottom of the screen.
 - ~:q!~ to quit Vim without saving the changes.
 

@@ -22,7 +22,7 @@ See [[https://hnvy.github.io/about.html#journal][this]].
 :PROPERTIES:
 :CUSTOM_ID: org1c1fe0f
 :END:
-[[./journal_1_logs.html#org73993f1][Previously]], I have been a little too harsh on the medical students. I don't blame them, there is too much to learn and too little time. Their issues are exacerbated further by their variable clinical rotation experiences.
+[[file:./journal_1_logs.org::#org73993f1][Previously]], I have been a little too harsh on the medical students. I don't blame them, there is too much to learn and too little time. Their issues are exacerbated further by their variable clinical rotation experiences.
 
 I have come to realise that the staff on the wards don't tell you to go and Google something because "they're lazy and don't want to teach", but rather, because some of them feel like you would not pay attention to the things that they were about to bestow upon yourself. Or, some may feel that they cannot teach things quite well, and hence avoid it altogether. And, that's a problem. This issue most probably originated when those specific staff members encountered some inattentive/uninterested students, and did what people are so good at: generalising.
 
@@ -56,7 +56,7 @@ Recently, I have been slacking on my work. I open the computer, launch my usual 
 
 It is getting hideous, and frankly, I have had enough.
 
-What follows is a public mini-reflection which utilises what I have spoken about [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html#org8d2b587][previously]]:
+What follows is a public mini-reflection which utilises what I have spoken about [[./00_journal/01_logs/journal_1_logs.org#org8d2b587][previously]]:
 
 #+BEGIN_QUOTE
 I need to complete this chapter. No, I want to complete this chapter. I have wasted too much time on trivial things that are not as useful as the chapter I am currently learning. Sure, learning how to match the capturing group in RegEx is cool, but is it useful *right now*? No.
