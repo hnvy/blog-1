@@ -16,26 +16,26 @@
 :END:
 - 00_journal
   - 01_logs
-    - [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_1_logs.html][journal_1_logs.org]]
-    - [[https://hnvy.github.io/blog-1/00_journal/01_logs/journal_2_logs.html][journal_2_logs.org]]
+    - [[./00_journal/01_logs/journal_1_logs.html][journal_1_logs.org]]
+    - [[./00_journal/01_logs/journal_2_logs.html][journal_2_logs.org]]
 - 01_software
   - 00_misc
     - 01_logs
-      - [[https://hnvy.github.io/blog-1/01_software/00_misc/01_logs/misc_1_logs.html][misc_1_logs.org]]
+      - [[./01_software/00_misc/01_logs/misc_1_logs.html][misc_1_logs.org]]
   - 01_editors
     - 01_logs
-      - [[https://hnvy.github.io/blog-1/01_software/01_editors/01_logs/editors_1_logs.html][editors_1_logs.org]]
+      - [[./01_software/01_editors/01_logs/editors_1_logs.html][editors_1_logs.org]]
     - 02_pearls
-      - [[https://hnvy.github.io/blog-1/01_software/01_editors/02_pearls/editors_1_pearls.html][editors_1_pearls.org]]
+      - [[./01_software/01_editors/02_pearls/editors_1_pearls.html][editors_1_pearls.org]]
   - 02_coding
     - 01_logs
-      - [[https://hnvy.github.io/blog-1/01_software/02_coding/01_logs/coding_1_logs.html][coding_1_logs.org]]
+      - [[./01_software/02_coding/01_logs/coding_1_logs.html][coding_1_logs.org]]
 - 02_science
   - 01_logs
-    - [[https://hnvy.github.io/blog-1/02_science/01_logs/science_1_logs.html][science_1_logs.org]]
+    - [[./02_science/01_logs/science_1_logs.html][science_1_logs.org]]
 - 03_language
   - 01_logs
-    - [[https://hnvy.github.io/blog-1/03_language/01_logs/language_1_logs.html][language_1_logs.org]]
+    - [[./03_language/01_logs/language_1_logs.html][language_1_logs.org]]
 
 * Archive
 :PROPERTIES:
