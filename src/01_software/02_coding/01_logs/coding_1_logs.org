@@ -16,10 +16,11 @@
 :END:
 See [[https://hnvy.github.io//about.html#coding][this]].
 
-* E#004 (24/10/2022) - 03.2_variables (C)
+* E#004 (2022-10-24) - 03.2_variables (C)
 :PROPERTIES:
-:CUSTOM_ID: orge9efb7b
+:CUSTOM_ID: orgd9cd450
 :END:
+
 #+BEGIN_EXPORT html
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03.2_variables.c
 </span>
@@ -56,10 +57,11 @@ See [[https://hnvy.github.io//about.html#coding][this]].
 </span></pre>
 #+END_EXPORT
 
-* E#003 (23/10/2022) - 03.1_variables (C)
+* E#003 (2022-10-23) - 03.1_variables (C)
 :PROPERTIES:
-:CUSTOM_ID: orgf8f7736
+:CUSTOM_ID: org1e46d47
 :END:
+
 #+BEGIN_EXPORT html
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 03.1_variables.c
 </span>
@@ -122,10 +124,11 @@ int main()
 </pre>
 #+END_EXPORT
 
-* E#002 (02/10/2022) - 02_placeholders (C)
+* E#002 (2022-10-02) - 02_placeholders (C)
 :PROPERTIES:
-:CUSTOM_ID: org93j42p0
+:CUSTOM_ID: org3e97f15
 :END:
+
 #+BEGIN_EXPORT html
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 02_placeholders.c
 </span>
@@ -159,10 +162,11 @@ int main()
 </pre>
 #+END_EXPORT
 
-* E#001 (28/08/2022) - 01_intro (C)
+* E#001 (2022-08-28) - 01_intro (C)
 :PROPERTIES:
-:CUSTOM_ID: org3a63e75
+:CUSTOM_ID: org190da13
 :END:
+
 #+BEGIN_EXPORT html
 <pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 01_intro.c
 </span>
