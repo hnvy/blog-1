@@ -21,7 +21,7 @@ See [[https://hnvy.github.io//about.html#editors][this]].
 :CUSTOM_ID: org289653e
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org82pokn1][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org289653e][Link to pearl entry]]
 
 Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
 - ~GTs~:
@@ -41,7 +41,7 @@ Note: this is an old entry which I procrastinated on adding due to the reasons o
 :CUSTOM_ID: org730bd82
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org47fc157][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org730bd82][Link to pearl entry]]
 
 Here is how to create an interactive table of contents (well, sort of) in a plain text file.
 
@@ -125,7 +125,7 @@ Anyway, I'm glad that this is done now.
 
 Updated: (27/06/2022)
 
-[[file:../02_pearls/editors_1_pearls.org::#orgd5064e5][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org601de09][Link to pearl entry]]
 
 I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
 1. Copy the thing which you want to search up on the internet
@@ -155,7 +155,7 @@ This was originally something I found online, but for some reason the web answer
 :CUSTOM_ID: org35f3b8c
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org92d4798][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org35f3b8c][Link to pearl entry]]
 
 - ~GTs~:
     - I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.
@@ -181,7 +181,7 @@ This was originally something I found online, but for some reason the web answer
 
 Updated: (20/05/2021)
 
-[[file:../02_pearls/editors_1_pearls.org::#org8526d38][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org936d260][Link to pearl entry]]
 
 - ~GTs~:
     - I noticed that pressing ~p~ whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
@@ -208,7 +208,7 @@ Updated: (20/05/2021)
 
 Updated: (19/05/2021)
 
-[[file:../02_pearls/editors_1_pearls.org::#org03354ca][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org4016a33][Link to pearl entry]]
 
 - ~GTs~:
     - Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
@@ -230,7 +230,7 @@ Updated: (19/05/2021)
 :CUSTOM_ID: org44339bb
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#orgae35ea3][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org44339bb][Link to pearl entry]]
 
 - ~GTs~:
     - I found the ~vimtutor~ file! It took about a minute or two to achieve this.
@@ -256,7 +256,7 @@ Updated: (19/05/2021)
 :CUSTOM_ID: org6bad0ce
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org9e2ad22][Link to pearl entry]]
+[[file:../02_pearls/editors_1_pearls.org::#org6bad0ce][Link to pearl entry]]
 
 - ~GTs~:
     - Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.
