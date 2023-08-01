@@ -16,10 +16,11 @@
 :END:
 See [[https://hnvy.github.io/about.html#language][this]].
 
-* E#002 (29/05/2022) - numbers (J)
+* E#002 (2022-05-29) - numbers (J)
 :PROPERTIES:
-:CUSTOM_ID: org9abd369
+:CUSTOM_ID: org777a890
 :END:
+
 I learned the numbers today.
 
 - いち - 1
@@ -43,10 +44,11 @@ In order to say numbers such as 20, 30, 40, etc. you say a single digit number f
 - にじゅう - 20
 - さんじゅう - 30
 
-* E#001 (16/05/2022) - scripts (J)
+* E#001 (2022-05-16) - scripts (J)
 :PROPERTIES:
-:CUSTOM_ID: orged88dfa
+:CUSTOM_ID: orgacc9e60
 :END:
+
 So, just to give you some background, I've already memorised the Hiragana and Katakana scripts (in 2019). But I wanted a refresher, so I went over them again this week!
 
 Also, I already know that the Japanese language is made up of the three scripts: Hiragana, Katakana, and Kanji.
