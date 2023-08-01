@@ -16,10 +16,11 @@
 :END:
 See [[https://hnvy.github.io//about.html#editors][this]].
 
-* E#008 (24/05/2021) - day 0. (E)
+* E#008 (2021-05-24) - day 0. (E)
 :PROPERTIES:
-:CUSTOM_ID: org1795ff3
+:CUSTOM_ID: org289653e
 :END:
+
 [[file:../02_pearls/editors_1_pearls.org::#org82pokn1][Link to pearl entry]]
 
 Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
@@ -34,10 +35,12 @@ Note: this is an old entry which I procrastinated on adding due to the reasons o
   - The Meta key!
 - ~LNs~:
   - I need to finish the tutorial
-* E#007 (08/07/2022) - contents table in plain text. (V)
+
+* E#007 (2022-07-08) - contents table in plain text. (V)
 :PROPERTIES:
-:CUSTOM_ID: org7018e49
+:CUSTOM_ID: org730bd82
 :END:
+
 [[file:../02_pearls/editors_1_pearls.org::#org47fc157][Link to pearl entry]]
 
 Here is how to create an interactive table of contents (well, sort of) in a plain text file.
@@ -115,10 +118,11 @@ b1e43...9698f## Subheading 3.1
 Anyway, I'm glad that this is done now.
 #+END_SRC
 
-* E#006 (05/03/2022) - Vim, what does X mean? (V)
+* E#006 (2022-03-05) - Vim, what does X mean? (V)
 :PROPERTIES:
-:CUSTOM_ID: org5bcae9c
+:CUSTOM_ID: org601de09
 :END:
+
 Updated: (27/06/2022)
 
 [[file:../02_pearls/editors_1_pearls.org::#orgd5064e5][Link to pearl entry]]
@@ -146,10 +150,11 @@ So, this is how it works:
 
 This was originally something I found online, but for some reason the web answer did not work. So I tweaked the code a bit and it worked. In any case, here's the link to the [[https://vim.fandom.com/wiki/Search_the_web_for_text_selected_in_Vim][original answer]].
 
-* E#005 (21/05/2021) - jump like a rabbit! (V)
+* E#005 (2021-05-21) - jump like a rabbit! (V)
 :PROPERTIES:
-:CUSTOM_ID: orgf9b7ba1
+:CUSTOM_ID: org35f3b8c
 :END:
+
 [[file:../02_pearls/editors_1_pearls.org::#org92d4798][Link to pearl entry]]
 
 - ~GTs~:
@@ -169,10 +174,11 @@ This was originally something I found online, but for some reason the web answer
     - ~Sources~:
         - I used the answer by the user "Martin Tournoij" on [[https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim][here]].
 
-* E#004 (10/05/2021) - a clipboard dilemma. (V)
+* E#004 (2021-05-10) - a clipboard dilemma. (V)
 :PROPERTIES:
-:CUSTOM_ID: orgd75c69a
+:CUSTOM_ID: org936d260
 :END:
+
 Updated: (20/05/2021)
 
 [[file:../02_pearls/editors_1_pearls.org::#org8526d38][Link to pearl entry]]
@@ -195,10 +201,11 @@ Updated: (20/05/2021)
 
         - Here is the [[https://stackoverflow.com/questions/73319/how-to-duplicate-a-whole-line-in-vim][website]] which was used.
 
-* E#003 (21/04/2021) - Notepad++ > Vim?! (V)
+* E#003 (2021-04-21) - Notepad++ > Vim?! (V)
 :PROPERTIES:
-:CUSTOM_ID: orga8b1a4c
+:CUSTOM_ID: org4016a33
 :END:
+
 Updated: (19/05/2021)
 
 [[file:../02_pearls/editors_1_pearls.org::#org03354ca][Link to pearl entry]]
@@ -218,10 +225,11 @@ Updated: (19/05/2021)
     - ~Sources~:
         - Here is the [[https://linuxize.com/post/how-to-copy-cut-paste-in-vim/][website]] which was used.
 
-* E#002 (20/04/2021) - vimtutor. (V)
+* E#002 (2021-04-20) - vimtutor. (V)
 :PROPERTIES:
-:CUSTOM_ID: org3197b89
+:CUSTOM_ID: org44339bb
 :END:
+
 [[file:../02_pearls/editors_1_pearls.org::#orgae35ea3][Link to pearl entry]]
 
 - ~GTs~:
@@ -243,10 +251,11 @@ Updated: (19/05/2021)
     - ~Sources~:
         - Self-discovery.
 
-* E#001 (19/04/2021) - day 0. (V)
+* E#001 (2021-04-19) - day 0. (V)
 :PROPERTIES:
-:CUSTOM_ID: org5f3b26d
+:CUSTOM_ID: org6bad0ce
 :END:
+
 [[file:../02_pearls/editors_1_pearls.org::#org9e2ad22][Link to pearl entry]]
 
 - ~GTs~:
