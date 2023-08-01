@@ -18,11 +18,12 @@
 :END:
 See [[https://hnvy.github.io/about.html#journal][this]].
 
-* E#017 (02/11/2022) - go Google it (T)
+* E#017 (2022-11-02) - go Google it (T)
 :PROPERTIES:
-:CUSTOM_ID: org1c1fe0f
+:CUSTOM_ID: org3d75859
 :END:
-[[file:./journal_1_logs.org::#org73993f1][Previously]], I have been a little too harsh on the medical students. I don't blame them, there is too much to learn and too little time. Their issues are exacerbated further by their variable clinical rotation experiences.
+
+[[file:./journal_1_logs.org::#org1487799][Previously]], I have been a little too harsh on the medical students. I don't blame them, there is too much to learn and too little time. Their issues are exacerbated further by their variable clinical rotation experiences.
 
 I have come to realise that the staff on the wards don't tell you to go and Google something because "they're lazy and don't want to teach", but rather, because some of them feel like you would not pay attention to the things that they were about to bestow upon yourself. Or, some may feel that they cannot teach things quite well, and hence avoid it altogether. And, that's a problem. This issue most probably originated when those specific staff members encountered some inattentive/uninterested students, and did what people are so good at: generalising.
 
@@ -48,15 +49,16 @@ Empathise with the student; they are likely to have a lot going on.
 
 How then, as a student, can you make sure that you benefit the most from ward teaching? You may think about a subject to discuss with the staff and then see where things go from there. Or, you can hint at the above suggestions. What if that doesn't succeed, though? I'll let you know when I learn the answer to this question...
 
-* E#016 (16/10/2022) - following a plan (T)
+* E#016 (2022-10-16) - following a plan (T)
 :PROPERTIES:
-:CUSTOM_ID: org29jro21
+:CUSTOM_ID: org41073c5
 :END:
+
 Recently, I have been slacking on my work. I open the computer, launch my usual work-related software, and then, once I think of something trivial such as "how to match the capturing group in the replace box using RegEx" go down a rabbit whole which takes 3-4 hours.
 
 It is getting hideous, and frankly, I have had enough.
 
-What follows is a public mini-reflection which utilises what I have spoken about [[file:./00_journal/01_logs/journal_1_logs.org#org8d2b587][previously]]:
+What follows is a public mini-reflection which utilises what I have spoken about [[file:./00_journal/01_logs/journal_1_logs.org#org474cc6c][previously]]:
 
 #+BEGIN_QUOTE
 I need to complete this chapter. No, I want to complete this chapter. I have wasted too much time on trivial things that are not as useful as the chapter I am currently learning. Sure, learning how to match the capturing group in RegEx is cool, but is it useful *right now*? No.
