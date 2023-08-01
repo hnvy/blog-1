@@ -18,10 +18,11 @@
 :END:
 See [[https://hnvy.github.io/about.html#journal][this]].
 
-* E#015 (02/10/2022) - software makes no mistakes (T)
+* E#015 (2022-10-02) - software makes no mistakes (T)
 :PROPERTIES:
-:CUSTOM_ID: orgfcd4105
+:CUSTOM_ID: org5879b79
 :END:
+
 Software is completely error-free. Error is not an option. Please note that I am not talking about bugs. There are bugs because of human error (the human coded something incorrectly, and hence caused the software to break in some way).
 
 Literally, a software is a set of instructions that the computer must obey. Therefore, if you tell it to do ~ABC~, it will do ~ABC~. The program will print the word "Hello" when you instruct it to do so. Nothing more or less. The words "wow," "lol," or "good morning" won't be printed. Just "Hello".
@@ -34,18 +35,20 @@ The reason for this entry's idea is because I frequently hear comments like "nev
 
 It is quite likely that *you*, not the software, are to blame if something went wrong with the referencing. So make sure you read some of the documentation before you start pointing the finger at the program.
 
-* E#014 (09/07/2022) - public story (I)
+* E#014 (2022-07-09) - public story (I)
 :PROPERTIES:
-:CUSTOM_ID: org8016f98
+:CUSTOM_ID: org681b214
 :END:
+
 For a time now, I've been considering posting a story on this website. I was reluctant to do so primarily due to my concern for other people's opinions. But, everyone has to start someplace. Others choose to write publicly, while some prefer to write more discreetly and privately.
 
 Anyhow, the journey will be intriguing. I have quite a few ideas in mind.
 
-* E#013 (03/07/2022) - land of code (I)
+* E#013 (2022-07-03) - land of code (I)
 :PROPERTIES:
-:CUSTOM_ID: org88cb90e
+:CUSTOM_ID: org6e5b0e0
 :END:
+
 Imagine a website where you could post your helpful code snippets for everyone to use. Just development and learning, no bloat, no fluff, no filler content. Literally, just useful code snippets.
 
 I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
@@ -61,10 +64,11 @@ I might attempt this. It is still a good idea to post for everyone to see even t
 
 It will function similarly to GitHub Gist, but as a hub as opposed to being dispersed everywhere.
 
-* E#012 (01/07/2022) - perseverance and tasks (T)
+* E#012 (2022-07-01) - perseverance and tasks (T)
 :PROPERTIES:
-:CUSTOM_ID: orgee07f40
+:CUSTOM_ID: org38df76d
 :END:
+
 Incremental change of your behaviour is fantastic method to manage your current habits and continue. Small achievable dollops of targets are set before your eyes. But, the biggest issue is that a perseverance test is only undertaken when you reach a plateau line, which you may not have expected. Also, a lot of (mental and/or physical) effort is required for someone to induce this change.
 
 Let's look at an example to explain the above.
@@ -85,10 +89,11 @@ Well, it had occurred to me that a lot of people give up far too soon. That coul
 
 Let this serve as a reminder to myself to persevere because, after a plateau, progress might occur.
 
-* E#011 (26/06/2022) - catching thoughts with reflection (T+I)
+* E#011 (2022-06-26) - catching thoughts with reflection (T+I)
 :PROPERTIES:
-:CUSTOM_ID: org1a85822
+:CUSTOM_ID: org3725480
 :END:
+
 Your brain is like a fruit and vegetable-bearing tree. New ones are always being created, whether seasonally or throughout the year.
 
 That tree's fruits and vegetables are your thoughts and ideas. The tree is the source of these.
@@ -107,10 +112,11 @@ But how does that relate to thought-catching? The answer, as you might have susp
 
 In this circumstance, the basket is reflection. It's a tool that people can use to capture ephemeral thoughts that aren't usually logged by your brain.
 
-* E#010 (04/06/2022) - red ear (T+I)
+* E#010 (2022-06-04) - red ear (T+I)
 :PROPERTIES:
-:CUSTOM_ID: org7a7dcd7
+:CUSTOM_ID: org61b6b9b
 :END:
+
 Now, I'm going to make a promise to you. In no way, shape, or form is what follows a pseudoscience report. It's just something that has been happening to me for a long time. It's most likely just a coincidence with no significance, but I thought it would be a shame to not share it. After all, this is a learning journey. This is, after all, a learning experience.
 
 My left ear becomes red whenever I think about something that requires reasoning and problem solving. My right ear turns red everytime I try to recall a specific fact (without solving a problem).
@@ -124,10 +130,11 @@ Potential topics to learn about:
 - Brain blood supply
 - Handedness
 
-* E#009 (27/05/2022) - non-receptive (T)
+* E#009 (2022-05-27) - non-receptive (T)
 :PROPERTIES:
-:CUSTOM_ID: orga3943e2
+:CUSTOM_ID: org1015887
 :END:
+
 I've begun to realise that my classmates are not at all receptive. By "receptive," I mean they don't share the same passion as their colleagues and don't listen to their fears, venting, or anxiety.
 
 This could be hazardous to the individual who is expressing their problems. It irritates me, and gives me a great deal of anguish and aggravation, when I don't get a response from the individual I'm speaking with (especially when the issue I'm discussing affects both of us equally or impacts them far more than it does me).
@@ -148,10 +155,11 @@ Beware, however. Do not confuse "moaning" (which is simply venting without the a
 
 Observing this phenomenon is extremely heartbreaking. There could be a variety of personal reasons for this, including but not limited to fear of repercussions and penalties.
 
-* E#008 (26/04/2022) - not on my syllabus (T)
+* E#008 (2022-04-26) - not on my syllabus (T)
 :PROPERTIES:
-:CUSTOM_ID: org73993f1
+:CUSTOM_ID: org1487799
 :END:
+
 It started to become not uncommon to witness colleagues from medical school completely shut down their eyes, ears, and brains when they hear, from a professor, that the topic we're currently being taught will not be examined. This is despite the fact that some of those colleagues find these certain topics interesting.
 
 I find that such approach generates quite a few issues. Below, I will outline some of the ones that came to mind. I will probably add more in the future.
@@ -164,10 +172,11 @@ The curriculum isn't the same as actual life. There are numerous vital topics th
 
 I don't hold it against those students. To some extent, I agree with them: students should devote more time to studying the topics that will be assessed, otherwise they will fail the exams. At the same time, they should not fully block out all non-examineable information. This, in my opinion, is not the best way to nurture learning. Medical school is only the beginning of a career in Medicine. Medicine is a voyage that will last a lifetime. You, my friend, are well on your way to becoming a one-of-a-kind doctor if you can harness this ability, early on, to discover useful content and learn it despite the fact that it is not mandated by the curriculum.
 
-* E#007 (12/04/2022) - reflect on it (T+I)
+* E#007 (2022-04-12) - reflect on it (T+I)
 :PROPERTIES:
-:CUSTOM_ID: org8d2b587
+:CUSTOM_ID: org474cc6c
 :END:
+
 I've seen students try to 'optimise' their lifestyle by using a variety of 'productivity' applications and tools far too many times to count. These apps can sometimes be useful. Sometimes yes, and sometimes no. Not in the least.
 
 And, in order to tackle this problem, the students fail to consider that maybe, just maybe, using a lot of apps isn't the answer to their productivity concerns. Rather, they add to their failed arsenal more of the latest apps and updates.
@@ -204,10 +213,11 @@ Here are the steps summarised:
 
 That is all. A simple life is what you need, not a new app.
 
-* E#006 (10/04/2022) - day by day (I)
+* E#006 (2022-04-10) - day by day (I)
 :PROPERTIES:
-:CUSTOM_ID: org480def8
+:CUSTOM_ID: orgbca64dd
 :END:
+
 Medicine has many diseases to study, and there is too little time. What is the solution? Consistency.
 
 In Medicine consistency is key: a little and often. There will be no grinding. There will be no cramming.
@@ -218,10 +228,11 @@ I've written a [[https://github.com/hnvy/do-it][Python program]] to handle this 
 
 I've been using it for a year and have to say that it's a fantastic productivity tool.
 
-* E#005 (27/03/2022) - art and peace (T)
+* E#005 (2022-03-27) - art and peace (T)
 :PROPERTIES:
-:CUSTOM_ID: 
+:CUSTOM_ID: org4cd9e61
 :END:
+
 For a long, long time, I was fascinated by art (probably at around the age of 5 or 6). It amazes me that you can bring your imagination to life and share it with others.
 
 But the problem was that I never had the opportunity to understand it thoroughly. I've only recently begun learning it, and it's a lot of fun. It is, in fact, arguably the first and only activity that can properly divert my attention away from my other issues. Up the art!
@@ -230,10 +241,11 @@ I'm thinking about publishing some of my work here just to document any potentia
 
 Oh, and I'm been using [[https://drawabox.com/][DrawABox]] simply because it seems to have summarised a bunch of lectures and books into neat little exercises.
 
-* E#004 (28/02/2022) - no template, no problem (T)
+* E#004 (2022-02-28) - no template, no problem (T)
 :PROPERTIES:
-:CUSTOM_ID: org3d1bfdb
+:CUSTOM_ID: orge35a188
 :END:
+
 I've had to rethink how I operate things as a result of the neglect of this so-called blog. It all began in a rather regular and upbeat manner. But, over time, I began to disregard it. Why? Well, after a few moments of contemplation, I've come up with the answer: I've created too many limiting self-imposed templates and pieces of guidance (which, don't get me wrong, may come in handy at some point in the future. Just not now, especially not when this whole thing is nothing but a baby project) that I've held myself accountable to before even gaining a sense of what this venture is all about, which is unrestrained learning. It was someplace where I could learn and not have to think too hard or be worried of being judged for the messiness of it all by someone (i.e., my overthinking and overcomplicating self).
 
 I went through this unnecessary tension before every commitment. The anxiety and concern that I had made a mistake, whether it was an intellectual or a spelling/grammar one. All of this occurred without my realising that mistakes are perfectly acceptable. I think that mistakes, not perfectionism, is a better way for us to learn.
@@ -242,10 +254,11 @@ Anyway, let this serve as a reminder to myself. There will be no more overcompli
 
 There will be no more onerous templates to follow from now on. It's just me passing along pearls of information.
 
-* E#003 (10/09/2021) - a free mind is a creative mind (T)
+* E#003 (2021-09-10) - a free mind is a creative mind (T)
 :PROPERTIES:
-:CUSTOM_ID: org99a5a80
+:CUSTOM_ID: orga4811e6
 :END:
+
 I was asked the other day about what sort of activities do I do when I listen to a podcast. Here was my response:
 
 @@html:<blockquote>I wander around the room while listening to the podcast. It's not the same as going for a walk outside. I tend to recall more information that way, which may sound strange. Not only that, but I like to use walking and cleaning as a way to disconnect from technology. While cleaning, I've solved innumerable dilemmas and come up with countless ideas. I don't want to miss out on this opportunity. If I listen to a podcast during cleaning, I fail to achieve the same effect.</blockquote>@@
@@ -268,10 +281,11 @@ Why am I not interested in listening to a podcast during this time off? Listenin
 
 I plan to write more about this subject in the future, but for now, I'll sign off.
 
-* E#002 (09/08/2021) - graphical view of your day (I)
+* E#002 (2021-08-09) - graphical view of your day (I)
 :PROPERTIES:
-:CUSTOM_ID: org0c7deff
+:CUSTOM_ID: org93dc158
 :END:
+
 I'll be honest with you: I'm not a big fan of traditional daily TODO lists. They can be rather intimidating at times, especially if I let them build up over time. I've tried a lot of TODO list applications, but none of them alleviated this feeling.
 
 I recently realised that if I could 'gamify' (or visually express) my daily TODO list so that it no longer feels overwhelming, I would finally be able to complete tasks.
@@ -282,10 +296,11 @@ I know that there are apps out there which utilise pie/donut charts, but I perso
 
 Why? Well, to begin with, it is easier for me to read than a round donut chart. Secondly, it provides a more straightforward comparison of relative time spent on each task. I can easily see that the dark blue task takes more time than the amber one.
 
-* E#001 (08/08/2021) - daily proportion (I)
+* E#001 (2021-08-08) - daily proportion (I)
 :PROPERTIES:
-:CUSTOM_ID: org99a4745
+:CUSTOM_ID: org68f1d6b
 :END:
+
 Have you ever had the problem of not being able to see which tasks take up most of your time? Here's a suggestion based on the Pomodoro approach that I picked up and developed.
 
 1. Create a table with two columns: ~Task category~ and ~Time spent~.
