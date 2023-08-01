@@ -16,10 +16,11 @@
 :END:
 See [[https://hnvy.github.io//about.html#misc][this]].
 
-* E#002 (25/07/2022) - CMD, find X in subdirectories.
+* E#002 (2022-07-25) - CMD, find X in subdirectories.
 :PROPERTIES:
-:CUSTOM_ID: orgb2a8f30
+:CUSTOM_ID: orgb07fb78
 :END:
+
 Let's imagine that you are searching through a number of files for the string "~please find me~". There are 400 text files in 20 directories. You're unsure of which file that string belongs in.
 
 What's the solution? Well, ~findstr~!
@@ -33,10 +34,11 @@ Suppose you have the following directory ~c:/Stats/Spreadsheets/~. Also, let's a
 - ~findstr /s /i /c:"please find me" "c:/Stats/Spreadsheets/*"~ - This can be used if you aren't currently located in the directory.
 - ~findstr /s /i /c:"please find me" *.*~ - this can be used if you are located in the directory.
 
-* E#001 (16/07/2022) - RegEx, match lines to end of file.
+* E#001 (2022-07-16) - RegEx, match lines to end of file.
 :PROPERTIES:
-:CUSTOM_ID: org317807a
+:CUSTOM_ID: org7f898b3
 :END:
+
 In a text file, I recently had to replace something. Starting at a certain text (~PieceOfText~), up until the last line of the file. Here is how I went about it:
 #+BEGIN_SRC
 Find: PieceOfText((.|\n)*)
