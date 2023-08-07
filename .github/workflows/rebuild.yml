@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: Rebuild the site
 # Most of this code is from System Crafters.
 # You can find the original at: https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
 # To allow a specific external action to be run, you need
@@ -10,9 +10,7 @@ name: Publish to GitHub Pages
 # - See also: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#allowing-specific-actions-to-run
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -20,24 +18,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-       
-       # You must use this version of Emacs (or higher), otherwise you would get issues
+
+
+        # You must use this version of Emacs (or higher), otherwise you would get issues
         # with Org Publish when exporting header IDs (Org will continue using its automatically generated IDs)
       - name: Install Emacs
         run: sudo add-apt-repository ppa:kelleyk/emacs && sudo apt-get update && sudo apt install emacs28-nox
        # uses: purcell/setup-emacs@master
        # with:
        #   version: 27.2
-       
+
       - name: Build the site
-        run: emacs -Q --script org-publish.el
-        
-      - name: Commit timestamps changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Automatic commit
-          file_pattern: 'public/timestamps/*'
-          
+        run: emacs -Q --script org-publish-2.el
+
+#      - name: Copy main.css and rss.xml to the ~public~ folder
+#        run: cp -R ./src/css/ ./src/rss.xml ./public
+
+#      - name: Commit timestamps changes
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          commit_message: Automatic commit
+#          file_pattern: 'public/timestamps/*'
+
       - name: Publish generated content to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:

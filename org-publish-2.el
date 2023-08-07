@@ -8,7 +8,7 @@
 
 ;; (setq org-publish-use-timestamps-flag t)
 ;; (setq org-publish-cache t)
-;; (setq org-publish-timestamp-directory "/home/runner/work/blog-1/blog-1/public/timestamps/")
+;; (setq org-publish-timestamp-directory "/home/runner/work/hnvy.github.io/hnvy.github.io/public/timestamps/")
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil
@@ -23,7 +23,7 @@
       (list
        (list "hnvy"
              :recursive t
-             :base-directory "./src2"
+             :base-directory "./src"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-creator t
