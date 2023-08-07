@@ -31,6 +31,7 @@ But anyway, finally, I have found the solution. Simply, add this under ~/.github
 
 <pre><span class="variable-name">name</span>: Publish modified content to GitHub Pages
 
+#+BEGIN_EXPORT html
 <span class="constant">on</span>:
   <span class="variable-name">push</span>:
     <span class="variable-name">branches</span>:
@@ -63,11 +64,13 @@ But anyway, finally, I have found the solution. Simply, add this under ~/.github
           <span class="variable-name">clean</span>: <span class="constant">false</span> <span class="comment-delimiter"># </span><span class="comment">Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.
 </span>          <span class="variable-name">commit-message</span>: Update ${{ github.sha }}
           <span class="variable-name">folder</span>: public</pre>
+#+END_EXPORT
 
 Then, let it do the magic...
 
 As can be seen, the ~Publish modified files only~ step is executing an Emacs script called ~org-publish.el~. The content of ~org-publish.el~ should be something like this:
 
+#+BEGIN_EXPORT html
 <pre><span class="comment-delimiter">;; </span><span class="comment">Set the package installation directory so that packages aren't stored in the
 </span><span class="comment-delimiter">;; </span><span class="comment">~/.emacs.d/elpa path.
 </span><span class="comment-delimiter">;; </span><span class="comment">I am grateful for System Crafters for posting this config online.
@@ -100,6 +103,7 @@ As can be seen, the ~Publish modified files only~ step is executing an Emacs scr
 
 <span class="comment-delimiter">;; </span><span class="comment">Generate the site output
 </span>(org-publish-all t)</pre>
+#+END_EXPORT
 
 * E#002 (2022-07-25) - CMD, find X in subdirectories.
 :PROPERTIES:
@@ -141,3 +145,4 @@ So, with the help of ~((.|\n)*)~, the following has been highlighted:
 <p>Here is the end of the text file. Nice!</p></div>
 </code>
 #+END_EXPORT
+
