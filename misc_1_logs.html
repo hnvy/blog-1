@@ -53,56 +53,38 @@ But anyway, finally, I have found the solution. Simply, add this under <code>/.g
 &lt;pre&gt;&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish modified content to GitHub Pages
 </p>
 
-<p>
-&lt;span class="constant"&gt;on&lt;/span&gt;:
-  &lt;span class="variable-name"&gt;push&lt;/span&gt;:
-    &lt;span class="variable-name"&gt;branches&lt;/span&gt;:
-</p>
-<ul class="org-ul">
-<li>main</li>
-</ul>
+<span class="constant">on</span>:
+  <span class="variable-name">push</span>:
+    <span class="variable-name">branches</span>:
+      - main
 
-<p>
-&lt;span class="variable-name"&gt;jobs&lt;/span&gt;:
-  &lt;span class="variable-name"&gt;publish&lt;/span&gt;:
-    &lt;span class="variable-name"&gt;runs-on&lt;/span&gt;: ubuntu-latest
-    &lt;span class="variable-name"&gt;steps&lt;/span&gt;:
-</p>
-<ul class="org-ul">
-<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Checkout
-&lt;span class="variable-name"&gt;uses&lt;/span&gt;: actions/checkout@v2
-&lt;span class="variable-name"&gt;with&lt;/span&gt;:
-  &lt;span class="variable-name"&gt;fetch-depth&lt;/span&gt;: 0 &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;fetch 0 commits</li>
-</ul>
-<p>
-&lt;/span&gt;
-</p>
-<ul class="org-ul">
-<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: src2 creation and copying
-&lt;span class="variable-name"&gt;run&lt;/span&gt;: |
-  &lt;span class="string"&gt;mkdir src2&lt;/span&gt;</li>
-</ul>
-<p>
-&lt;span class="string"&gt;          git diff &#x2013;name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
-&lt;/span&gt;
-</p>
-<ul class="org-ul">
-<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Install Emacs
-&lt;span class="variable-name"&gt;run&lt;/span&gt;: sudo add-apt-repository ppa:kelleyk/emacs &amp;amp;&amp;amp; sudo apt-get update &amp;amp;&amp;amp; sudo apt install emacs28-nox</li>
+<span class="variable-name">jobs</span>:
+  <span class="variable-name">publish</span>:
+    <span class="variable-name">runs-on</span>: ubuntu-latest
+    <span class="variable-name">steps</span>:
+      - <span class="variable-name">name</span>: Checkout
+        <span class="variable-name">uses</span>: actions/checkout@v2
+        <span class="variable-name">with</span>:
+          <span class="variable-name">fetch-depth</span>: 0 <span class="comment-delimiter"># </span><span class="comment">fetch 0 commits
+</span>
+      - <span class="variable-name">name</span>: src2 creation and copying
+        <span class="variable-name">run</span>: |
+          <span class="string">mkdir src2</span>
+<span class="string">          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+</span>
+      - <span class="variable-name">name</span>: Install Emacs
+        <span class="variable-name">run</span>: sudo add-apt-repository ppa:kelleyk/emacs &amp;&amp; sudo apt-get update &amp;&amp; sudo apt install emacs28-nox
 
-<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish modified files only
-&lt;span class="variable-name"&gt;run&lt;/span&gt;: emacs -Q &#x2013;script org-publish.el</li>
+      - <span class="variable-name">name</span>: Publish modified files only
+        <span class="variable-name">run</span>: emacs -Q --script org-publish.el
 
-<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish generated content to GitHub Pages branch
-&lt;span class="variable-name"&gt;uses&lt;/span&gt;: JamesIves/github-pages-deploy-action@v4
-&lt;span class="variable-name"&gt;with&lt;/span&gt;:
-  &lt;span class="variable-name"&gt;branch&lt;/span&gt;: gh-pages
-  &lt;span class="variable-name"&gt;clean&lt;/span&gt;: &lt;span class="constant"&gt;false&lt;/span&gt; &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.</li>
-</ul>
-<p>
-&lt;/span&gt;          &lt;span class="variable-name"&gt;commit-message&lt;/span&gt;: Update ${{ github.sha }}
-          &lt;span class="variable-name"&gt;folder&lt;/span&gt;: public&lt;/pre&gt;
-</p>
+      - <span class="variable-name">name</span>: Publish generated content to GitHub Pages branch
+        <span class="variable-name">uses</span>: JamesIves/github-pages-deploy-action@v4
+        <span class="variable-name">with</span>:
+          <span class="variable-name">branch</span>: gh-pages
+          <span class="variable-name">clean</span>: <span class="constant">false</span> <span class="comment-delimiter"># </span><span class="comment">Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.
+</span>          <span class="variable-name">commit-message</span>: Update ${{ github.sha }}
+          <span class="variable-name">folder</span>: public</pre>
 
 <p>
 Then, let it do the magic&#x2026;
@@ -112,44 +94,38 @@ Then, let it do the magic&#x2026;
 As can be seen, the <code>Publish modified files only</code> step is executing an Emacs script called <code>org-publish.el</code>. The content of <code>org-publish.el</code> should be something like this:
 </p>
 
-<p>
-&lt;pre&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Set the package installation directory so that packages aren't stored in the
-&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;~/.emacs.d/elpa path.
-&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;I am grateful for System Crafters for posting this config online.
-&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;You can find the original code at: <a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/</a>
-&lt;/span&gt;
-&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Load the publishing system
-&lt;/span&gt;(&lt;span class="keyword"&gt;require&lt;/span&gt; '&lt;span class="constant"&gt;ox-publish&lt;/span&gt;)
-</p>
+<pre><span class="comment-delimiter">;; </span><span class="comment">Set the package installation directory so that packages aren't stored in the
+</span><span class="comment-delimiter">;; </span><span class="comment">~/.emacs.d/elpa path.
+</span><span class="comment-delimiter">;; </span><span class="comment">I am grateful for System Crafters for posting this config online.
+</span><span class="comment-delimiter">;; </span><span class="comment">You can find the original code at: https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">Load the publishing system
+</span>(<span class="keyword">require</span> '<span class="constant">ox-publish</span>)
 
-<p>
-&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Customize the HTML output
-&lt;/span&gt;(setq org-html-validation-link nil
+<span class="comment-delimiter">;; </span><span class="comment">Customize the HTML output
+</span>(setq org-html-validation-link nil
       org-export-with-title nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       org-export-with-sub-superscripts nil
-      org-html-head &lt;span class="string"&gt;&amp;quot;&amp;lt;link rel=\&amp;quot;stylesheet\&amp;quot; href=\&amp;quot;<a href="https://hnvy.github.io/assets/css/main.css%5C&amp;quot">https://hnvy.github.io/assets/css/main.css%5C&amp;quot</a>; /&amp;gt;&amp;quot;&lt;/span&gt;) &lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Replace this path with the location of your CSS file.
-&lt;/span&gt;
-&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Define the publishing project
-&lt;/span&gt;(setq org-publish-project-alist
+      org-html-head <span class="string">&quot;&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;https://hnvy.github.io/assets/css/main.css\&quot; /&gt;&quot;</span>) <span class="comment-delimiter">;; </span><span class="comment">Replace this path with the location of your CSS file.
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">Define the publishing project
+</span>(setq org-publish-project-alist
       (list
-       (list &lt;span class="string"&gt;&amp;quot;hnvy&amp;quot;&lt;/span&gt;
-             &lt;span class="builtin"&gt;:recursive&lt;/span&gt; t
-             &lt;span class="builtin"&gt;:base-directory&lt;/span&gt; &lt;span class="string"&gt;&amp;quot;./src2&amp;quot;&lt;/span&gt; &lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Make sure that this says <code>src2</code>
-&lt;/span&gt;             &lt;span class="builtin"&gt;:publishing-function&lt;/span&gt; 'org-html-publish-to-html
-             &lt;span class="builtin"&gt;:publishing-directory&lt;/span&gt; &lt;span class="string"&gt;&amp;quot;./public&amp;quot;&lt;/span&gt;
-             &lt;span class="builtin"&gt;:with-creator&lt;/span&gt; t
-             &lt;span class="builtin"&gt;:with-author&lt;/span&gt; nil
-             &lt;span class="builtin"&gt;:with-toc&lt;/span&gt; nil
-             &lt;span class="builtin"&gt;:section-numbers&lt;/span&gt; nil
-             &lt;span class="builtin"&gt;:time-stamp-file&lt;/span&gt; nil)))
-</p>
+       (list <span class="string">&quot;hnvy&quot;</span>
+             <span class="builtin">:recursive</span> t
+             <span class="builtin">:base-directory</span> <span class="string">&quot;./src2&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~src2~
+</span>             <span class="builtin">:publishing-function</span> 'org-html-publish-to-html
+             <span class="builtin">:publishing-directory</span> <span class="string">&quot;./public&quot;</span>
+             <span class="builtin">:with-creator</span> t
+             <span class="builtin">:with-author</span> nil
+             <span class="builtin">:with-toc</span> nil
+             <span class="builtin">:section-numbers</span> nil
+             <span class="builtin">:time-stamp-file</span> nil)))
 
-<p>
-&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Generate the site output
-&lt;/span&gt;(org-publish-all t)&lt;/pre&gt;
-</p>
+<span class="comment-delimiter">;; </span><span class="comment">Generate the site output
+</span>(org-publish-all t)</pre>
 </div>
 </div>
 
