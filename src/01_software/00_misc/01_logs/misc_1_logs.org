@@ -16,6 +16,91 @@
 :END:
 See [[https://hnvy.github.io//about.html#misc][this]].
 
+* E#003 (2023-08-07) - GitHub, publish modified files only.
+:PROPERTIES:
+:CUSTOM_ID: orgf169bb9
+:END:
+
+For the longest time, I have been trying to make GitHub Actions publish the modified files only.
+
+By that, I mean, if I edit ~misc_1_logs.org~, then I want Org-mode only publish this file, rather than re-publish the entire directory.
+
+I have tried to use the timestamps feature which comes with Org-mode, but that did not work. Maybe it's because I have set it up incorrectly...
+
+But anyway, finally, I have found the solution. Simply, add this under ~/.github/workflows/~.
+
+<pre><span class="variable-name">name</span>: Publish modified content to GitHub Pages
+
+<span class="constant">on</span>:
+  <span class="variable-name">push</span>:
+    <span class="variable-name">branches</span>:
+      - main
+
+<span class="variable-name">jobs</span>:
+  <span class="variable-name">publish</span>:
+    <span class="variable-name">runs-on</span>: ubuntu-latest
+    <span class="variable-name">steps</span>:
+      - <span class="variable-name">name</span>: Checkout
+        <span class="variable-name">uses</span>: actions/checkout@v2
+        <span class="variable-name">with</span>:
+          <span class="variable-name">fetch-depth</span>: 0 <span class="comment-delimiter"># </span><span class="comment">fetch 0 commits
+</span>
+      - <span class="variable-name">name</span>: src2 creation and copying
+        <span class="variable-name">run</span>: |
+          <span class="string">mkdir src2</span>
+<span class="string">          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+</span>
+      - <span class="variable-name">name</span>: Install Emacs
+        <span class="variable-name">run</span>: sudo add-apt-repository ppa:kelleyk/emacs &amp;&amp; sudo apt-get update &amp;&amp; sudo apt install emacs28-nox
+
+      - <span class="variable-name">name</span>: Publish modified files only
+        <span class="variable-name">run</span>: emacs -Q --script org-publish.el
+
+      - <span class="variable-name">name</span>: Publish generated content to GitHub Pages branch
+        <span class="variable-name">uses</span>: JamesIves/github-pages-deploy-action@v4
+        <span class="variable-name">with</span>:
+          <span class="variable-name">branch</span>: gh-pages
+          <span class="variable-name">clean</span>: <span class="constant">false</span> <span class="comment-delimiter"># </span><span class="comment">Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.
+</span>          <span class="variable-name">commit-message</span>: Update ${{ github.sha }}
+          <span class="variable-name">folder</span>: public</pre>
+
+Then, let it do the magic...
+
+As can be seen, the ~Publish modified files only~ step is executing an Emacs script called ~org-publish.el~. The content of ~org-publish.el~ should be something like this:
+
+<pre><span class="comment-delimiter">;; </span><span class="comment">Set the package installation directory so that packages aren't stored in the
+</span><span class="comment-delimiter">;; </span><span class="comment">~/.emacs.d/elpa path.
+</span><span class="comment-delimiter">;; </span><span class="comment">I am grateful for System Crafters for posting this config online.
+</span><span class="comment-delimiter">;; </span><span class="comment">You can find the original code at: https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">Load the publishing system
+</span>(<span class="keyword">require</span> '<span class="constant">ox-publish</span>)
+
+<span class="comment-delimiter">;; </span><span class="comment">Customize the HTML output
+</span>(setq org-html-validation-link nil
+      org-export-with-title nil
+      org-html-head-include-scripts nil
+      org-html-head-include-default-style nil
+      org-export-with-sub-superscripts nil
+      org-html-head <span class="string">&quot;&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;https://hnvy.github.io/assets/css/main.css\&quot; /&gt;&quot;</span>) <span class="comment-delimiter">;; </span><span class="comment">Replace this path with the location of your CSS file.
+</span>
+<span class="comment-delimiter">;; </span><span class="comment">Define the publishing project
+</span>(setq org-publish-project-alist
+      (list
+       (list <span class="string">&quot;hnvy&quot;</span>
+             <span class="builtin">:recursive</span> t
+             <span class="builtin">:base-directory</span> <span class="string">&quot;./src2&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~src2~
+</span>             <span class="builtin">:publishing-function</span> 'org-html-publish-to-html
+             <span class="builtin">:publishing-directory</span> <span class="string">&quot;./public&quot;</span>
+             <span class="builtin">:with-creator</span> t
+             <span class="builtin">:with-author</span> nil
+             <span class="builtin">:with-toc</span> nil
+             <span class="builtin">:section-numbers</span> nil
+             <span class="builtin">:time-stamp-file</span> nil)))
+
+<span class="comment-delimiter">;; </span><span class="comment">Generate the site output
+</span>(org-publish-all t)</pre>
+
 * E#002 (2022-07-25) - CMD, find X in subdirectories.
 :PROPERTIES:
 :CUSTOM_ID: orgb07fb78
