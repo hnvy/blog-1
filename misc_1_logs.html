@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Misc 1 Logs</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://hnvy.github.io/assets/css/main.css" />
+</head>
+<body>
+<div id="content" class="content">
+<pre>
+<code>> ./blog-1/01_software/00_misc/01_logs/misc_1_logs.html</code>
+</pre>
+
+<p>
+<a href="https://hnvy.github.io/blog-1/">Home page</a> - <a href="https://github.com/hnvy/blog-1/edit/main/src/01_software/00_misc/01_logs/misc_1_logs.org">ESotP</a>
+</p>
+
+<hr />
+
+<div id="outline-container-intro" class="outline-2">
+<h2 id="intro">Introduction</h2>
+<div class="outline-text-2" id="text-intro">
+<p>
+See <a href="https://hnvy.github.io//about.html#misc">this</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf169bb9" class="outline-2">
+<h2 id="orgf169bb9">E#003 (2023-08-07) - GitHub, publish modified files only.</h2>
+<div class="outline-text-2" id="text-orgf169bb9">
+<p>
+For the longest time, I have been trying to make GitHub Actions publish the modified files only.
+</p>
+
+<p>
+By that, I mean, if I edit <code>misc_1_logs.org</code>, then I want Org-mode only publish this file, rather than re-publish the entire directory.
+</p>
+
+<p>
+I have tried to use the timestamps feature which comes with Org-mode, but that did not work. Maybe it's because I have set it up incorrectly&#x2026;
+</p>
+
+<p>
+But anyway, finally, I have found the solution. Simply, add this under <code>/.github/workflows/</code>.
+</p>
+
+<p>
+&lt;pre&gt;&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish modified content to GitHub Pages
+</p>
+
+<p>
+&lt;span class="constant"&gt;on&lt;/span&gt;:
+  &lt;span class="variable-name"&gt;push&lt;/span&gt;:
+    &lt;span class="variable-name"&gt;branches&lt;/span&gt;:
+</p>
+<ul class="org-ul">
+<li>main</li>
+</ul>
+
+<p>
+&lt;span class="variable-name"&gt;jobs&lt;/span&gt;:
+  &lt;span class="variable-name"&gt;publish&lt;/span&gt;:
+    &lt;span class="variable-name"&gt;runs-on&lt;/span&gt;: ubuntu-latest
+    &lt;span class="variable-name"&gt;steps&lt;/span&gt;:
+</p>
+<ul class="org-ul">
+<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Checkout
+&lt;span class="variable-name"&gt;uses&lt;/span&gt;: actions/checkout@v2
+&lt;span class="variable-name"&gt;with&lt;/span&gt;:
+  &lt;span class="variable-name"&gt;fetch-depth&lt;/span&gt;: 0 &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;fetch 0 commits</li>
+</ul>
+<p>
+&lt;/span&gt;
+</p>
+<ul class="org-ul">
+<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: src2 creation and copying
+&lt;span class="variable-name"&gt;run&lt;/span&gt;: |
+  &lt;span class="string"&gt;mkdir src2&lt;/span&gt;</li>
+</ul>
+<p>
+&lt;span class="string"&gt;          git diff &#x2013;name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+&lt;/span&gt;
+</p>
+<ul class="org-ul">
+<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Install Emacs
+&lt;span class="variable-name"&gt;run&lt;/span&gt;: sudo add-apt-repository ppa:kelleyk/emacs &amp;amp;&amp;amp; sudo apt-get update &amp;amp;&amp;amp; sudo apt install emacs28-nox</li>
+
+<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish modified files only
+&lt;span class="variable-name"&gt;run&lt;/span&gt;: emacs -Q &#x2013;script org-publish.el</li>
+
+<li>&lt;span class="variable-name"&gt;name&lt;/span&gt;: Publish generated content to GitHub Pages branch
+&lt;span class="variable-name"&gt;uses&lt;/span&gt;: JamesIves/github-pages-deploy-action@v4
+&lt;span class="variable-name"&gt;with&lt;/span&gt;:
+  &lt;span class="variable-name"&gt;branch&lt;/span&gt;: gh-pages
+  &lt;span class="variable-name"&gt;clean&lt;/span&gt;: &lt;span class="constant"&gt;false&lt;/span&gt; &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.</li>
+</ul>
+<p>
+&lt;/span&gt;          &lt;span class="variable-name"&gt;commit-message&lt;/span&gt;: Update ${{ github.sha }}
+          &lt;span class="variable-name"&gt;folder&lt;/span&gt;: public&lt;/pre&gt;
+</p>
+
+<p>
+Then, let it do the magic&#x2026;
+</p>
+
+<p>
+As can be seen, the <code>Publish modified files only</code> step is executing an Emacs script called <code>org-publish.el</code>. The content of <code>org-publish.el</code> should be something like this:
+</p>
+
+<p>
+&lt;pre&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Set the package installation directory so that packages aren't stored in the
+&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;~/.emacs.d/elpa path.
+&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;I am grateful for System Crafters for posting this config online.
+&lt;/span&gt;&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;You can find the original code at: <a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/</a>
+&lt;/span&gt;
+&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Load the publishing system
+&lt;/span&gt;(&lt;span class="keyword"&gt;require&lt;/span&gt; '&lt;span class="constant"&gt;ox-publish&lt;/span&gt;)
+</p>
+
+<p>
+&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Customize the HTML output
+&lt;/span&gt;(setq org-html-validation-link nil
+      org-export-with-title nil
+      org-html-head-include-scripts nil
+      org-html-head-include-default-style nil
+      org-export-with-sub-superscripts nil
+      org-html-head &lt;span class="string"&gt;&amp;quot;&amp;lt;link rel=\&amp;quot;stylesheet\&amp;quot; href=\&amp;quot;<a href="https://hnvy.github.io/assets/css/main.css%5C&amp;quot">https://hnvy.github.io/assets/css/main.css%5C&amp;quot</a>; /&amp;gt;&amp;quot;&lt;/span&gt;) &lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Replace this path with the location of your CSS file.
+&lt;/span&gt;
+&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Define the publishing project
+&lt;/span&gt;(setq org-publish-project-alist
+      (list
+       (list &lt;span class="string"&gt;&amp;quot;hnvy&amp;quot;&lt;/span&gt;
+             &lt;span class="builtin"&gt;:recursive&lt;/span&gt; t
+             &lt;span class="builtin"&gt;:base-directory&lt;/span&gt; &lt;span class="string"&gt;&amp;quot;./src2&amp;quot;&lt;/span&gt; &lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Make sure that this says <code>src2</code>
+&lt;/span&gt;             &lt;span class="builtin"&gt;:publishing-function&lt;/span&gt; 'org-html-publish-to-html
+             &lt;span class="builtin"&gt;:publishing-directory&lt;/span&gt; &lt;span class="string"&gt;&amp;quot;./public&amp;quot;&lt;/span&gt;
+             &lt;span class="builtin"&gt;:with-creator&lt;/span&gt; t
+             &lt;span class="builtin"&gt;:with-author&lt;/span&gt; nil
+             &lt;span class="builtin"&gt;:with-toc&lt;/span&gt; nil
+             &lt;span class="builtin"&gt;:section-numbers&lt;/span&gt; nil
+             &lt;span class="builtin"&gt;:time-stamp-file&lt;/span&gt; nil)))
+</p>
+
+<p>
+&lt;span class="comment-delimiter"&gt;;; &lt;/span&gt;&lt;span class="comment"&gt;Generate the site output
+&lt;/span&gt;(org-publish-all t)&lt;/pre&gt;
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb07fb78" class="outline-2">
+<h2 id="orgb07fb78">E#002 (2022-07-25) - CMD, find X in subdirectories.</h2>
+<div class="outline-text-2" id="text-orgb07fb78">
+<p>
+Let's imagine that you are searching through a number of files for the string "<code>please find me</code>". There are 400 text files in 20 directories. You're unsure of which file that string belongs in.
+</p>
+
+<p>
+What's the solution? Well, <code>findstr</code>!
+</p>
+
+<p>
+<code>findstr</code> is a command that runs on CMD. Using <code>findstr</code> is very simple (you can run <code>findstr /?</code> to get the manual). My favourite arguments to run are:
+</p>
+<ul class="org-ul">
+<li><code>/s</code>: searches the subdirectories</li>
+<li><code>/i</code>: ignores sentence-case</li>
+<li><code>/c:</code>: allows <code>findstr</code> to search for a string that has white spaces</li>
+</ul>
+
+<p>
+Suppose you have the following directory <code>c:/Stats/Spreadsheets/</code>. Also, let's assume that the <code>Spreadsheets</code> folder has many files and many subfolders, and you're looking for the "<code>please find me</code>" string:
+</p>
+<ul class="org-ul">
+<li><code>findstr /s /i /c:"please find me" "c:/Stats/Spreadsheets/*"</code> - This can be used if you aren't currently located in the directory.</li>
+<li><code>findstr /s /i /c:"please find me" *.*</code> - this can be used if you are located in the directory.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7f898b3" class="outline-2">
+<h2 id="org7f898b3">E#001 (2022-07-16) - RegEx, match lines to end of file.</h2>
+<div class="outline-text-2" id="text-org7f898b3">
+<p>
+In a text file, I recently had to replace something. Starting at a certain text (<code>PieceOfText</code>), up until the last line of the file. Here is how I went about it:
+</p>
+<pre class="example">
+Find: PieceOfText((.|\n)*)
+Replace: Blah blah blah
+</pre>
+
+<p>
+So, with the help of <code>((.|\n)*)</code>, the following has been highlighted:
+</p>
+
+<code>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div style="background-color: yellow;"><p>PieceOfText</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Here is the end of the text file. Nice!</p></div>
+</code>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.1 (<a href="https://orgmode.org">Org</a> mode 9.5.2)</p>
+</div>
+</body>
+</html>
