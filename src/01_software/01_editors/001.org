@@ -1,12 +1,12 @@
-#+TITLE: Editors 1 Logs
+#+TITLE: Editors 001 Logs
 
 #+BEGIN_EXPORT html
 <pre>
-<code>> ./blog-1/01_software/01_vim/01_logs/editors_1_logs.html</code>
+<code>> ./blog-1/01_software/01_vim/001.org</code>
 </pre>
 #+END_EXPORT
 
-[[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/01_software/01_editors/01_logs/editors_1_logs.org][ESotP]]
+[[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/01_software/01_editors/001.org][ESotP]]
 
 -----
 
@@ -21,7 +21,9 @@ See [[https://hnvy.github.io//about.html#editors][this]].
 :CUSTOM_ID: org289653e
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org289653e][Link to pearl entry]]
+Pearls:
+- ~Ctrl~ in Emacs is writter as ~C~, ~Meta~ (aka ~Alt~) as ~M~, and ~Shift~ as ~S~.
+- You can launch the Emacs tutorial using ~C-h~ and then pressing the letter ~t~.
 
 Note: this is an old entry which I procrastinated on adding due to the reasons outlined here. Anyway, here it is (quite incomplete, to be honest).
 - ~GTs~:
@@ -41,7 +43,13 @@ Note: this is an old entry which I procrastinated on adding due to the reasons o
 :CUSTOM_ID: org730bd82
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org730bd82][Link to pearl entry]]
+Pearls:
+- Encode your headings in Vim using ~sha256~
+- Type ~:let @"=sha256('____')~ (replace the ~____~ the heading title)
+- Paste the ~sha256~ hash at the start of the heading line (so you end up with something like this ~HASH# Heading 1~)
+- Yank the ~HASH# Heading 1~ line and paste it at the start of your document under a ~# Table of Contents~ heading
+- Place the cursor at a hash, and press ~#~ to jump to the corresponding heading
+- You can use the following mapping to assist you with the above: ~nmap <M-0> ^v$hy:let @"=sha256('<C-r>"')<CR>Pyygg~ (this maps the steps 1-6 to ~Alt-0~. You can then go down and paste the content using ~p~).
 
 Here is how to create an interactive table of contents (well, sort of) in a plain text file.
 
@@ -125,7 +133,12 @@ Anyway, I'm glad that this is done now.
 
 Updated: (27/06/2022)
 
-[[file:../02_pearls/editors_1_pearls.org::#org601de09][Link to pearl entry]]
+Pearls:
+- To search for things on Google from within Vim, add the following code to your ~vimrc~:
+  - ~vmap <C-3> "zy:let @z = substitute(@z,' ','+','g')<CR>:exec ":silent ! start https://www.google.com/search?q=". @z. ""<CR><CR>~
+- This is how it works:
+  - Go into Visual mode by pressing ~v~, and highlight the words of interest
+  - Press ~Ctrl+3~ (by modifying the ~<C-3>~ in the line of code above, you can make this keyboard shortcut to whatever you want)
 
 I've been wondering if I can use Vim to look up a highlighted word/sentence that is in the current buffer. Perhaps, a way that is more practical than:
 1. Copy the thing which you want to search up on the internet
@@ -155,7 +168,17 @@ This was originally something I found online, but for some reason the web answer
 :CUSTOM_ID: org35f3b8c
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org35f3b8c][Link to pearl entry]]
+Pearls:
+- Vim has several different modes. You use Normal mode to navigate through your text. Whereas you use Insert mode to insert text (obviously). Typing ~:~ will activate Command mode.
+- ~w~ to jump FORWARD to the start of the next word in a sentence (thinks that hyphens, dots, commas, etc. are actually spaces, and will hence treat them as such). For example, "Vim-is-a-modal-text-editor" will be treated as having 11 words.
+  - ~e~ will do the same thing, except it will jump to the end of the current word.
+  - ~b~ will do the same thing, except it goes BACKWARD.
+- ~W~ to jump FORWARD to the start of the next word in a sentence (thinks that ONLY the words separated by spaces are true words). For example, "Vim-is-a-modal-text-editor" will be treated as having only one word.
+  - ~E~ will do the same thing, except it will jump to the end of the current word.
+  - ~B~ will do the same thing, except it goes BACKWARD.
+- Save and exit. See this [[../02_pearls/editors_1_pearls.org#e3-21042021---notepad--vim][pearl entry]] to learn more about a third method.:
+   - ~:x~ will do the same thing as ~:wq~ except that it will not save the file if you have not made a change.
+   - ~ZZ~ will do the same thing as ~:x~ (and hence ~:wq~).
 
 - ~GTs~:
     - I have already found out that Vim offers different modes. So, to truly understand this concept, I had to completely forget everything I 'knew' about text editors. The main ones I am using at the moment are: Normal, Insert, and Command.
@@ -181,7 +204,21 @@ This was originally something I found online, but for some reason the web answer
 
 Updated: (20/05/2021)
 
-[[file:../02_pearls/editors_1_pearls.org::#org936d260][Link to pearl entry]]
+Pearls:
+- ~yy~ to yank (copy) the line into the Vim register.
+  - Combine this with ~p~ to get ~yyp~ and hence duplicate the current line.
+- ~yw~ to yank (copy) the word under the cursor into the Vim register.
+- ~p~ to paste the content stored in the Vim register AFTER the cursor.
+- ~P~ to paste the content stored in the Vim register BEFORE the cursor.
+- ~u~ to undo a change.
+- ~U~ to undo all changes on the CURRENT line.
+- ~Ctrl+r~ to redo.
+- Go to line X
+  - ~:~ and then any number of your choice. This will take you to that particular line in your current file. So, ~:33~ will take me to line 33.
+  - Type a number followed by ~G~ (e.g., the example above would be ~33G~) to get the same result.
+  - Type a number followed by ~gg~ (e.g., the example above would be ~33gg~) to get the same result.
+- ~/~ followed by any word of your choice to search FORWARD. After that, you can press ~n~ to cycle through the matches (use ~N~ to search in the opposite direction).
+- ~?~ followed by any word of your choice to search BACKWARD. After that, you can press ~n~ to cycle through the matches (use ~N~ to search in the opposite direction).
 
 - ~GTs~:
     - I noticed that pressing ~p~ whilst in Normal mode, does not actually paste the content which I copied outside of Vim. In other words, Vim seems to have its own unique clipboard (which, according to the internet, is called a "register"). Awesome!
@@ -208,7 +245,16 @@ Updated: (20/05/2021)
 
 Updated: (19/05/2021)
 
-[[file:../02_pearls/editors_1_pearls.org::#org4016a33][Link to pearl entry]]
+Pearls:
+- ~x~ to delete the character AFTER the cursor.
+- ~X~ to delete the character BEFORE the cursor.
+- ~A~ to insert text at the end of the line.
+- ~I~ to insert text at the start of the line.
+- ~a~ to insert text AFTER the cursor.
+- ~i~ to insert text BEFORE the cursor.
+- ~dd~ to delete the whole line.
+- ~d$~ or ~D~ to delete from the current position to the end of the line.
+- ~:wq~ to write (hence the ~w~) the changes, and then quit Vim (hence the ~q~). This will save your buffer whether or not you made a change.
 
 - ~GTs~:
     - Vim is great, but I started to notice that there were a couple of features that Notepad++ had, which seem to be not as accessible in Vim. For example, duplicating the current line, auto-complete, case conversion, and macros.
@@ -230,7 +276,12 @@ Updated: (19/05/2021)
 :CUSTOM_ID: org44339bb
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org44339bb][Link to pearl entry]]
+Pearls:
+- The ~vimtutor~ file is located in ~/Vim/vim82/tutor~.
+- ~:set guifont=*~ to change the font of the interface.
+- ~i~ to enter Insert mode.
+- Use the Escape button, ~Esc~, to return to Normal mode.
+- Whilst in Normal mode, you can move up, down, right, and left by using the following keys: ~k~, ~j~, ~l~, and ~h~, respectively (remember, ~j~ looks like a down arrow!).
 
 - ~GTs~:
     - I found the ~vimtutor~ file! It took about a minute or two to achieve this.
@@ -256,7 +307,9 @@ Updated: (19/05/2021)
 :CUSTOM_ID: org6bad0ce
 :END:
 
-[[file:../02_pearls/editors_1_pearls.org::#org6bad0ce][Link to pearl entry]]
+Pearls:
+- To enter commands into Vim, you should write ~:~. After doing so, you will notice that your cursor has moved to the bottom of the screen.
+- ~:q!~ to quit Vim without saving the changes.
 
 - ~GTs~:
     - Straight away, I noticed that the font was too small! I had no clue how to increase the font-size.

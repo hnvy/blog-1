@@ -2,11 +2,11 @@
 
 #+BEGIN_EXPORT html
 <pre>
-<code>> ./blog-1/01_software/00_misc/01_logs/misc_1_logs.html</code>
+<code>> ./blog-1/01_software/00_misc/001.org</code>
 </pre>
 #+END_EXPORT
 
-[[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/01_software/00_misc/01_logs/misc_1_logs.org][ESotP]]
+[[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/01_software/00_misc/001.org][ESotP]]
 
 -----
 
@@ -23,7 +23,7 @@ See [[https://hnvy.github.io//about.html#misc][this]].
 
 For the longest time, I have been trying to make GitHub Actions publish (to my website) the modified Org files only.
 
-By that, I mean, if I edit ~misc_1_logs.org~, then I want Org-mode only publish this file, rather than re-publish the entire directory.
+By that, I mean, if I edit ~001.org~, then I want Org-mode only publish this file, rather than re-publish the entire directory.
 
 I have tried to use the timestamps feature which comes with Org-mode, but that did not work. Maybe it's because I have set it up incorrectly...
 

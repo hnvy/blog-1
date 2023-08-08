@@ -2,7 +2,7 @@
 
 #+BEGIN_EXPORT html
 <pre>
-<code>> ./blog-1/index.html</code>
+<code>> ./blog-1/index.org</code>
 </pre>
 #+END_EXPORT
 
@@ -16,15 +16,15 @@
 :END:
 - 00_journal
   - 01_logs
-    - [[file:./00_journal/01_logs/journal_1_logs.html][journal_1_logs.org]]
-    - [[file:./00_journal/01_logs/journal_2_logs.html][journal_2_logs.org]]
+    - [[file:./00_journal/001.org][journal_1_logs.org]]
+    - [[file:./00_journal/01_logs/002.org][journal_2_logs.org]]
 - 01_software
   - 00_misc
     - 01_logs
       - [[file:./01_software/00_misc/01_logs/misc_1_logs.html][misc_1_logs.org]]
   - 01_editors
     - 01_logs
-      - [[file:./01_software/01_editors/01_logs/editors_1_logs.html][editors_1_logs.org]]
+      - [[file:./01_software/01_editors/01_logs/editors_1_logs.html][001.org]]
     - 02_pearls
       - [[file:./01_software/01_editors/02_pearls/editors_1_pearls.html][editors_1_pearls.org]]
   - 02_coding
