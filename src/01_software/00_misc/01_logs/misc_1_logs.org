@@ -21,7 +21,7 @@ See [[https://hnvy.github.io//about.html#misc][this]].
 :CUSTOM_ID: orgf169bb9
 :END:
 
-For the longest time, I have been trying to make GitHub Actions publish the modified files only.
+For the longest time, I have been trying to make GitHub Actions publish (to my website) the modified Org files only.
 
 By that, I mean, if I edit ~misc_1_logs.org~, then I want Org-mode only publish this file, rather than re-publish the entire directory.
 
