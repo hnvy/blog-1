@@ -58,7 +58,7 @@ Recently, I have been slacking on my work. I open the computer, launch my usual 
 
 It is getting hideous, and frankly, I have had enough.
 
-What follows is a public mini-reflection which utilises what I have spoken about [[file:./00_journal/01_logs/001.org#org474cc6c][previously]]:
+What follows is a public mini-reflection which utilises what I have spoken about [[file:./00_journal/001.org#org474cc6c][previously]]:
 
 #+BEGIN_QUOTE
 I need to complete this chapter. No, I want to complete this chapter. I have wasted too much time on trivial things that are not as useful as the chapter I am currently learning. Sure, learning how to match the capturing group in RegEx is cool, but is it useful *right now*? No.
