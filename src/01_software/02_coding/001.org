@@ -16,9 +16,9 @@
 :END:
 See [[https://hnvy.github.io//about.html#coding][this]].
 
-* E#005 (2023-08-08) - 01_input_output (CC)
+* E#005 (2023-08-08) - 01_input_output (cpp)
 :PROPERTIES:
-:CUSTOM_ID: org8c410be
+:CUSTOM_ID: orgde525f3
 :END:
 
 #+BEGIN_EXPORT html
