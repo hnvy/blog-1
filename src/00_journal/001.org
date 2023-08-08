@@ -8,7 +8,7 @@
 
 [[https://hnvy.github.io/blog-1/][Home page]] - [[https://github.com/hnvy/blog-1/edit/main/src/00_journal/001.org][ESotP]]
 
-[[file:./journal_2_logs.org][Next part of log]]
+[[file:./002.org][Next part of log]]
 
 -----
 

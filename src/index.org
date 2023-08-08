@@ -15,19 +15,19 @@
 :CUSTOM_ID: files
 :END:
 - 00_journal
-  - [[file:./00_journal/001.org][journal_1_logs.org]]
-  - [[file:./00_journal/002.org][journal_2_logs.org]]
+  - [[file:./00_journal/001.org][001.org]]
+  - [[file:./00_journal/002.org][002.org]]
 - 01_software
   - 00_misc
-    - [[file:./01_software/00_misc/01_logs/misc_1_logs.html][misc_1_logs.org]]
+    - [[file:./01_software/00_misc/01_logs/misc_1_logs.html][001.org]]
   - 01_editors
     - [[file:./01_software/01_editors/01_logs/editors_1_logs.html][001.org]]
   - 02_coding
-    - [[file:./01_software/02_coding/01_logs/coding_1_logs.html][coding_1_logs.org]]
+    - [[file:./01_software/02_coding/01_logs/coding_1_logs.html][001.org]]
 - 02_science
-  - [[file:./02_science/01_logs/science_1_logs.html][science_1_logs.org]]
+  - [[file:./02_science/01_logs/science_1_logs.html][001.org]]
 - 03_language
-  - [[file:./03_language/01_logs/language_1_logs.html][language_1_logs.org]]
+  - [[file:./03_language/01_logs/language_1_logs.html][001.org]]
 
 * Archive
 :PROPERTIES:
