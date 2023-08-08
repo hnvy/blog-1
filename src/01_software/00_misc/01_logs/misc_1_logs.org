@@ -27,11 +27,11 @@ By that, I mean, if I edit ~misc_1_logs.org~, then I want Org-mode only publish 
 
 I have tried to use the timestamps feature which comes with Org-mode, but that did not work. Maybe it's because I have set it up incorrectly...
 
-But anyway, finally, I have found the solution. Simply, add this under ~/.github/workflows/~.
-
-<pre><span class="variable-name">name</span>: Publish modified content to GitHub Pages
+But anyway, finally, I have found the solution. Simply, save this as a ~.yml~ file under ~/.github/workflows/~:
 
 #+BEGIN_EXPORT html
+<pre><span class="variable-name">name</span>: Publish modified content to GitHub Pages
+
 <span class="constant">on</span>:
   <span class="variable-name">push</span>:
     <span class="variable-name">branches</span>:
@@ -46,10 +46,13 @@ But anyway, finally, I have found the solution. Simply, add this under ~/.github
         <span class="variable-name">with</span>:
           <span class="variable-name">fetch-depth</span>: 0 <span class="comment-delimiter"># </span><span class="comment">fetch 0 commits
 </span>
-      - <span class="variable-name">name</span>: src2 creation and copying
+      <span class="comment-delimiter"># </span><span class="comment">The following will create this folder structure: ./copy/src
+</span>      <span class="comment-delimiter"># </span><span class="comment">The folder structure above will simulate the current working directory.
+</span>      <span class="comment-delimiter"># </span><span class="comment">This will allow us to publish the files to the correct folders (via ~xargs -I{} cp --parents {} ./copy/~).
+</span>      - <span class="variable-name">name</span>: ./copy/src creation and copying
         <span class="variable-name">run</span>: |
-          <span class="string">mkdir src2</span>
-<span class="string">          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp {} ./src2/
+          <span class="string">mkdir -p copy/src</span>
+<span class="string">          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -I{} cp --parents {} ./copy/
 </span>
       - <span class="variable-name">name</span>: Install Emacs
         <span class="variable-name">run</span>: sudo add-apt-repository ppa:kelleyk/emacs &amp;&amp; sudo apt-get update &amp;&amp; sudo apt install emacs28-nox
@@ -63,7 +66,8 @@ But anyway, finally, I have found the solution. Simply, add this under ~/.github
           <span class="variable-name">branch</span>: gh-pages
           <span class="variable-name">clean</span>: <span class="constant">false</span> <span class="comment-delimiter"># </span><span class="comment">Do not overwrite/delete the old files. This is because, from now on, we will only publish the changed files.
 </span>          <span class="variable-name">commit-message</span>: Update ${{ github.sha }}
-          <span class="variable-name">folder</span>: public</pre>
+          <span class="variable-name">folder</span>: public
+</pre>
 #+END_EXPORT
 
 Then, let it do the magic...
@@ -92,7 +96,7 @@ As can be seen, the ~Publish modified files only~ step is executing an Emacs scr
       (list
        (list <span class="string">&quot;hnvy&quot;</span>
              <span class="builtin">:recursive</span> t
-             <span class="builtin">:base-directory</span> <span class="string">&quot;./src2&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~src2~
+             <span class="builtin">:base-directory</span> <span class="string">&quot;./src2&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~./copy/src~
 </span>             <span class="builtin">:publishing-function</span> 'org-html-publish-to-html
              <span class="builtin">:publishing-directory</span> <span class="string">&quot;./public&quot;</span>
              <span class="builtin">:with-creator</span> t
