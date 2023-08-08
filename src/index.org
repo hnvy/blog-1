@@ -17,7 +17,7 @@
 - 00_journal
   - 01_logs
     - [[file:./00_journal/001.org][journal_1_logs.org]]
-    - [[file:./00_journal/01_logs/002.org][journal_2_logs.org]]
+    - [[file:./00_journal/002.org][journal_2_logs.org]]
 - 01_software
   - 00_misc
     - 01_logs
