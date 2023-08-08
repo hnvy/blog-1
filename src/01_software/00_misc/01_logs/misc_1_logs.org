@@ -96,7 +96,7 @@ As can be seen, the ~Publish modified files only~ step is executing an Emacs scr
       (list
        (list <span class="string">&quot;hnvy&quot;</span>
              <span class="builtin">:recursive</span> t
-             <span class="builtin">:base-directory</span> <span class="string">&quot;./src2&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~./copy/src~
+             <span class="builtin">:base-directory</span> <span class="string">&quot;./copy/src&quot;</span> <span class="comment-delimiter">;; </span><span class="comment">Make sure that this says ~./copy/src~
 </span>             <span class="builtin">:publishing-function</span> 'org-html-publish-to-html
              <span class="builtin">:publishing-directory</span> <span class="string">&quot;./public&quot;</span>
              <span class="builtin">:with-creator</span> t
