@@ -16,6 +16,80 @@
 :END:
 See [[https://hnvy.github.io//about.html#coding][this]].
 
+* E#005 (2023-08-08) - 01_input_output (CC)
+:PROPERTIES:
+:CUSTOM_ID: org8c410be
+:END:
+
+#+BEGIN_EXPORT html
+<pre><span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">TITLE: 01_input_output.cc
+</span>
+<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">iostream</span><span class="string">&gt;</span>
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">This is a header file. In this case, the header file is ~iostream~, which is a library that handles input and output.
+</span>
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	<span class="constant">std</span>::cout &lt;&lt; <span class="string">&quot;Enter 2 numbers: &quot;</span> &lt;&lt; <span class="constant">std</span>::endl;
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">*</span><span class="comment">
+	~&lt;&lt;~ is the insertion operator, which is used to insert data into the &quot;output stream&quot;.
+	This is similar to writing the following:
+	#+BEGIN_SRC
+	std:cout &lt;&lt; &quot;Enter 2 numbers: &quot;;
+	std:cout &lt;&lt; std::endl;
+	#+END_SRC
+</span><span class="comment-delimiter">	*/</span>
+	<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="variable-name">n1</span> = 0, <span class="variable-name">n2</span> = 0; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">This initialises two variables to 0: ~n1~ and ~n2~.
+</span>	<span class="constant">s</span><span class="constant">td</span>::cin &gt;&gt; n1 &gt;&gt; n2;
+	<span class="comment-delimiter">/</span><span class="comment-delimiter">* </span><span class="comment">The &gt;&gt; operator is known as the &quot;input stream extraction operator&quot; and is used to extract values from an input stream. In this case, the operator is used twice, and each time, it extracts a value from std::cin.
+	This is similar to writing the following:
+	#+BEGIN_SRC
+	std:cin &gt;&gt; n1;
+	std:cin &gt;&gt; n2;
+	#+END_SRC
+</span><span class="comment-delimiter">	*/</span>
+	<span class="constant">s</span><span class="constant">td</span>::cout &lt;&lt; <span class="string">&quot;The result of &quot;</span> &lt;&lt; n1 &lt;&lt; <span class="string">&quot; plus &quot;</span> &lt;&lt; n2 &lt;&lt; <span class="string">&quot; is &quot;</span> &lt;&lt; n1+n2 &lt;&lt; <span class="constant">std</span>::endl; <span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">The ~&lt;&lt;~ operator is used to concatenate the different elements of the message together in a single output statement, and the std::endl object is used to add a newline character at the end of the message.
+</span>	<span class="keyword">r</span><span class="keyword">eturn</span> 0;
+}
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">*</span><span class="comment">
+- Notice how we are using ~std::~ before the ~cout~, ~cin~, and ~endl~.
+- The ~std~ is something called a namespace. In C++, we have things called namespaces.
+- Namespaces are basically a way for us to organise our code by putting related stuff (e.g., variables and functions) under one name. In this case, we are using the ~std~ namespace, which has functions like ~cout~ and ~cin~.
+- You might be wondering, &quot;why use a namespace?&quot;
+- Well, in C++ you might have multiple functions, and sometimes, these functions might have the same name. So, to tell the compiler &quot;hey, we are using this specific function from that specific file!&quot;, we need to use a namespace.
+- For example, maybe we have 2 functions, and both of them are called ~cout~. To tell the compiler &quot;yo, I want you to use the ~cout~ from the ~std~ namespace!&quot;, we need to write the following: ~std::cout~
+</span><span class="comment-delimiter">*/</span>
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">** TEST 1: Test time! 
+</span><span class="comment-delimiter">// </span><span class="comment">1. Write a program which displays the output of three multiplied numbers.
+</span><span class="comment-delimiter">// </span><span class="comment">2. Write a program which calculates how many years is it until the person turns 150 years old.
+</span>
+<span class="comment-delimiter">// </span><span class="comment">*** 1
+</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">iostream</span><span class="string">&gt;</span>
+
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	<span class="constant">std</span>::cout &lt;&lt; <span class="string">&quot;Enter 3 numbers: &quot;</span> &lt;&lt; <span class="constant">std</span>::endl;
+	<span class="type">in</span><span class="type">t</span> <span class="variable-name">n1</span> = 0, <span class="variable-name">n2</span> = 0, <span class="variable-name">n3</span> = 0;
+	<span class="constant">std</span>::cin &gt;&gt; n1 &gt;&gt; n2 &gt;&gt; n3;
+	<span class="constant">std</span>::cout &lt;&lt; <span class="string">&quot;The result of &quot;</span> &lt;&lt; n1 &lt;&lt; <span class="string">&quot; * &quot;</span> &lt;&lt; n2 &lt;&lt; <span class="string">&quot; * &quot;</span> &lt;&lt; n3 &lt;&lt; <span class="string">&quot; is &quot;</span> &lt;&lt; n1 * n2 * n3 &lt;&lt; <span class="constant">std</span>::endl;
+	<span class="keyword">return</span> 0;
+}
+
+<span class="comment-delimiter">/</span><span class="comment-delimiter">/ </span><span class="comment">*** 2
+</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="string">&lt;</span><span class="string">iostream</span><span class="string">&gt;</span>
+
+<span class="type">i</span><span class="type">n</span><span class="type">t</span> <span class="function-name">main</span>()
+{
+	<span class="type">in</span><span class="type">t</span> <span class="variable-name">age</span> = 0;
+	<span class="constant">std</span>::cout &lt;&lt; <span class="string">&quot;Hello, please enter your age: &quot;</span> &lt;&lt; <span class="constant">std</span>::endl;
+	<span class="constant">std</span>::cin &gt;&gt; age;
+	<span class="constant">std</span>::cout &lt;&lt; <span class="string">&quot;You will be 150 years old in &quot;</span> &lt;&lt; 150 - age &lt;&lt; <span class="string">&quot; years!&quot;</span> &lt;&lt; <span class="constant">std</span>::endl;
+	<span class="keyword">return</span> 0;
+}
+</pre>
+#+END_EXPORT
+
 * E#004 (2022-10-24) - 03.2_variables (C)
 :PROPERTIES:
 :CUSTOM_ID: orgd9cd450
