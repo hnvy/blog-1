@@ -27,7 +27,7 @@ By that, I mean, if I edit ~001.org~, then I want Org-mode only publish this fil
 
 I have tried to use the timestamps feature which comes with Org-mode, but that did not work. Maybe it's because I have set it up incorrectly...
 
-But anyway, finally, I have found the solution. Simply, save this as a ~.yml~ file under ~/.github/workflows/~:
+But anyway, finally, I have found the solution. Simply, save this as a ~.yml~ file under ~.github/workflows/~:
 
 #+BEGIN_EXPORT html
 <pre><span class="variable-name">name</span>: Publish modified content to GitHub Pages
