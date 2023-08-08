@@ -1,4 +1,4 @@
-#+TITLE: Journal 1 Logs
+#+TITLE: Journal 001
 
 #+BEGIN_EXPORT html
 <pre>
@@ -53,7 +53,7 @@ Imagine a website where you could post your helpful code snippets for everyone t
 
 I want this website to be like Stack Overflow, but instead of people asking questions, they would just upload their tiny pieces of code in different programming languages. Recipes with a variety of functions. Additionally, they could give examples of how this helped them.
 
-I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see [[https://hnvy.github.io//about.html][About]]). Personally, I found it to be quite helpful.
+I mention this because I have been engaging in similar behaviour. I've been using different bits and pieces of code from different projects (see [[https://hnvy.github.io/about.html][About]]). Personally, I found it to be quite helpful.
 
 Of course, there should be certain regulations for this:
 - The snippet must be by annotated so that everyone can understand it and make good use of it

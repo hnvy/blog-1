@@ -1,4 +1,4 @@
-#+TITLE: Journal 2 Logs
+#+TITLE: Journal 001
 
 #+BEGIN_EXPORT html
 <pre>

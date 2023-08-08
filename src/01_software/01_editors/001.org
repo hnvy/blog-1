@@ -1,4 +1,4 @@
-#+TITLE: Editors 001 Logs
+#+TITLE: Editors 001
 
 #+BEGIN_EXPORT html
 <pre>
