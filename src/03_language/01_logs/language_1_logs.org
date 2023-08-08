@@ -21,7 +21,7 @@ See [[https://hnvy.github.io/about.html#language][this]].
 :CUSTOM_ID: org777a890
 :END:
 
-I learned the numbers today.
+Today, I learned the numbers.
 
 - いち - 1
 - に - 2
