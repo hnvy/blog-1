@@ -35,7 +35,7 @@ If someone is/was (for whatever reason) interested in the [[file:../../00_journa
 	    <span class="variable-name">line</span> = <span class="builtin">input</span>()
 	    <span class="keyword">if</span> line == <span class="string">&quot;.&quot;</span>:
 	        <span class="keyword">break</span>
-	    <span class="builtin">buffer</span>.append(<span class="string">&quot;    * &quot;</span> + line)
+	    <span class="builtin">buffer</span>.append(<span class="string">&quot;    &#65121; &quot;</span> + line)
 	    <span class="keyword">global</span> multiline_string
 	<span class="variable-name">multiline_string</span> = <span class="string">&quot;\n&quot;</span>.join(<span class="builtin">buffer</span>)
 <span class="variable-name">multiline_string</span> = <span class="string">&quot;&quot;</span>
@@ -61,34 +61,34 @@ If someone is/was (for whatever reason) interested in the [[file:../../00_journa
 
 <span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, write new LPs&quot;</span>)
 multi()
-<span class="variable-name">new_LPs</span> = multiline_string.replace(<span class="string">&quot;    *&quot;</span>,<span class="string">&quot;        *&quot;</span>)
+<span class="variable-name">new_LPs</span> = multiline_string.replace(<span class="string">&quot;    &#65121;&quot;</span>,<span class="string">&quot;        &#65121;&quot;</span>)
 
 <span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, state the sources used&quot;</span>)
 multi()
-<span class="variable-name">sources</span> = multiline_string.replace(<span class="string">&quot;    *&quot;</span>,<span class="string">&quot;        *&quot;</span>)
+<span class="variable-name">sources</span> = multiline_string.replace(<span class="string">&quot;    &#65121;&quot;</span>,<span class="string">&quot;        &#65121;&quot;</span>)
 
 <span class="variable-name">answers_file</span> = os.path.join(sys.path[0],<span class="string">'answers.txt'</span>)
 <span class="variable-name">text_store</span> = <span class="builtin">open</span>(answers_file, <span class="string">&quot;w&quot;</span>)
 
 text_store.write(<span class="string">&quot;</span><span class="string">&quot;&quot;E# ()
-* `GTs`:
+&#65121; `GTs`:
 &quot;&quot;</span><span class="string">&quot;</span> +GTs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-* Time spent: &quot;&quot;</span><span class="string">&quot;</span> +time[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-* `LPs`:
+&#65121; Time spent: &quot;&quot;</span><span class="string">&quot;</span> +time[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `LPs`:
 &quot;&quot;</span><span class="string">&quot;</span> +LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-* `LNs`:
+&#65121; `LNs`:
 &quot;&quot;</span><span class="string">&quot;</span> +LNs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-* `AP` {}:
-    * S: &quot;&quot;</span><span class="string">&quot;</span> +s[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * M: &quot;&quot;</span><span class="string">&quot;</span> +m[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * A: easy/difficult &quot;&quot;</span><span class="string">&quot;</span> +a[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * R: not/quite/very relevant because &quot;&quot;</span><span class="string">&quot;</span> +r[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * T: by &quot;&quot;</span><span class="string">&quot;</span> +t[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-* `Review`:
-    * I reviewed APE#&quot;&quot;</span><span class="string">&quot;</span> +rev_number+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * `New LPs`:
+&#65121; `AP` {}:
+    &#65121; S: &quot;&quot;</span><span class="string">&quot;</span> +s[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; M: &quot;&quot;</span><span class="string">&quot;</span> +m[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; A: easy/difficult &quot;&quot;</span><span class="string">&quot;</span> +a[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; R: not/quite/very relevant because &quot;&quot;</span><span class="string">&quot;</span> +r[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; T: by &quot;&quot;</span><span class="string">&quot;</span> +t[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `Review`:
+    &#65121; I reviewed APE#&quot;&quot;</span><span class="string">&quot;</span> +rev_number+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; `New LPs`:
 &quot;&quot;</span><span class="string">&quot;</span> +new_LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
-    * `Sources`:
+    &#65121; `Sources`:
 &quot;&quot;</span><span class="string">&quot;</span> +sources+ <span class="string">&quot;</span><span class="string">&quot;&quot;
 &quot;&quot;</span><span class="string">&quot;</span>)
 
