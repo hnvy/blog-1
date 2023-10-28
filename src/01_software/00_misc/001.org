@@ -16,6 +16,85 @@
 :END:
 See [[https://hnvy.github.io//about.html#misc][this]].
 
+* E#004 (2023-10-28) - Python, write that confusing file format.
+:PROPERTIES:
+:CUSTOM_ID: org69e2cc9
+:END:
+
+If someone is/was (for whatever reason) interested in the [[file:../../00_journal/001.org::#orge35a188][confusing format]] that I was using, here is a Python program to automate creating entries.
+
+#+BEGIN_EXPORT html
+<pre><span class="keyword">import</span> os
+<span class="keyword">import</span> sys
+
+
+<span class="keyword">def</span> <span class="function-name">multi</span>():
+	<span class="builtin">buffer</span> = [] <span class="comment-delimiter"># </span><span class="comment">This multiline idea was taken from a user called &quot;Amber&quot;
+</span>	<span class="keyword">while</span> <span class="constant">True</span>: <span class="comment-delimiter"># </span><span class="comment">Source: https://stackoverflow.com/questions/13128951/how-to-get-user-input-for-multiline-lines-in-python-3
+</span>	    <span class="keyword">print</span>(<span class="string">&quot;&gt; &quot;</span>, end=<span class="string">&quot;&quot;</span>)
+	    <span class="variable-name">line</span> = <span class="builtin">input</span>()
+	    <span class="keyword">if</span> line == <span class="string">&quot;.&quot;</span>:
+	        <span class="keyword">break</span>
+	    <span class="builtin">buffer</span>.append(<span class="string">&quot;    * &quot;</span> + line)
+	    <span class="keyword">global</span> multiline_string
+	<span class="variable-name">multiline_string</span> = <span class="string">&quot;\n&quot;</span>.join(<span class="builtin">buffer</span>)
+<span class="variable-name">multiline_string</span> = <span class="string">&quot;&quot;</span>
+
+<span class="keyword">print</span> (<span class="string">&quot;Hello!\nWelcome to this Public Learner template generator. After you finish with a section, type '.' (no quotes) and press Enter to move on to the next section!&quot;</span>)
+
+<span class="keyword">def</span> <span class="function-name">get_multiline_input</span>(prompt):
+    <span class="keyword">print</span>(prompt)
+    multi()
+    <span class="keyword">return</span> multiline_string
+
+<span class="variable-name">GTs</span> = get_multiline_input(<span class="string">&quot;Write the GTs&quot;</span>)
+<span class="variable-name">time</span> = get_multiline_input(<span class="string">&quot;Write the time spent&quot;</span>)
+<span class="variable-name">LPs</span> = get_multiline_input(<span class="string">&quot;Write the LPs&quot;</span>)
+<span class="variable-name">LNs</span> = get_multiline_input(<span class="string">&quot;Write the LNs&quot;</span>)
+<span class="variable-name">s</span> = get_multiline_input(<span class="string">&quot;Now moving on to creating a new AP\nWrite S&quot;</span>)
+<span class="variable-name">m</span> = get_multiline_input(<span class="string">&quot;Write M&quot;</span>)
+<span class="variable-name">a</span> = get_multiline_input(<span class="string">&quot;Write A&quot;</span>)
+<span class="variable-name">r</span> = get_multiline_input(<span class="string">&quot;Write R&quot;</span>)
+<span class="variable-name">t</span> = get_multiline_input(<span class="string">&quot;Write T&quot;</span>)
+
+<span class="variable-name">rev_number</span> = <span class="builtin">input</span>(<span class="string">&quot;Now moving on to reviewing previous APs\nEnter the reviewed AP entry reference number (the XY): &quot;</span>)
+
+<span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, write new LPs&quot;</span>)
+multi()
+<span class="variable-name">new_LPs</span> = multiline_string.replace(<span class="string">&quot;    *&quot;</span>,<span class="string">&quot;        *&quot;</span>)
+
+<span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, state the sources used&quot;</span>)
+multi()
+<span class="variable-name">sources</span> = multiline_string.replace(<span class="string">&quot;    *&quot;</span>,<span class="string">&quot;        *&quot;</span>)
+
+<span class="variable-name">answers_file</span> = os.path.join(sys.path[0],<span class="string">'answers.txt'</span>)
+<span class="variable-name">text_store</span> = <span class="builtin">open</span>(answers_file, <span class="string">&quot;w&quot;</span>)
+
+text_store.write(<span class="string">&quot;</span><span class="string">&quot;&quot;E# ()
+* `GTs`:
+&quot;&quot;</span><span class="string">&quot;</span> +GTs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+* Time spent: &quot;&quot;</span><span class="string">&quot;</span> +time[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+* `LPs`:
+&quot;&quot;</span><span class="string">&quot;</span> +LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+* `LNs`:
+&quot;&quot;</span><span class="string">&quot;</span> +LNs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+* `AP` {}:
+    * S: &quot;&quot;</span><span class="string">&quot;</span> +s[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * M: &quot;&quot;</span><span class="string">&quot;</span> +m[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * A: easy/difficult &quot;&quot;</span><span class="string">&quot;</span> +a[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * R: not/quite/very relevant because &quot;&quot;</span><span class="string">&quot;</span> +r[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * T: by &quot;&quot;</span><span class="string">&quot;</span> +t[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+* `Review`:
+    * I reviewed APE#&quot;&quot;</span><span class="string">&quot;</span> +rev_number+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * `New LPs`:
+&quot;&quot;</span><span class="string">&quot;</span> +new_LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    * `Sources`:
+&quot;&quot;</span><span class="string">&quot;</span> +sources+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&quot;&quot;</span><span class="string">&quot;</span>)
+
+text_store.close()</pre>
+#+END_EXPORT
+
 * E#003 (2023-08-07) - GitHub, publish modified files only.
 :PROPERTIES:
 :CUSTOM_ID: orgf169bb9
