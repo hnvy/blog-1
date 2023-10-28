@@ -8,27 +8,6 @@
 <title>Misc 001</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://hnvy.github.io/assets/css/main.css" />
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
@@ -58,137 +37,75 @@ See <a href="https://hnvy.github.io//about.html#misc">this</a>.
 If someone is/was (for whatever reason) interested in the <a href="../../00_journal/001.html#orge35a188">confusing format</a> that I was using, here is a Python program to automate creating entries.
 </p>
 
-<p>
-#+BEGIN_EXPORT html
-&lt;pre&gt;&lt;span class="keyword"&gt;import&lt;/span&gt; os
-&lt;span class="keyword"&gt;import&lt;/span&gt; sys
-</p>
+<pre><span class="keyword">import</span> os
+<span class="keyword">import</span> sys
 
 
-<p>
-&lt;span class="keyword"&gt;def&lt;/span&gt; &lt;span class="function-name"&gt;multi&lt;/span&gt;():
-	&lt;span class="builtin"&gt;buffer&lt;/span&gt; = [] &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;This multiline idea was taken from a user called &amp;quot;Amber&amp;quot;
-&lt;/span&gt;	&lt;span class="keyword"&gt;while&lt;/span&gt; &lt;span class="constant"&gt;True&lt;/span&gt;: &lt;span class="comment-delimiter"&gt;# &lt;/span&gt;&lt;span class="comment"&gt;Source: <a href="https://stackoverflow.com/questions/13128951/how-to-get-user-input-for-multiline-lines-in-python-3">https://stackoverflow.com/questions/13128951/how-to-get-user-input-for-multiline-lines-in-python-3</a>
-&lt;/span&gt;	    &lt;span class="keyword"&gt;print&lt;/span&gt;(&lt;span class="string"&gt;&amp;quot;&amp;gt; &amp;quot;&lt;/span&gt;, end=&lt;span class="string"&gt;&amp;quot;&amp;quot;&lt;/span&gt;)
-	    &lt;span class="variable-name"&gt;line&lt;/span&gt; = &lt;span class="builtin"&gt;input&lt;/span&gt;()
-	    &lt;span class="keyword"&gt;if&lt;/span&gt; line <code>= &lt;span class</code>"string"&gt;&amp;quot;.&amp;quot;&lt;/span&gt;:
-	        &lt;span class="keyword"&gt;break&lt;/span&gt;
-	    &lt;span class="builtin"&gt;buffer&lt;/span&gt;.append(&lt;span class="string"&gt;&amp;quot;    * &amp;quot;&lt;/span&gt; + line)
-	    &lt;span class="keyword"&gt;global&lt;/span&gt; multiline_string
-	&lt;span class="variable-name"&gt;multiline_string&lt;/span&gt; = &lt;span class="string"&gt;&amp;quot;\n&amp;quot;&lt;/span&gt;.join(&lt;span class="builtin"&gt;buffer&lt;/span&gt;)
-&lt;span class="variable-name"&gt;multiline_string&lt;/span&gt; = &lt;span class="string"&gt;&amp;quot;&amp;quot;&lt;/span&gt;
-</p>
+<span class="keyword">def</span> <span class="function-name">multi</span>():
+	<span class="builtin">buffer</span> = [] <span class="comment-delimiter"># </span><span class="comment">This multiline idea was taken from a user called &quot;Amber&quot;
+</span>	<span class="keyword">while</span> <span class="constant">True</span>: <span class="comment-delimiter"># </span><span class="comment">Source: https://stackoverflow.com/questions/13128951/how-to-get-user-input-for-multiline-lines-in-python-3
+</span>	    <span class="keyword">print</span>(<span class="string">&quot;&gt; &quot;</span>, end=<span class="string">&quot;&quot;</span>)
+	    <span class="variable-name">line</span> = <span class="builtin">input</span>()
+	    <span class="keyword">if</span> line == <span class="string">&quot;.&quot;</span>:
+	        <span class="keyword">break</span>
+	    <span class="builtin">buffer</span>.append(<span class="string">&quot;    &#65121; &quot;</span> + line)
+	    <span class="keyword">global</span> multiline_string
+	<span class="variable-name">multiline_string</span> = <span class="string">&quot;\n&quot;</span>.join(<span class="builtin">buffer</span>)
+<span class="variable-name">multiline_string</span> = <span class="string">&quot;&quot;</span>
 
-<p>
-&lt;span class="keyword"&gt;print&lt;/span&gt; (&lt;span class="string"&gt;&amp;quot;Hello!\nWelcome to this Public Learner template generator. After you finish with a section, type '.' (no quotes) and press Enter to move on to the next section!&amp;quot;&lt;/span&gt;)
-</p>
+<span class="keyword">print</span> (<span class="string">&quot;Hello!\nWelcome to this Public Learner template generator. After you finish with a section, type '.' (no quotes) and press Enter to move on to the next section!&quot;</span>)
 
-<p>
-&lt;span class="keyword"&gt;def&lt;/span&gt; &lt;span class="function-name"&gt;get_multiline_input&lt;/span&gt;(prompt):
-    &lt;span class="keyword"&gt;print&lt;/span&gt;(prompt)
+<span class="keyword">def</span> <span class="function-name">get_multiline_input</span>(prompt):
+    <span class="keyword">print</span>(prompt)
     multi()
-    &lt;span class="keyword"&gt;return&lt;/span&gt; multiline_string
-</p>
+    <span class="keyword">return</span> multiline_string
 
-<p>
-&lt;span class="variable-name"&gt;GTs&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write the GTs&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;time&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write the time spent&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;LPs&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write the LPs&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;LNs&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write the LNs&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;s&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Now moving on to creating a new AP\nWrite S&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;m&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write M&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;a&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write A&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;r&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write R&amp;quot;&lt;/span&gt;)
-&lt;span class="variable-name"&gt;t&lt;/span&gt; = get_multiline_input(&lt;span class="string"&gt;&amp;quot;Write T&amp;quot;&lt;/span&gt;)
-</p>
+<span class="variable-name">GTs</span> = get_multiline_input(<span class="string">&quot;Write the GTs&quot;</span>)
+<span class="variable-name">time</span> = get_multiline_input(<span class="string">&quot;Write the time spent&quot;</span>)
+<span class="variable-name">LPs</span> = get_multiline_input(<span class="string">&quot;Write the LPs&quot;</span>)
+<span class="variable-name">LNs</span> = get_multiline_input(<span class="string">&quot;Write the LNs&quot;</span>)
+<span class="variable-name">s</span> = get_multiline_input(<span class="string">&quot;Now moving on to creating a new AP\nWrite S&quot;</span>)
+<span class="variable-name">m</span> = get_multiline_input(<span class="string">&quot;Write M&quot;</span>)
+<span class="variable-name">a</span> = get_multiline_input(<span class="string">&quot;Write A&quot;</span>)
+<span class="variable-name">r</span> = get_multiline_input(<span class="string">&quot;Write R&quot;</span>)
+<span class="variable-name">t</span> = get_multiline_input(<span class="string">&quot;Write T&quot;</span>)
 
-<p>
-&lt;span class="variable-name"&gt;rev_number&lt;/span&gt; = &lt;span class="builtin"&gt;input&lt;/span&gt;(&lt;span class="string"&gt;&amp;quot;Now moving on to reviewing previous APs\nEnter the reviewed AP entry reference number (the XY): &amp;quot;&lt;/span&gt;)
-</p>
+<span class="variable-name">rev_number</span> = <span class="builtin">input</span>(<span class="string">&quot;Now moving on to reviewing previous APs\nEnter the reviewed AP entry reference number (the XY): &quot;</span>)
 
-<p>
-&lt;span class="keyword"&gt;print&lt;/span&gt;(&lt;span class="string"&gt;&amp;quot;If you have reviewed a previous AP, write new LPs&amp;quot;&lt;/span&gt;)
+<span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, write new LPs&quot;</span>)
 multi()
-&lt;span class="variable-name"&gt;new_LPs&lt;/span&gt; = multiline_string.replace(&lt;span class="string"&gt;&amp;quot;    *&amp;quot;&lt;/span&gt;,&lt;span class="string"&gt;&amp;quot;        *&amp;quot;&lt;/span&gt;)
-</p>
+<span class="variable-name">new_LPs</span> = multiline_string.replace(<span class="string">&quot;    &#65121;&quot;</span>,<span class="string">&quot;        &#65121;&quot;</span>)
 
-<p>
-&lt;span class="keyword"&gt;print&lt;/span&gt;(&lt;span class="string"&gt;&amp;quot;If you have reviewed a previous AP, state the sources used&amp;quot;&lt;/span&gt;)
+<span class="keyword">print</span>(<span class="string">&quot;If you have reviewed a previous AP, state the sources used&quot;</span>)
 multi()
-&lt;span class="variable-name"&gt;sources&lt;/span&gt; = multiline_string.replace(&lt;span class="string"&gt;&amp;quot;    *&amp;quot;&lt;/span&gt;,&lt;span class="string"&gt;&amp;quot;        *&amp;quot;&lt;/span&gt;)
-</p>
+<span class="variable-name">sources</span> = multiline_string.replace(<span class="string">&quot;    &#65121;&quot;</span>,<span class="string">&quot;        &#65121;&quot;</span>)
 
-<p>
-&lt;span class="variable-name"&gt;answers_file&lt;/span&gt; = os.path.join(sys.path[0],&lt;span class="string"&gt;'answers.txt'&lt;/span&gt;)
-&lt;span class="variable-name"&gt;text_store&lt;/span&gt; = &lt;span class="builtin"&gt;open&lt;/span&gt;(answers_file, &lt;span class="string"&gt;&amp;quot;w&amp;quot;&lt;/span&gt;)
-</p>
+<span class="variable-name">answers_file</span> = os.path.join(sys.path[0],<span class="string">'answers.txt'</span>)
+<span class="variable-name">text_store</span> = <span class="builtin">open</span>(answers_file, <span class="string">&quot;w&quot;</span>)
 
-<p>
-text_store.write(&lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;E# ()
-</p>
-</div>
-</div>
-<div id="outline-container-org303b7f3" class="outline-2">
-<h2 id="org303b7f3">`GTs`:</h2>
-<div class="outline-text-2" id="text-org303b7f3">
-<p>
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>GTs</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;
-</p>
-</div>
-</div>
-<div id="outline-container-org9a545f7" class="outline-2">
-<h2 id="org9a545f7">Time spent: &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>time[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</h2>
-</div>
-<div id="outline-container-org299e58a" class="outline-2">
-<h2 id="org299e58a">`LPs`:</h2>
-<div class="outline-text-2" id="text-org299e58a">
-<p>
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>LPs</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;
-</p>
-</div>
-</div>
-<div id="outline-container-org2bdda9f" class="outline-2">
-<h2 id="org2bdda9f">`LNs`:</h2>
-<div class="outline-text-2" id="text-org2bdda9f">
-<p>
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>LNs</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;
-</p>
-</div>
-</div>
-<div id="outline-container-orge55fb39" class="outline-2">
-<h2 id="orge55fb39">`AP` {}:</h2>
-<div class="outline-text-2" id="text-orge55fb39">
-<ul class="org-ul">
-<li>S: &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>s[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-<li>M: &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>m[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-<li>A: easy/difficult &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>a[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-<li>R: not/quite/very relevant because &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>r[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-<li>T: by &amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>t[4:]</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org788c89b" class="outline-2">
-<h2 id="org788c89b">`Review`:</h2>
-<div class="outline-text-2" id="text-org788c89b">
-<ul class="org-ul">
-<li>I reviewed APE#&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>rev_number</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;</li>
-<li>`New LPs`:</li>
-</ul>
-<p>
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>new_LPs</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;
-</p>
-<ul class="org-ul">
-<li>`Sources`:</li>
-</ul>
-<p>
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt; <del>sources</del> &lt;span class="string"&gt;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&amp;quot;
-&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="string"&gt;&amp;quot;&lt;/span&gt;)
-</p>
+text_store.write(<span class="string">&quot;</span><span class="string">&quot;&quot;E# ()
+&#65121; `GTs`:
+&quot;&quot;</span><span class="string">&quot;</span> +GTs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; Time spent: &quot;&quot;</span><span class="string">&quot;</span> +time[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `LPs`:
+&quot;&quot;</span><span class="string">&quot;</span> +LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `LNs`:
+&quot;&quot;</span><span class="string">&quot;</span> +LNs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `AP` {}:
+    &#65121; S: &quot;&quot;</span><span class="string">&quot;</span> +s[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; M: &quot;&quot;</span><span class="string">&quot;</span> +m[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; A: easy/difficult &quot;&quot;</span><span class="string">&quot;</span> +a[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; R: not/quite/very relevant because &quot;&quot;</span><span class="string">&quot;</span> +r[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; T: by &quot;&quot;</span><span class="string">&quot;</span> +t[4:]+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&#65121; `Review`:
+    &#65121; I reviewed APE#&quot;&quot;</span><span class="string">&quot;</span> +rev_number+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; `New LPs`:
+&quot;&quot;</span><span class="string">&quot;</span> +new_LPs+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+    &#65121; `Sources`:
+&quot;&quot;</span><span class="string">&quot;</span> +sources+ <span class="string">&quot;</span><span class="string">&quot;&quot;
+&quot;&quot;</span><span class="string">&quot;</span>)
 
-<p>
-text_store.close()&lt;/pre&gt;
-#+END_EXPORT
-</p>
+text_store.close()</pre>
 </div>
 </div>
 
